@@ -7,9 +7,12 @@ body {
  .carousel
  {
     margin-top: 4.5%;
-    width: 100%;
-    
+    width: 100%; 
  } 
+
+ .imgslider{
+    height: 100%;
+ }
 .tag {
     text-align: center;
 }
@@ -17,5 +20,5 @@ body {
 .slick-slide img {
     margin: auto;
     width: 50%;
-    height: 50%;
+    height: 70%;
 }

@@ -11,7 +11,7 @@ Heading,
 export const Footer = () => {
 return (
 	<Box>
-	<h4 style={{ color: "green",
+	<h4 style={{ color: "white",
 				textAlign: "center",
 				marginTop: "-75px" }}>
 	Premi ji's Shiksha 4.0
@@ -68,6 +68,9 @@ return (
 		</Column>
 		</Row>
 	</Container>
+	<div className="copyright">
+	<p style={{ color: "white" ,textAlign:"center",fontSize:18}}>Copyright ©2022 All rights reserved</p>
+	</div>
 	</Box>
 );
 };

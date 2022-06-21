@@ -13,7 +13,7 @@ const ImageSlider = ({images}) => {
     slidesToScroll: 1,
     lazyLoad: true,
     autoplay: true,
-  autoplaySpeed: 4000,
+    autoplaySpeed: 4000,
    
   };
   return (
@@ -24,7 +24,6 @@ const ImageSlider = ({images}) => {
           {images.map((item) => (
             <div key={item.id}>
               <img src={item.src}  alt={item.alt} />
-              {item.cont}
             </div>
           ))}
         </Slider>

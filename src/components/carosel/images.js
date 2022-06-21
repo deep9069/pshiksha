@@ -1,4 +1,6 @@
 import portfolio from "./shikshaportfolio.png"
+import cg_blog from "./cg_blog.jpg";
+import img3 from "./img3.jpg"
 const images = [{
     id: 1,
     src: portfolio,
@@ -7,13 +9,13 @@ const images = [{
 },
 {
     id: 2,
-    src: "",
+    src: cg_blog,
     // cont:"",
     alt: "Image 2 "
 },
 {
     id: 3,
-    src: "carosel/logo192.png",
+    src: img3,
     // cont:"",
     alt: "Image 3"
 }

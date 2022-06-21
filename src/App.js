@@ -22,21 +22,23 @@ import Sign_in from "./components/authentication/sign_in";
 import ImageSlider from "./components/carosel/imageSlider";
 import images from "./components/carosel/images";
 import Home1 from "./components/Home1";
+import Overview from "./components/websiteoverview/overview";
+
 function App() {
   return (
     <>
       <Router >
         {/* <Header/> */}
         <NavBar/>
-        <Home1/>
-        <ImageSlider images={images}/>
+        {/* <Overview/> */}
+        {/* <Home1/> */}
+
          {/* <sign_in/> */}
         {/* <Hero/> */}
         <div className="pages">
           <Switch>
-          <Route path="/sign_in" component={Sign_in}/>
-          
-            <Route exact path="/" component={Home} />
+            <Route exact path="/" component={Home1} />
+            <Route path="/sign_in" component={Sign_in}/>
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/signUpLogIn" component={SignUpLogIn} />

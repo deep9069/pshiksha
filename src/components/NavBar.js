@@ -42,7 +42,7 @@ function NavBar() {
               Home Tution
               </NavLink>
               <NavLink
-                exact to="/HomeTution"
+                exact to="/iit"
                 onClick={handleClick}
               >
               IIT
@@ -51,21 +51,22 @@ function NavBar() {
                 onClick={handleClick}
               >
               NEET
-              </NavLink> <NavLink
-                exact to="/HomeTution"
+              </NavLink> 
+              <NavLink
+                exact to="/ielts"
                 onClick={handleClick}
               >
-              School Abroad
-              </NavLink> <NavLink
-                exact to="/HomeTution"
+              IELTS
+              
+              </NavLink> 
+              <NavLink
+                exact to="/overseas"
                 onClick={handleClick}
               >
-              Extra Curricular
-              </NavLink>
+              Overseas
+              </NavLink> 
               </div>
-             </div>
-              
-              
+             </div> 
             </li>
             
             <li className="nav-item">
@@ -106,7 +107,12 @@ function NavBar() {
             <i class="fa fa-caret-down"></i>
             </button>
             <div class="dropdown-content">
-            <a href="#">Link 1</a>
+            <NavLink
+                exact to="/HomeTution"
+                onClick={handleClick}
+              >
+              Extra Curricular
+              </NavLink>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
             </div>

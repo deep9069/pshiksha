@@ -1,56 +1,49 @@
 import "./App.css";
-import React from 'react';
 import NavBar from "./components/NavBar";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import { Home } from "./components/Pages/Home";
+import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
+import HomeTution from "./components/Pages/HomeTution";
+// import register  from "./components/Pages/Register";
 import { About } from "./components/Pages/About";
-import { Blog } from "./components/Pages/Blog";
-import { Contact } from "./components/Pages/Contact";
-import { SignUpLogIn } from "./components/Pages/SignUpLogIn";
-import { Setting} from "./components/Pages/Setting";
-import { Search} from "./components/Pages/Search";
-import { Trending } from "./components/Pages/homeComponents/Trending";
+import Vaani from "./components/Pages/Vaani";
 import { Details } from "./components/Pages/Details";
 import Post from "./components/Post/index";
-import MainPage from './pages';
-import Hero from "./components/Hero/index";
-import Header from "./components/Header/index"
 import PageNotFound from './pages/404';
 import { Redirect } from 'react-router';
 import Footer from "./components/footer/Footer";
-import Sign_in from "./components/authentication/sign_in";
-import ImageSlider from "./components/carosel/imageSlider";
-import images from "./components/carosel/images";
+import studentProgramme from "./components/Pages/StudentProgramme";
 import Home1 from "./components/Home1";
-import Overview from "./components/websiteoverview/overview";
+import Internship from "./components/Pages/Internship";
+import Ambassador from "./components/Pages/Ambassador" 
+import Login from "./components/authentication/Login";
+import Register from "./components/authentication/Register";
+import React, { useState } from "react";
 
 function App() {
+  const [user,setLoginUser]= useState({})
   return (
     <>
-      <Router >
-        {/* <Header/> */}
+      <Router>
         <NavBar/>
-        {/* <Overview/> */}
-        {/* <Home1/> */}
+          <Routes>
+            <Route exact path="/" element={<Home1/>} ></Route>
+            <Route exact path="/about" element={<About/>} ></Route>
+            <Route exact path="/contact" element={<Details/>} ></Route>
+            <Route exact path="/internship" element={<Internship/>} ></Route>
+            <Route exact path="/details" element={<Details/>}></Route>
+            <Route exact path="/studentprogramme" element={<studentProgramme/>}></Route>
+            <Route exact path="/hometution" element={<HomeTution/>}></Route>
+            <Route exact path="/ambassador" element={<Ambassador/>} ></Route>
+            <Route exact path="/vaani" element={<Vaani/>} ></Route>
+            <Route  element={PageNotFound} />
 
-         {/* <sign_in/> */}
-        {/* <Hero/> */}
-        <div className="pages">
-          <Switch>
-            <Route exact path="/" component={Home1} />
-            <Route path="/sign_in" component={Sign_in}/>
-            <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
-            <Route path="/signUpLogIn" component={SignUpLogIn} />
-            <Route path="/setting" component={Setting}/>
-            <Route path="/details" component={Details}/>
-            <Route path="/trending" component={Trending}/>
-            
-            <Route exact path="/post/:postId" component={Post} />
-            <Route  component={PageNotFound} />
-          </Switch>
+            <Route exact path="/r" element={user && user._id ? <Home1 setLoginUser={setLoginUser}/> : <Login setLoginUser={setLoginUser}/>}></Route>
+            <Route path="/login" element={<Login setLoginUser={setLoginUser}/>}></Route>
+            <Route path="/register" element={<Register/>}></Route>
+            </Routes>
           <Footer/>
-        </div>
+          <Routes>
+           
+          </Routes>
       </Router>
     </>
   );

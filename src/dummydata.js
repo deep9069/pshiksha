@@ -1,3 +1,4 @@
+import arjun from "./components/Pages/Arjun.png";
 export const homeAbout = [
   {
     id: 1,
@@ -395,20 +396,34 @@ export const testimonal = [
     name: "ROGER SCOTT",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t1.webp",
+    cover: "https://images.pexels.com/photos/681335/pexels-photo-681335.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
   },
   {
     id: 2,
     name: "ROGER SCOTT",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t2.webp",
+    cover: "https://media.istockphoto.com/photos/various-fresh-ripe-pumpkins-as-background-picture-id1277767891?b=1&k=20&m=1277767891&s=170667a&w=0&h=vSzZmr5bWp85Cl6EDRbnb4lmasahmpTRHIe7HH16F9c=",
   },
   {
     id: 3,
     name: "ROGER SCOTT",
     post: "MARKETING MANAGER",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-    cover: "./images/testo/t3.webp",
+    cover: "https://media.istockphoto.com/photos/first-person-point-of-view-of-a-woman-paddling-on-a-stand-up-paddle-picture-id1288844330?b=1&k=20&m=1288844330&s=170667a&w=0&h=nckXG0H5kPDbgDpC8iTObsiqG7Jwt6CeLuJ2WxdOTp4=",
+  },
+  {
+    id: 3,
+    name: "Arjun T.",
+    post: "Tutor",
+    desc: "Qualifications: MFA, BFA Mode: Offline Expertise: Graphic Designer, Fine Arts, Portfolio Making, Sketch Making, Professional Photography, Visual Communication Areas: Vishnu Garden, Subhash Nagar, Tagore Garden, Chand Nagar, Rajouri Garden, Janak Puri, Vikas Puri, Ashok Nagar",
+    cover: arjun,
+  },
+  {
+    id: 3,
+    name: "ROGER SCOTT",
+    post: "MARKETING MANAGER",
+    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    cover: "https://media.istockphoto.com/photos/first-person-point-of-view-of-a-woman-paddling-on-a-stand-up-paddle-picture-id1288844330?b=1&k=20&m=1288844330&s=170667a&w=0&h=nckXG0H5kPDbgDpC8iTObsiqG7Jwt6CeLuJ2WxdOTp4=",
   },
 ]

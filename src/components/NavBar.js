@@ -5,11 +5,9 @@ import logo from "./assets/logo.png"
 
 function NavBar() {
   const [click, setClick] = useState(false);
-
   const handleClick = () => setClick(!click);
   return (
     <>
-    
       <nav className="navbar">
         <div className="comp-logo">
         <NavLink exact to="/" 
@@ -30,47 +28,72 @@ function NavBar() {
         <div className="innav">
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
-            
             <li className="nav-item">
+              
+                  <div class="dropdown">
+              <button class="dropbtn">Services
+              <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
               <NavLink
-                exact
-                to="/"
-                activeClassName="active"
-                className="nav-links"
+                exact to="/HomeTution"
                 onClick={handleClick}
               >
-               <i className="text">Home</i>
+              Home Tution
               </NavLink>
-            </li>
-            <li className="nav-item">
               <NavLink
-                exact
-                to="/Details"
-                activeClassName="active"
-                className="nav-links"
+                exact to="/HomeTution"
                 onClick={handleClick}
               >
-                <i className="text"> Services</i>
+              IIT
+              </NavLink> <NavLink
+                exact to="/HomeTution"
+                onClick={handleClick}
+              >
+              NEET
+              </NavLink> <NavLink
+                exact to="/HomeTution"
+                onClick={handleClick}
+              >
+              School Abroad
+              </NavLink> <NavLink
+                exact to="/HomeTution"
+                onClick={handleClick}
+              >
+              Extra Curricular
               </NavLink>
+              </div>
+             </div>
+              
+              
             </li>
             
             <li className="nav-item">
-            <NavLink exact to="/login" 
-            activeClassName="active"
-            className="nav-links"
+            
+            <div class="dropdown">
+            <button class="dropbtn">Student Programmes
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <NavLink exact to="/internship" 
             onClick={handleClick}
             >
-            <i className="text">Student Programmes</i>
-          </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink exact to="/contact" 
-            activeClassName="active"
-            className="nav-links"
-            onClick={handleClick}
-            >
-           <i className="text">About Us</i>
-          </NavLink>
+            Internship
+            </NavLink>
+            <NavLink
+                exact to="/vaani"
+                onClick={handleClick}
+              >
+              Internship cum online certificate
+              </NavLink> <NavLink
+                exact to="/ambassador"
+                onClick={handleClick}
+              >
+              Campus Ambassador
+              </NavLink>
+            </div>
+            </div>
+          
           </li>
           <li className="nav-item">
             <NavLink exact to="/setting" 
@@ -78,16 +101,25 @@ function NavBar() {
             className="nav-links"
             onClick={handleClick}
             >
-           <i className="text">More</i>
+           <div class="dropdown">
+            <button class="dropbtn">More
+            <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            </div>
+            </div>
           </NavLink>
           </li>
          <div className="nav-item">
-               <NavLink exact to="/sign_in"
+               <NavLink exact to="/login"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick} >  
                
-               <i className="text">Login</i>
+               <p className="login" style={{marginTop:7}}>Login</p>
               </NavLink>
               </div>
         

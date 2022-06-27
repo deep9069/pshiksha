@@ -18,10 +18,8 @@ export const Home1 = () => {
                 }}>
               <button className='primary-btn' 
                 style={{fontWeight: 22, color: 'black', padding:7,borderRadius:4,backgroundColor:"transparent"}} >
-                VIEW COURSES <i className='fa fa-long-arrow-alt-right'  style={{
-                position: 'relative',
-                top: 9,
-                }}></i>
+                VIEW COURSES <i className='fa fa-long-arrow-alt-right'  style={{position: 'relative',top: 9,}}>
+                </i>
               </button>
               {/* <button>
                 VIEW COURSE <i className='fa fa-long-arrow-alt-right'></i>

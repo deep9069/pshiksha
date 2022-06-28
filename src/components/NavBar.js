@@ -18,8 +18,9 @@ function NavBar() {
               width: 110,
               height:110,
               verticalAlign: "center",
+              marginTop:8
             }}  /> 
-      <i className="logotext">P.Shiksha 4.0</i>
+      <i className="logotext" style={{position: 'relative',top: -10,}}>P.Shiksha 4.0 </i>
          </NavLink>
         
          </div>

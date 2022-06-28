@@ -1,8 +1,8 @@
-import "./Ielts.css";
 import React from "react";
+import "./Ielts.css";
 import Button from "react-bootstrap/Button";
-// import pdf from "../assets/ielts-fee-structure.pdf";
-import { BrowserRouter as Link } from "react-router-dom";
+import pdf from "../assets/ielts-fee-structure.pdf";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 const Ielts = () => {
   return (
@@ -377,7 +377,7 @@ const Ielts = () => {
         <br />
         <br />
       </div>
-      <Button  class="btn-ielts">
+      <Button href={pdf} target="_blank" rel="noreferrer" class="btn-ielts">
         Fee Structure
       </Button>
       <div className="btn-align">
@@ -388,6 +388,5 @@ const Ielts = () => {
     </div>
   );
 };
-
 
 export default Ielts;

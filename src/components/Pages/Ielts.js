@@ -1,8 +1,8 @@
 import "./Ielts.css";
 import React from "react";
 import Button from "react-bootstrap/Button";
-// import pdf from "../assets/ielts-fee-structure.pdf";
-import { BrowserRouter as Link } from "react-router-dom";
+import pdf from "../assets/ielts-fee-structure.pdf";
+import {Link} from "react-router-dom";
 
 const Ielts = () => {
   return (
@@ -377,7 +377,7 @@ const Ielts = () => {
         <br />
         <br />
       </div>
-      <Button  class="btn-ielts">
+      <Button href={pdf} target="_blank" class="btn-ielts">
         Fee Structure
       </Button>
       <div className="btn-align">

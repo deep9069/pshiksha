@@ -1,18 +1,25 @@
 import "./Ielts.css";
 import React from "react";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import pdf from "../assets/ielts-fee-structure.pdf";
 import {Link} from "react-router-dom";
+import { Button, Container, Card, Row, Col, Stack } from "react-bootstrap";
 
 const Ielts = () => {
   return (
     <div className="ielts">
       <div id="comp-kpfaw7sg" data-testid="richTextElement">
-        <div className="element0">
+        {/* <div className="element0">
           <h2 class="font_5">IELTS TRAINING</h2>
-        </div>
+        </div> */}
+        <Container className='elem0ielts'>
+        <div data-testid="richTextElement">
+          <div className='d-flex align-items-center flex-column'>
+            <h1 style={{ fontSize: "50px" }}><b>IELTS<span style={{ color: "#29e6a7" }}> Training</span></b></h1>
+            </div>
+          </div>
+        </Container>
       </div>
-      <br />
       <div className="paramb">
         <p>
           <br />

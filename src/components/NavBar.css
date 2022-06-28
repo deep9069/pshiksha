@@ -15,14 +15,14 @@
 }
 
 /* The dropdown container */
-.dropdown {
+/* .dropdown { */
   /* float: left;
   overflow: hidden;
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto; */
   
-}
+/* } */
 
 /* Dropdown button */
 .dropdown .dropbtn {
@@ -71,9 +71,9 @@
   display: block;
 }
 .navbar {
-  background: linear-gradient(135deg,#d62828ff 20%,#fcbf49ff 100%);
+  /* background: linear-gradient(135deg,rgb(40, 188, 214) 20%,rgb(64, 250, 79) 100%); */
   /* background-color: rgba(0, 0, 0, 0.2); */
-  /* background: #000000; */
+  background:#29e6a7;
   height: 55px;
   width: 100%;
   display: flex;

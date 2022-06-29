@@ -11,8 +11,8 @@ const Ambassador = () => {
           <div className="d-flex align-items-center flex-column">
             <h1 style={{ fontSize: "50px" }}>
               <b>
-                CAMPUS AMBASSADOR
-                <span style={{ color: "#29e6a7" }}> PROGRAMME</span>
+                Campus Ambassador
+                <span style={{ color: "#29e6a7" }}> Programme</span>
               </b>
             </h1>
           </div>

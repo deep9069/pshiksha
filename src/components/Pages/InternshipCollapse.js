@@ -1,6 +1,8 @@
 import React from "react";
 import useCollapse from "react-collapsed";
 import './Internship.css'
+import "./Ielts.css";
+import { FaHandPointRight } from "react-icons/fa";
 
 function Collapsible() {
   const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
@@ -11,7 +13,7 @@ function Collapsible() {
         <h3>{isExpanded ? "INTERNSHIP BROCHURE" : "INTERNSHIP BROCHURE"}</h3>
       </div>
       <br />
-      <br/>
+      <br />
       <div {...getCollapseProps()}>
         <div className="content">
           <p>
@@ -78,10 +80,10 @@ function Collapsible() {
               <br />
               <br />
             </div>
-            <br/>
-            <div className="inhead">
-              <h3>Why is this internship unique?</h3>
-            </div>
+            <br />
+            <h2>
+              <FaHandPointRight /> Why Is This Internship Unique?
+            </h2>
             <br />
             <div className="para2">
               It will allow you to work solely in a particular department.
@@ -91,10 +93,10 @@ function Collapsible() {
               students.
             </div>
             <br />
-            <br/>
-            <div className="inhead">
-              <h3>How will it benefit you?</h3>
-            </div>
+            <br />
+            <h2>
+              <FaHandPointRight /> How Will It Benefit You?
+            </h2>
             <br />
             <div className="para2">
               Chance to get a Full time job opportunity.
@@ -180,10 +182,10 @@ function Collapsible() {
               <br />
               <br />
             </div>
-            <br/>
-            <div className="inhead">
-              <h3>General skills required:</h3>
-            </div>
+            <br />
+            <h2>
+              <FaHandPointRight /> General Skills Required
+            </h2>
             <br />
             <div className="para2">
               Strong will to learn
@@ -195,11 +197,11 @@ function Collapsible() {
               <br />
               <br />
             </div>
-            <br/>
+            <br />
             <div className="para2">
-              <div className="inhead">
-                <h3>Kindly note:</h3>
-              </div>
+              <h3>
+                <FaHandPointRight /> Kindly Note
+              </h3>
               <br />
               1) The student should be regular and punctual during the complete
               internship period.
@@ -226,6 +228,7 @@ function Collapsible() {
               <div className="verticalLine1"></div>
             </div>
           </p>
+          <br/>
         </div>
       </div>
     </div>

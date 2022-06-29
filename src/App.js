@@ -13,6 +13,7 @@ import Footer from "./components/footer/Footer";
 import studentProgramme from "./components/Pages/StudentProgramme";
 import Home1 from "./components/Home1";
 import Internship from "./components/Pages/Internship";
+import Collapsible from "./components/Pages/InternshipCollapse";
 import Ambassador from "./components/Pages/Ambassador" 
 import Login from "./components/authentication/Login";
 import Register from "./components/authentication/Register";
@@ -26,32 +27,58 @@ function App() {
   const [user,setLoginUser]= useState({})
   return (
     <>
-    <div className="App">
-      <Router>
-      <NavBar/>
+      <div className="App">
+        <Router>
+          <NavBar />
           <Routes>
-            <Route exact path="/" element={<Home1/>} />
-            <Route exact path="/about" element={<About/>} />
-            <Route exact path="/contact" element={<Details/>} />
-            <Route exact path="/internship" element={<Internship/>} />
-            <Route exact path="/details" element={<Details/>}/>
-            <Route exact path="/studentprogramme" element={<studentProgramme/>}/>
-            <Route exact path="/hometution" element={<HomeTution/>}/>
-            <Route exact path="/ambassador" element={<Ambassador/>} />
-            <Route exact path="/vaani" element={<Vaani/>} />
-            <Route exact path="/iit" element={<IIt/>} />
-            <Route exact path="/ielts" element={<Ielts/>} />
-            <Route exact path="/ieltspay" element={<Ieltspay/>} />
-            <Route exact path="/overseas" element={<Overseas/>} />
-            <Route exact path="/newc" element={<Newc/>} />
-            <Route  element={PageNotFound} />
+            <Route exact path="/" element={<Home1 />} />
+            <Route exact path="/about" element={<About />} />
+            <Route exact path="/contact" element={<Details />} />
+            <Route
+              exact
+              path="/internship"
+              element={
+                <>
+                  <Internship />
+                  <Collapsible/>
+                </>
+              }
+            />
+            <Route exact path="/details" element={<Details />} />
+            <Route
+              exact
+              path="/studentprogramme"
+              element={<studentProgramme />}
+            />
+            <Route exact path="/hometution" element={<HomeTution />} />
+            <Route exact path="/ambassador" element={<Ambassador />} />
+            <Route exact path="/vaani" element={<Vaani />} />
+            <Route exact path="/iit" element={<IIt />} />
+            <Route exact path="/ielts" element={<Ielts />} />
+            <Route exact path="/ieltspay" element={<Ieltspay />} />
+            <Route exact path="/overseas" element={<Overseas />} />
+            <Route exact path="/newc" element={<Newc />} />
+            <Route element={PageNotFound} />
 
-            <Route exact path="/r" element={user && user._id ? <Home1 setLoginUser={setLoginUser}/> : <Login setLoginUser={setLoginUser}/>}/>
-            <Route path="/login" element={<Login setLoginUser={setLoginUser}/>}/>
-            <Route path="/register" element={<Register/>}/>
-            </Routes>
-          <Footer/>
-      </Router>
+            <Route
+              exact
+              path="/r"
+              element={
+                user && user._id ? (
+                  <Home1 setLoginUser={setLoginUser} />
+                ) : (
+                  <Login setLoginUser={setLoginUser} />
+                )
+              }
+            />
+            <Route
+              path="/login"
+              element={<Login setLoginUser={setLoginUser} />}
+            />
+            <Route path="/register" element={<Register />} />
+          </Routes>
+          <Footer />
+        </Router>
       </div>
     </>
   );

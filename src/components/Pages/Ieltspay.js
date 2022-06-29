@@ -1,12 +1,13 @@
 import "./Ielts.css";
 import React from "react";
 import Button from "react-bootstrap/Button";
+import { FaAvianex } from "react-icons/fa";
 
 const Ieltspay = () => {
   return (
     <>
       <div className="ieltsp">
-        <br/>
+        <br />
         <div className="ielphead">
           <h2>
             <u>Payments for IELTS Coaching</u>
@@ -16,7 +17,10 @@ const Ieltspay = () => {
       <div className="ieltsinside">
         <br />
         <div className="ielph2">
-          <p>IELTS General [Online] - &#8377;21,600/-</p>
+          <p>
+            {" "}
+            <FaAvianex /> IELTS General [Online] - &#8377;21,600/-
+          </p>
         </div>
         <div>
           <div>
@@ -35,7 +39,10 @@ const Ieltspay = () => {
         <div class="verticalLineieltsp"></div>
         <br />
         <div className="ielph2">
-          <p>IELTS General [Offline] - &#8377;25,200/-</p>
+          <p>
+            {" "}
+            <FaAvianex /> IELTS General [Offline] - &#8377;25,200/-
+          </p>
         </div>
         <div>
           <div>
@@ -54,7 +61,10 @@ const Ieltspay = () => {
         <div class="verticalLineieltsp"></div>
         <br />
         <div className="ielph2">
-          <p>IELTS Academic training [Online] - &#8377;28,800/-</p>
+          <p>
+            {" "}
+            <FaAvianex /> IELTS Academic Training [Online] - &#8377;28,800/-
+          </p>
         </div>
         <div>
           <div>
@@ -73,7 +83,10 @@ const Ieltspay = () => {
         <div class="verticalLineieltsp"></div>
         <br />
         <div className="ielph2">
-          <p>IELTS Academic training [Offline] - &#8377;32,400/-</p>
+          <p>
+            {" "}
+            <FaAvianex /> IELTS Academic Training [Offline] - &#8377;32,400/-
+          </p>
         </div>
         <div>
           <div>
@@ -87,8 +100,8 @@ const Ieltspay = () => {
               Pay Now
             </Button>
           </div>
-          <br/>
-          <br/>
+          <br />
+          <br />
         </div>
       </div>
     </>

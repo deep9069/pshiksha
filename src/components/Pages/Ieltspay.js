@@ -6,6 +6,7 @@ const Ieltspay = () => {
   return (
     <>
       <div className="ieltsp">
+        <br/>
         <div className="ielphead">
           <h2>
             <u>Payments for IELTS Coaching</u>
@@ -86,6 +87,8 @@ const Ieltspay = () => {
               Pay Now
             </Button>
           </div>
+          <br/>
+          <br/>
         </div>
       </div>
     </>

@@ -3,8 +3,8 @@
     font-size: 18px;
     margin-top: 25px; 
     margin-bottom: 25px;
-    margin-right: 150px;
-    margin-left: 80px;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 
 .verticalLine1 {
@@ -20,34 +20,20 @@
     font-style: italic;
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-right: 150px;
-    margin-left: 80px;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 
-.element0 {
+.elem0intern {
     text-align: center;
-    border-radius: 25px;
-    font-size: 18px;
-    border: 2px solid #e7ecec;
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-left: 50px;
-    width: 1062px;
-    height: 75px;
-    justify-content: center;
-    background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
-    text-shadow: 2px 2px 5px rgb(197, 114, 230);
+    margin-left: 240px;
 }
 
-.element1 {
-    font-style:oblique;
+.element1ntern {
     font-size: 18px;
     font-size: medium;
-    width: 1062px;
-    border-radius: 25px;
-    border: 0.1px #e7ecec;
-    background-color:#33ccff;
-    padding-left: 10px;
+    font-weight: bold;
+    width: auto;
 }
 
 .element2 {
@@ -82,7 +68,7 @@
     font-size: 18px;
 }
 
-.inhead {
+/* .inhead {
     font-style: oblique;
     font-size: 18px;
     width: 1060px;
@@ -90,17 +76,26 @@
     border: 0.1px #e7ecec;
     background-color: #33ccff;
     padding-left: 10px;
+} */
+
+.btn-intern {
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    border: 2px solid #33ccff;
+    background: transparent;
+    color: #33ccff;
+    border-radius: 0.2rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    cursor: pointer;
 }
 
-.btn {
-    font-weight: bold;
-    text-align: center;
-    width: 130px;
-    border-radius: 20px;
-    border: 0.1px #e7ecec;
-    background-color: rgb(252, 196, 224);
-    position: relative;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    color: black;
+:hover.btn-intern {
+    background: #33ccff;
+    text-decoration: none;
+    color: white;
 }

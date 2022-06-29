@@ -1,12 +1,25 @@
 import React,{ useState } from "react";
 import './Internship.css'
+import { Button, Container } from "react-bootstrap";
+import "./Ielts.css";
+import { FaHandPointRight } from "react-icons/fa";
+
 const Internship = () => {
 	return (
     <div className="internship">
       <div id="comp-kpfaw7sg" class="_2Hij5" data-testid="richTextElement">
-        <div className="element0">
-          <h2 class="font_5">INTERNSHIP ANNOUNCEMENT</h2>
-        </div>
+        <Container className="elem0intern">
+          <div data-testid="richTextElement">
+            <div className="d-flex align-items-center flex-column">
+              <h1 style={{ fontSize: "50px" }}>
+                <b>
+                  Internship
+                  <span style={{ color: "#29e6a7" }}> Announcement</span>
+                </b>
+              </h1>
+            </div>
+          </div>
+        </Container>
       </div>
       <div id="comp-kpflgr5m" class="para" data-testid="richTextElement">
         <p class="font_2">
@@ -21,8 +34,10 @@ const Internship = () => {
         </p>
       </div>
       <div id="comp-kvjr99kw" class="_2Hij5" data-testid="richTextElement">
-        <div className="element1">
-          <h3 class="font_2">Open Positions</h3>
+        <div className="element1ntern">
+          <h2>
+            <FaHandPointRight /> Open Positions
+          </h2>
         </div>
       </div>
       <div id="comp-kpfbvy2g" class="_2Hij5" data-testid="richTextElement">
@@ -46,8 +61,10 @@ const Internship = () => {
       </div>
       <div class="verticalLine"></div>
       <div id="comp-kvjrfq2h" class="_2Hij5" data-testid="richTextElement">
-        <div className="element1">
-          <h3 class="font_2">Eligibility</h3>
+        <div className="element1ntern">
+          <h2>
+            <FaHandPointRight /> Eligibilty
+          </h2>
         </div>
       </div>
       <div id="comp-kvp2a733" class="_2Hij5" data-testid="richTextElement">
@@ -55,8 +72,10 @@ const Internship = () => {
       </div>
       <div class="verticalLine"></div>
       <div id="comp-kvjrjlxg" class="_2Hij5" data-testid="richTextElement">
-        <div className="element1">
-          <h3 class="font_2">Stipend&nbsp;</h3>
+        <div className="element1ntern">
+          <h2>
+            <FaHandPointRight /> Stipend
+          </h2>
         </div>
       </div>
       <div id="comp-kvwdxpzh" class="_2Hij5" data-testid="richTextElement">
@@ -71,8 +90,10 @@ const Internship = () => {
       </div>
       <div class="verticalLine"></div>
       <div id="comp-kvjrkd1u" class="_2Hij5" data-testid="richTextElement">
-        <div className="element1">
-          <h3 class="font_2">Perks</h3>
+        <div className="element1ntern">
+          <h2>
+            <FaHandPointRight /> Perks
+          </h2>
         </div>
       </div>
       <div id="comp-kvwdykul" class="_2Hij5" data-testid="richTextElement">
@@ -87,8 +108,10 @@ const Internship = () => {
       </div>
       <div class="verticalLine"></div>
       <div id="comp-kvwe08dk" class="_2Hij5" data-testid="richTextElement">
-        <div className="element1">
-          <h3 class="font_2">Mode</h3>
+        <div className="element1ntern">
+          <h2>
+            <FaHandPointRight /> Mode
+          </h2>
         </div>
       </div>
       <div id="comp-kvwe0egz" class="_2Hij5" data-testid="richTextElement">
@@ -99,8 +122,10 @@ const Internship = () => {
       </div>
       <div class="verticalLine"></div>
       <div id="comp-kvjrne98" class="_2Hij5" data-testid="richTextElement">
-        <div className="element1">
-          <h3 class="font_2">Application Process</h3>
+        <div className="element1ntern">
+          <h2>
+            <FaHandPointRight /> Application Process
+          </h2>
         </div>
       </div>
       <div id="comp-kvwe2275" class="_2Hij5" data-testid="richTextElement">
@@ -110,27 +135,33 @@ const Internship = () => {
           <br />
           Please ensure the below documents should be attached to the e-mail:
           <br />
-          <br />- A concise cover letter that describes your suitability for
+          <br />~ A concise cover letter that describes your suitability for
           this position (max 1 page)
-          <br />- A copy of your current CV.
+          <br />~ A copy of your current CV.
         </p>
       </div>
       <div id="comp-kvwe1a8l" class="_2Hij5" data-testid="richTextElement">
-          Applications can be applied through e-mail or the link given below
-          <br />
-          <br />
-          <div className="btn">
-            <a href="https://dare2compete.com/o/lsKFtfX?lb=0YxdjR5">
-              Start Today!
-            </a>
-          </div>
-          <br />
-          <div class="verticalLine1"></div>
-          <br />
-           Duration Of The Internship: <b>6 - 8 Weeks</b>
-         <br/>
-        <br/>
+        Applications can be applied through e-mail or the link given below
+        <br />
+        <br />
         <div class="verticalLine1"></div>
+        <br />
+        Duration Of The Internship: <b>6 - 8 Weeks</b>
+        <br />
+        <br />
+        <div class="verticalLine1"></div>
+        <br />
+        <br />
+        <Button
+          href="https://dare2compete.com/o/lsKFtfX?lb=0YxdjR5"
+          target="_blank"
+          rel="noreferrer"
+          class="btn-intern"
+        >
+          Start Today!
+        </Button>
+        <br />
+        <br />
       </div>
     </div>
   );

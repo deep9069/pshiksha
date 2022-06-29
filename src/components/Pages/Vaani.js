@@ -3,15 +3,27 @@ import React from 'react';
 import pic1 from "../assets/learn-web-d.jpg";
 import pic2 from "../assets/learn-non-tech.jpg";
 import card from "react-bootstrap/Card";
+import { Container } from "react-bootstrap";
+import "./Ielts.css";
 
 function Vaani() {
   return (
     <div className="sldi98">
-      <div className="headv">
-        <h2 class="font_5">
-          ONLINE INTERNSHIP CUM TRAINING CERTIFIED PROGRAMME
-        </h2>
-      </div>
+      <Container className="elem0vaani">
+        <div data-testid="richTextElement">
+          <div className="d-flex align-items-center flex-column">
+            <h1 style={{ fontSize: "50px" }}>
+              <b>
+                Online Training Cum
+                <span style={{ color: "#29e6a7" }}>
+                  {" "}
+                  Internship Certification Programme
+                </span>
+              </b>
+            </h1>
+          </div>
+        </div>
+      </Container>
       <div className="wrapper">
         <Card
           img={pic1}
@@ -23,8 +35,7 @@ function Vaani() {
           high3="Plans"
           high4="6 - 8 weeks"
           high5="Open for 12 months - Online / Offline"
-          linkto="www.google.com"
-          //   pdflink=''
+          linkto=""
         />
 
         <Card
@@ -39,6 +50,8 @@ function Vaani() {
           high5="Open for 12 months - Online / Offline"
         />
       </div>
+      <br />
+      <br />
     </div>
   );
 }
@@ -72,7 +85,7 @@ function Card(props) {
           <br />
         </div>
       </div>
-      <card.Link className="card__btn" href={props.linkto}>
+      <card.Link className="card__btn" href={props.linkto} target="_blank">
         Start Now
       </card.Link>
     </div>

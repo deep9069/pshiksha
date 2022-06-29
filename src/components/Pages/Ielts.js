@@ -1,21 +1,22 @@
 import React from "react";
-// import Button from "react-bootstrap/Button";
 import pdf from "../assets/ielts-fee-structure.pdf";
 import {Link} from "react-router-dom";
-import { Button, Container, Card, Row, Col, Stack } from "react-bootstrap";
+import { Button, Container } from "react-bootstrap";
 import "./Ielts.css";
+import { FaHandPointRight } from "react-icons/fa";
 
 const Ielts = () => {
   return (
     <div className="ielts">
       <div id="comp-kpfaw7sg" data-testid="richTextElement">
-        {/* <div className="element0">
-          <h2 class="font_5">IELTS TRAINING</h2>
-        </div> */}
-        <Container className='elem0ielts'>
-        <div data-testid="richTextElement">
-          <div className='d-flex align-items-center flex-column'>
-            <h1 style={{ fontSize: "50px" }}><b>IELTS<span style={{ color: "#29e6a7" }}> Training</span></b></h1>
+        <Container className="elem0ielts">
+          <div data-testid="richTextElement">
+            <div className="d-flex align-items-center flex-column">
+              <h1 style={{ fontSize: "50px" }}>
+                <b>
+                  IELTS<span style={{ color: "#29e6a7" }}> Training</span>
+                </b>
+              </h1>
             </div>
           </div>
         </Container>
@@ -30,8 +31,10 @@ const Ielts = () => {
       </div>
       <br />
       <br />
-      <div className="element1a">
-        <h3>What is IELTS?</h3>
+      <div className="element1ielts">
+        <h2>
+          <FaHandPointRight /> What is IELTS
+        </h2>
       </div>
       <br />
       <p>
@@ -281,8 +284,10 @@ const Ielts = () => {
       </div>
       <p>&nbsp;</p>
       <br />
-      <div className="element1a">
-        <h3>Why Choose Us?</h3>
+      <div className="element1ielts">
+        <h2>
+          <FaHandPointRight /> Why Choose Us
+        </h2>
       </div>
       <div className="para1">
         <br />
@@ -328,8 +333,10 @@ const Ielts = () => {
       </div>
       <br />
       <br />
-      <div className="element1a">
-        <h3>How Do I Enroll?</h3>
+      <div className="element1ielts">
+        <h2>
+          <FaHandPointRight /> How Do I Enroll
+        </h2>
       </div>
       <div className="para1">
         <br />

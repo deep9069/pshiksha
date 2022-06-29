@@ -86,7 +86,7 @@ function NavBar() {
                 exact to="/vaani"
                 onClick={handleClick}
               >
-              Internship cum online certificate
+              Training Cum Internship Certification
               </NavLink> <NavLink
                 exact to="/ambassador"
                 onClick={handleClick}

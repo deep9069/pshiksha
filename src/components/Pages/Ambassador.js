@@ -1,13 +1,23 @@
 import React from 'react';
 import './Ambassador.css'
-import Button from "react-bootstrap/Button";
+import { Button, Container } from "react-bootstrap";
+import { FaHandPointRight } from "react-icons/fa";
 
 const Ambassador = () => {
 	return (
     <div className="ambassador">
-      <div className="head">
-        <h2 class="font_5">CAMPUS AMBASSADOR PROGRAMME</h2>
-      </div>
+      <Container className="elem0amb">
+        <div data-testid="richTextElement">
+          <div className="d-flex align-items-center flex-column">
+            <h1 style={{ fontSize: "50px" }}>
+              <b>
+                CAMPUS AMBASSADOR
+                <span style={{ color: "#29e6a7" }}> PROGRAMME</span>
+              </b>
+            </h1>
+          </div>
+        </div>
+      </Container>
       <br />
       <div className="paramb">
         <div id="comp-kpnlcfpg" class="_classe" data-testid="richTextElement">
@@ -35,11 +45,11 @@ const Ambassador = () => {
             experience on your resume, which is a value-added.
             <br />
             <br />
-            <div className="element1a">
-              <h3>
-                How does the Campus Ambassador Program differ from an
-                Internship?
-              </h3>
+            <div className="element1amb">
+              <h2>
+                <FaHandPointRight /> How does the Campus Ambassador Program
+                differ from an Internship?
+              </h2>
             </div>
             <br />
             An internship is a kind of temporary employment where students have
@@ -64,40 +74,44 @@ const Ambassador = () => {
       <br />
       <div id="comp-kpnreudk" class="_classe" data-testid="richTextElement">
         <p class="font_5">
-          <div className="element1a">
-            <h3>Why Should You Apply?</h3>
+          <div className="element1amb">
+            <h2>
+              <FaHandPointRight /> Why Should You Apply?
+            </h2>
           </div>
           <br />
           <div className="itl">
-            #&nbsp;develop strategic collaborations
+            ~&nbsp;Develop strategic collaborations
             <br />
-            #&nbsp;curating marketing ideas
+            ~&nbsp;Curating marketing ideas
             <br />
-            #&nbsp;interact with our leaders
+            ~&nbsp;Interact with our leaders
             <br />
-            #&nbsp;experience the culture
+            ~&nbsp;Experience the culture
             <br />
-            #&nbsp;organise events, seminars, workshops
+            ~&nbsp;Organise events, seminars, workshops
             <br />
-            #&nbsp;increase your learning opportunities
+            ~&nbsp;Increase your learning opportunities
             <br />
-            #&nbsp;social media marketing
+            ~&nbsp;Social media marketing
             <br />
-            #&nbsp;personal &amp; professional development
+            ~&nbsp;Personal &amp; professional development
             <br />
-            #&nbsp;exposure to real marketing
+            ~&nbsp;Exposure to real marketing
             <br />
-            #&nbsp;lifetime support &amp; mentorship
+            ~&nbsp;Lifetime support &amp; mentorship
             <br />
-            #&nbsp;attractive perks
+            ~&nbsp;Attractive perks
           </div>
         </p>
       </div>
       <br />
       <div id="comp-kpnryqp5" class="_classe" data-testid="richTextElement">
         <p class="font_5">
-          <div className="element1a">
-            <h3>Perks</h3>
+          <div className="element1amb">
+            <h2>
+              <FaHandPointRight /> Perks
+            </h2>
           </div>
           <br />
           <div className="itl">
@@ -124,28 +138,32 @@ const Ambassador = () => {
       <br />
       <div id="comp-kpnvottm" class="_classe" data-testid="richTextElement">
         <p class="font_5">
-          <div className="element1a">
-            <h3>Eligibility</h3>
+          <div className="element1amb">
+            <h2>
+              <FaHandPointRight /> Eligibility
+            </h2>
           </div>
           <br />
           <div className="itl">
-            #&nbsp;any undergraduate student
+            ~&nbsp;Any undergraduate student
             <br />
-            #&nbsp;reliable and hardworking
+            ~&nbsp;Reliable and hardworking
             <br />
-            #&nbsp;knowledge of MS-Office at intermediate level
+            ~&nbsp;Knowledge of MS-Office at intermediate level
             <br />
-            #&nbsp;should possess good relevant skills
+            ~&nbsp;Should possess good relevant skills
             <br />
-            #&nbsp;should be able to devote atleast 4 hours/week
+            ~&nbsp;Should be able to devote atleast 4 hours/week
           </div>
         </p>
       </div>
       <br />
       <div id="comp-kpnvxpv7" class="_classe" data-testid="richTextElement">
         <p class="font_5">
-          <div className="element1a">
-            <h3>Roles & Responsibilities</h3>
+          <div className="element1amb">
+            <h2>
+              <FaHandPointRight /> Roles & Responsibilities
+            </h2>
           </div>
           <br />
           <div className="itl">
@@ -181,18 +199,14 @@ const Ambassador = () => {
       <br />
       <div className="verticalLine1a"></div>
       <br />
-      <br/>
-      <div className="btn-amb">
-        <Button
-          href="https://docs.google.com/forms/d/e/1FAIpQLSezu555aTApyA-HM6fU27_9_8M6Rx8GZAwAXP-ZU6JVs8_qVQ/viewform?usp=sf_link"
-          class="btn"
-        >
+      <br />
+      <div>
+        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSezu555aTApyA-HM6fU27_9_8M6Rx8GZAwAXP-ZU6JVs8_qVQ/viewform?usp=sf_link" target="_blank" >
           Start Today!
         </Button>
       </div>
       <br />
-      <br/>
-      {/* <div className="verticalLine1a"></div> */}
+      <br />
     </div>
   );
 }

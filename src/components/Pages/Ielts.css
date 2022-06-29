@@ -3,26 +3,20 @@
     font-size: 18px;
     margin-top: 60px;
     margin-bottom: 25px;
-    margin-right: 160px;
-    margin-left: 80px;
+    margin-right: 120px;
+    margin-left: 120px;
 }
 
 .elem0ielts {
     text-align: center;
     margin-left: 410px;
-    
 }
 
-.element1a {
-    font-style: oblique;
+.element1ielts {
     font-size: 18px;
     font-size: medium;
+    font-weight: bold;
     width: auto;
-    /* border-radius: 25px; */
-    /* border: 0.1px #e7ecec;
-    background-color: #33ccff; */
-    background-color:#29e6a7;
-    padding-left: 10px;
 }
 
 .redtext {
@@ -60,6 +54,7 @@
 
 .btn-ielts {
     text-align: center;
+    text-decoration: none;
     padding: 1rem;
     font-family: inherit;
     font-weight: bold;
@@ -75,11 +70,12 @@
 
 :hover.btn-ielts, :hover.btn-ielts-2 {
     background: #33ccff;
+    text-decoration: none;
     color: white;
 }
 
 .btn-align {
-    margin-left: 720px;
+    margin-left: 800px;
     display: inline-block;
 }
 
@@ -119,6 +115,8 @@
     padding-top: 20px;
     padding-right: 30px;
     padding-left: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     width: 1062px;
     height: 75px;
     justify-content: center;
@@ -126,7 +124,7 @@
 
 .ielph2 {
     font-weight: bold;
-    font-style: oblique;
+    color: rgb(255, 102, 0);
 }
 
 .ielph3 {

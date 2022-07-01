@@ -1,7 +1,7 @@
 import "./Ielts.css";
 import React from "react";
 import Button from "react-bootstrap/Button";
-import { FaAvianex } from "react-icons/fa";
+import { FaBook } from "react-icons/fa";
 
 const Ieltspay = () => {
   return (
@@ -10,7 +10,10 @@ const Ieltspay = () => {
         <br />
         <div className="ielphead">
           <h2>
-            <u>Payments for IELTS Coaching</u>
+            <u>
+              Payments for <span style={{ color: "#29e6a7" }}> IELTS</span>{" "}
+              Coaching
+            </u>
           </h2>
         </div>
       </div>
@@ -19,7 +22,7 @@ const Ieltspay = () => {
         <div className="ielph2">
           <p>
             {" "}
-            <FaAvianex /> IELTS General [Online] - &#8377;21,600/-
+            <FaBook /> IELTS General [Online] - &#8377;21,600/-
           </p>
         </div>
         <div>
@@ -41,7 +44,7 @@ const Ieltspay = () => {
         <div className="ielph2">
           <p>
             {" "}
-            <FaAvianex /> IELTS General [Offline] - &#8377;25,200/-
+            <FaBook /> IELTS General [Offline] - &#8377;25,200/-
           </p>
         </div>
         <div>
@@ -63,7 +66,7 @@ const Ieltspay = () => {
         <div className="ielph2">
           <p>
             {" "}
-            <FaAvianex /> IELTS Academic Training [Online] - &#8377;28,800/-
+            <FaBook /> IELTS Academic Training [Online] - &#8377;28,800/-
           </p>
         </div>
         <div>
@@ -85,7 +88,7 @@ const Ieltspay = () => {
         <div className="ielph2">
           <p>
             {" "}
-            <FaAvianex /> IELTS Academic Training [Offline] - &#8377;32,400/-
+            <FaBook /> IELTS Academic Training [Offline] - &#8377;32,400/-
           </p>
         </div>
         <div>

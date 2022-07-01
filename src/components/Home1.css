@@ -40,12 +40,12 @@
   padding: 0;
 }
 
-.primary-btn:hover {
+/* .primary-btn:hover {
   background-color: #000000;
   color: rgb(255, 0, 0);
   cursor: pointer;
-  /* box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%); */
-}
+  box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+} */
 @media screen and (max-width: 768px) {
   .margin {
     height: 40vh;

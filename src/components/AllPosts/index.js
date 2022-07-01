@@ -1,67 +1,67 @@
-import React, { useState, useEffect } from 'react';
-import blogPost from '../data/blog.json';
-// import { NavLink } from 'react-router-dom';
-import '../../components/AllPosts/index.css';
+// import React, { useState, useEffect } from 'react';
+// import blogPost from '../data/blog.json';
+// // import { NavLink } from 'react-router-dom';
+// import '../../components/AllPosts/index.css';
 
-/**
-* @author
-* @function AllPosts 
-**/
+// /**
+// * @author
+// * @function AllPosts 
+// **/
 
-const AllPosts  = (props) => {
+// const AllPosts  = (props) => {
 
-  const [posts, setPosts] = useState([]);
+//   const [posts, setPosts] = useState([]);
 
-  useEffect(()=>{
+//   useEffect(()=>{
 
-    const posts = blogPost.data;
-    setPosts(posts);
-  }, posts);
+//     const posts = blogPost.data;
+//     setPosts(posts);
+//   }, posts);
 
-  return(
+//   return(
 
-    <div className="grid">
+//     <div className="grid">
 
-{
-  posts.map(post => {
+// {
+//   posts.map(post => {
 
-    return(
+//     return(
 
      
 
 
-      <div className="col">
+//       <div className="col">
 
-{/*  */}
+// {/*  */}
            
    
     
-<div className ="card">
-<p className="lead">
+// <div className ="card">
+// <p className="lead">
     
-    <img className ="img" src={post.Image} />
-      <div className = "itemtext">{post.name} </div>
-      <div className = "itemtext">{post.emailId} </div>  
+//     <img className ="img" src={post.Image} />
+//       <div className = "itemtext">{post.name} </div>
+//       <div className = "itemtext">{post.emailId} </div>  
      
 
-    </p>
+//     </p>
 
-</div>
-       </div>
+// </div>
+//        </div>
            
      
 
 
 
 
-    )
+//     )
 
-  })
-}
+//   })
+// }
 
-    </div>
-   )
+//     </div>
+//    )
 
- }
+//  }
 
-export default AllPosts 
+// export default AllPosts 

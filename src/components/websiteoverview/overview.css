@@ -12,7 +12,10 @@
   /* .left-row{
     width: 55%;
   } */
-
+.img{
+  position: relative;
+  margin-left: -35px;
+}
   .aboutHome #heading {
     text-align: left;
     padding: 0;

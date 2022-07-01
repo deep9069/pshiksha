@@ -6,7 +6,6 @@ import HomeTution from "./components/Pages/HomeTution";
 import { About } from "./components/Pages/About";
 import Vaani from "./components/Pages/Vaani";
 import { Details } from "./components/Pages/Details";
-import Post from "./components/Post/index";
 import PageNotFound from './pages/404';
 import { Redirect } from 'react-router';
 import Footer from "./components/footer/Footer";
@@ -45,11 +44,7 @@ function App() {
               }
             />
             <Route exact path="/details" element={<Details />} />
-            <Route
-              exact
-              path="/studentprogramme"
-              element={<studentProgramme />}
-            />
+            <Route exact path="/studentprogramme" element={<studentProgramme />}/>
             <Route exact path="/hometution" element={<HomeTution />} />
             <Route exact path="/ambassador" element={<Ambassador />} />
             <Route exact path="/vaani" element={<Vaani />} />
@@ -60,21 +55,8 @@ function App() {
             <Route exact path="/newc" element={<Newc />} />
             <Route element={PageNotFound} />
 
-            <Route
-              exact
-              path="/r"
-              element={
-                user && user._id ? (
-                  <Home1 setLoginUser={setLoginUser} />
-                ) : (
-                  <Login setLoginUser={setLoginUser} />
-                )
-              }
-            />
-            <Route
-              path="/login"
-              element={<Login setLoginUser={setLoginUser} />}
-            />
+            <Route exact path="/r" element={ user && user._id ? ( <Home1 setLoginUser={setLoginUser} />) : ( <Login setLoginUser={setLoginUser} />)}/>
+            <Route path="/login" element={<Login setLoginUser={setLoginUser} />}/>
             <Route path="/register" element={<Register />} />
           </Routes>
           <Footer />

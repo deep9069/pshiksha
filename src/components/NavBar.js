@@ -18,42 +18,70 @@ function NavBar() {
               width: 110,
               height:110,
               verticalAlign: "center",
-              marginTop:8
+              marginTop:5,
+              
             }}  /> 
-      <i className="logotext" style={{position: 'relative',top: -10,}}>P.Shiksha 4.0 </i>
+      <i className="logotext" style={{position: 'relative',top: -10}}>P SHIKSHA 4.0 </i>
          </NavLink>
         
          </div>
          
         {/* <div className="nav-container"> */}
         <div className="innav">
-
-          <ul className={click ? "nav-menu active" : "nav-menu"}>
-            <li className="nav-item">
-              
-                  <div class="dropdown">
-              <button class="dropbtn">Services
-              <i class="fa fa-caret-down"></i>
-              </button>
-              <div class="dropdown-content">
-              <NavLink
-                exact to="/HomeTution"
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
+      <li className="nav-item">
+      <div class="dropdown">
+            <button class="dropbtn">Services
+            <i class="fa fa-caret-down"></i>
+            </button>
+        <div class="dropdown-content">
+            <div class="row">
+              <div class="column">
+          <h3>Engineering</h3>
+          <NavLink
+                exact to="/iit"
                 onClick={handleClick}
               >
-              Home Tution
+              Placement Preparation
               </NavLink>
               <NavLink
                 exact to="/iit"
                 onClick={handleClick}
               >
+              professional CV making
+              </NavLink>
+              <NavLink
+                exact to="/iit"
+                onClick={handleClick}
+              >
+              Major/Minor project
+              </NavLink>
+              <NavLink
+                exact to="/iit"
+                onClick={handleClick}
+              >
+              Plag-free reports
+              </NavLink>
+        
+        </div>
+            <div class="column">
+            <h3>Exams</h3>
+            <NavLink
+                exact to="/iit"
+                onClick={handleClick}
+              >
               IIT
-              </NavLink> <NavLink
+              </NavLink>
+              <NavLink
                 exact to="/HomeTution"
                 onClick={handleClick}
               >
               NEET
-              </NavLink> 
-              <NavLink
+              </NavLink>
+          </div>
+          <div class="column">
+          <h3>Abroad</h3>
+          <NavLink
                 exact to="/ielts"
                 onClick={handleClick}
               >
@@ -66,18 +94,11 @@ function NavBar() {
               >
               Overseas
               </NavLink> 
-              </div>
-             </div> 
-            </li>
-            
-            <li className="nav-item">
-            
-            <div class="dropdown">
-            <button class="dropbtn">Student Programmes
-            <i class="fa fa-caret-down"></i>
-            </button>
-            <div class="dropdown-content">
-            <NavLink exact to="/internship" 
+          
+        </div>
+        <div class="column">
+          <h3>Students</h3>
+          <NavLink exact to="/internship" 
             onClick={handleClick}
             >
             Internship
@@ -86,28 +107,26 @@ function NavBar() {
                 exact to="/vaani"
                 onClick={handleClick}
               >
-              Training Cum Internship Certification
-              </NavLink> <NavLink
+              Training cum Internship
+              </NavLink>
+              <NavLink
                 exact to="/ambassador"
                 onClick={handleClick}
               >
               Campus Ambassador
               </NavLink>
-            </div>
-            </div>
-          
+        </div>
+      </div>
+    </div>
+  </div> 
           </li>
           <li className="nav-item">
-            <NavLink exact to="/setting" 
-            activeClassName="active"
-            className="nav-links"
-            onClick={handleClick}
-            >
-           <div class="dropdown">
-            <button class="dropbtn">More
+           
+           <div class="dropdown1">
+            <button class="dropbtn1">More
             <i class="fa fa-caret-down"></i>
             </button>
-            <div class="dropdown-content">
+            <div class="dropdown-content1">
             <NavLink
                 exact to="/HomeTution"
                 onClick={handleClick}
@@ -118,27 +137,29 @@ function NavBar() {
             <a href="#">Link 3</a>
             </div>
             </div>
-          </NavLink>
-          </li>
-         <div className="nav-item">
-               <NavLink exact to="/login"
-                activeClassName="active"
-                className="nav-links"
-                onClick={handleClick} >  
-               
-               <p className="login" style={{marginTop:7}}>Login</p>
-              </NavLink>
-              </div>
-        
-         
-          </ul>
-      
           
+          </li>
+          <li>
+          <div class="dropdown1">
+            <button class="dropbtn1">
+            <NavLink
+            style={{textDecoration: 'none'}}
+                exact to="/login"
+                onClick={handleClick}
+              >
+              <p style={{color:"white"}}>Login
+              </p>
+              </NavLink>
+          
+            
+            </button>
+            </div>
+              </li>
+          </ul>
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
           </div>
-        {/* </div> */}
       </nav>
     </>
   );

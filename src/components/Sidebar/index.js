@@ -1,61 +1,61 @@
 
-import React, { useState, useEffect } from 'react';
-import blogPost from '../data/blog.json';
-import { NavLink } from 'react-router-dom';
+// import React, { useState, useEffect } from 'react';
+// import blogPost from '../data/blog.json';
+// import { NavLink } from 'react-router-dom';
 
-/**
-* @author
-* @function Sidebar 
-**/
+// /**
+// * @author
+// * @function Sidebar 
+// **/
 
-const Sidebar  = (props) => {
+// const Sidebar  = (props) => {
 
-  const [posts, setPosts] = useState([]);
+//   const [posts, setPosts] = useState([]);
 
-  useEffect(()=>{
+//   useEffect(()=>{
 
-    const posts = blogPost.data;
-    setPosts(posts);
-  }, posts);
+//     const posts = blogPost.data;
+//     setPosts(posts);
+//   }, posts);
 
-  return(
+//   return(
 
-    <div>
+//     <div>
 
-{
-  posts.map(post => {
+// {
+//   posts.map(post => {
 
-    return(
+//     return(
 
      
 
 
-      <div >
+//       <div >
 
 
-<img style={{width: "100%"}} src={post.blogImage}/>
+// <img style={{width: "100%"}} src={post.blogImage}/>
    
 
-<NavLink key={post.id} to={`/post/${post.id}`}>  <div className = "post-title">{post.blogTitle}</div>  </NavLink>
+// <NavLink key={post.id} to={`/post/${post.id}`}>  <div className = "post-title">{post.blogTitle}</div>  </NavLink>
 
 
 
 
-       </div>
+//        </div>
            
      
 
 
 
 
-    )
+//     )
 
-  })
-}
+//   })
+// }
 
-    </div>
-   )
+//     </div>
+//    )
 
- }
+//  }
 
-export default Sidebar;
+// export default Sidebar;

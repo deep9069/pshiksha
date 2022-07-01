@@ -15,8 +15,7 @@ const AboutCard = () => {
           </div>
           <div className='right row'>
             {/* <Heading subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' /> */}
-            <p>Learn Anything</p>
-            <p style={{ color: "bluish" ,textAlign:"center",fontSize:18}}>Benefits About Online Learning Expertise</p>
+            <p style={{textAlign:"center",fontSize:20,fontWeight:"bold"}}>Benefits About Online Learning Expertise</p>
             <div className='items'>
               {homeAbout.map((val) => {
                 return (
@@ -27,7 +26,7 @@ const AboutCard = () => {
                     </div>
                       <h2 style={{ color: "black" }}>{val.title}</h2>
                     </div>
-                      <p style={{ color: "black" ,textAlign:"left",fontSize:18}}>{val.desc}</p>
+                      <p style={{ color: "black" ,textAlign:"left",fontSize:18,marginTop:17}}>{val.desc}</p>
                   </div>
                 )
               })}

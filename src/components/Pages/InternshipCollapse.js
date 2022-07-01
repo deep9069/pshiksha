@@ -3,6 +3,8 @@ import useCollapse from "react-collapsed";
 import './Internship.css'
 import "./Ielts.css";
 import { FaHandPointRight } from "react-icons/fa";
+import { FaHandPointDown } from "react-icons/fa";
+import { FaHandPointUp } from "react-icons/fa";
 
 function Collapsible() {
   const { getCollapseProps, getToggleProps, isExpanded } = useCollapse();
@@ -10,7 +12,17 @@ function Collapsible() {
     <div className="collapsible">
       <div className="header" {...getToggleProps()}>
         <br />
-        <h3>{isExpanded ? "INTERNSHIP BROCHURE" : "INTERNSHIP BROCHURE"}</h3>
+        <h3>
+          {isExpanded ? (
+            <p className="btn-intern">
+              INTERNSHIP BROCHURE <FaHandPointUp />
+            </p>
+          ) : (
+            <p className="btn-intern">
+              INTERNSHIP BROCHURE <FaHandPointDown />
+            </p>
+          )}
+        </h3>
       </div>
       <br />
       <br />
@@ -228,7 +240,7 @@ function Collapsible() {
               <div className="verticalLine1"></div>
             </div>
           </p>
-          <br/>
+          <br />
         </div>
       </div>
     </div>

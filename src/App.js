@@ -23,6 +23,13 @@ import Ielts from "./components/Pages/Ielts";
 import Ieltspay from "./components/Pages/Ieltspay";
 import Newc from "./components/Pages/Newc";
 import Overseas from "./components/Pages/Overseas";
+import Placement from "./components/Pages/Placement";
+import Assignment from "./components/Pages/Assignment";
+import Projects from "./components/Pages/Projects";
+import Ieltsvisa from "./components/Pages/Ieltsvisa";
+import Catxat from "./components/Pages/Catxat";
+import Internshipservice from "./components/Pages/Internshipservice";
+
 function App() {
   const [user,setLoginUser]= useState({})
   return (
@@ -58,6 +65,12 @@ function App() {
             <Route exact path="/ielts" element={<Ielts />} />
             <Route exact path="/ieltspay" element={<Ieltspay />} />
             <Route exact path="/overseas" element={<Overseas />} />
+            <Route exact path="/placement" element={<Placement />} />
+            <Route exact path="/assignment" element={<Assignment />} />
+            <Route exact path="/projects" element={<Projects />} />
+            <Route exact path="/ielts-visa" element={<Ieltsvisa />} />
+            <Route exact path="/cat-xat-coaching" element={<Catxat />} />
+            <Route exact path="/internship-service" element={<Internshipservice />} />
             <Route exact path="/newc" element={<Newc />} />
             <Route element={PageNotFound} />
 

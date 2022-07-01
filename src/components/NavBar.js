@@ -45,7 +45,7 @@ function NavBar() {
               Placement Preparation
               </NavLink>
               <NavLink
-                exact to="/iit"
+                exact to="/placement"
                 onClick={handleClick}
               >
               professional CV making
@@ -57,7 +57,7 @@ function NavBar() {
               Major/Minor project
               </NavLink>
               <NavLink
-                exact to="/iit"
+                exact to="/projects"
                 onClick={handleClick}
               >
               Plag-free reports

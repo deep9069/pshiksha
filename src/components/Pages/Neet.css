@@ -1,4 +1,4 @@
-.iit {
+.neet {
     font-stretch: expanded;
     font-size: 18px;
     margin-top: 60px;
@@ -7,17 +7,17 @@
     margin-left: 120px;
 }
 
-.elem0iit {
+.elem0neet {
     text-align: center;
     margin-left: 410px;
 }
 
-.elem_0iit {
+.elem_0neet {
     text-align: center;
     margin-left: 90px;
 }
 
-.eleme1iit {
+.eleme1neet {
     font-size: 18px;
     font-size: medium;
     font-weight: bold;
@@ -44,7 +44,7 @@
     display: inline-block;
 }
 
-.btn-iit-1 {
+.btn-neet-1 {
     text-align: center;
     text-decoration: none;
     padding: 1rem;
@@ -61,7 +61,7 @@
     cursor: pointer;
 }
 
-.btn-iit-2 {
+.btn-neet-2 {
     text-align: center;
     text-decoration: none;
     padding: 1rem;
@@ -93,7 +93,7 @@
     display: inline-block;
 }
 
-.btn-align-1-pay{
+.btn-align-1-pay {
     margin-left: 10px;
     display: inline-block;
 }
@@ -109,23 +109,24 @@
     display: inline-block;
 }
 
-:hover.btn-iit-1, :hover.btn-iit-2 {
+:hover.btn-neet-1,
+:hover.btn-neet-2 {
     background: #33ccff;
     text-decoration: none;
     color: white;
 }
 
-.iitpwhole {
+.neetpwhole {
     /* background: rgb(184, 174, 238);
-        background: radial-gradient(circle,rgb(238, 237, 174) 0%, rgb(232, 233, 148) 100%); */
+    background: radial-gradient(circle, rgb(238, 237, 174) 0%, rgb(232, 233, 148) 100%); */
 }
 
-.iitinside {
+.neetinside {
     text-align: center;
     font-size: 20px;
 }
 
-.iitphead {
+.neetphead {
     text-align: center;
     border-radius: 25px;
     font-size: 18px;
@@ -139,7 +140,7 @@
     justify-content: center;
 }
 
-.iitpara {
+.neetpara {
     text-align: center;
     border-radius: 25px;
     font-size: 18px;
@@ -155,7 +156,7 @@
 
 .ielph2 {}
 
-.iit3 {
+.neet3 {
     font-size: 18px;
     text-align: center;
     padding: 1rem;
@@ -173,7 +174,7 @@
     cursor: pointer;
 }
 
-:hover.iit3 {
+:hover.neet3 {
     background: #33ccff;
     color: white;
 }

@@ -19,10 +19,16 @@ import Register from "./components/authentication/Register";
 import React, { useState } from "react";
 import IIt from "./components/Pages/Iitjee";
 import Iitjeepay from "./components/Pages/Iitjeepay";
+import Neet from "./components/Pages/Neet";
 import Ielts from "./components/Pages/Ielts";
 import Ieltspay from "./components/Pages/Ieltspay";
 import Newc from "./components/Pages/Newc";
 import Overseas from "./components/Pages/Overseas";
+import Neetpay from "./components/Pages/Neetpay";
+import PrivacyPolicy from "./components/Pages/PrivacyPolicy";
+import TermsOfService from "./components/Pages/TermsOfService";
+import UserPolicy from "./components/Pages/UserPolicy";
+
 function App() {
   const [user,setLoginUser]= useState({})
   return (
@@ -55,10 +61,15 @@ function App() {
             <Route exact path="/vaani" element={<Vaani />} />
             <Route exact path="/iit" element={<IIt />} />
             <Route exact path="/iitjeepay" element={<Iitjeepay />} />
+            <Route exact path="/neetpay" element={<Neetpay />} />
+            <Route exact path="/neet" element={<Neet />} />
             <Route exact path="/ielts" element={<Ielts />} />
             <Route exact path="/ieltspay" element={<Ieltspay />} />
             <Route exact path="/overseas" element={<Overseas />} />
             <Route exact path="/newc" element={<Newc />} />
+            <Route exact path="/privacy_policy" element={<PrivacyPolicy />} />
+            <Route exact path="/terms_of_service" element={<TermsOfService />} />
+            <Route exact path="/user_policy" element={<UserPolicy />} />
             <Route element={PageNotFound} />
 
             <Route

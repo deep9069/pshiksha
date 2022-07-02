@@ -25,7 +25,7 @@ export function Iitjee() {
           </Container>
           <div className="elem_0iit">
             <h2>
-              1 Year Course For{" "}
+              1 Year Crash Course For{" "}
               <span style={{ color: "#29e6a7" }}> Mains + Advanced</span>
             </h2>
           </div>
@@ -327,7 +327,7 @@ export function Iitjee() {
               <br />
               <p>
                 To know more about the&nbsp;
-                <div className="redtext">IIT-JEE 1 Year course</div>
+                <div className="redtext">IIT-JEE 1 Year Crash Course</div>
               </p>
               <p>
                 or speak to our counseling expert on&nbsp;<b>+91-9821693299</b>

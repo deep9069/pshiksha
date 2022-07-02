@@ -1,26 +1,26 @@
-import React from 'react'
-import "./Iitjee.css";
+import React from "react";
+import "./Neet.css";
 import Button from "react-bootstrap/Button";
 import { FaBook } from "react-icons/fa";
 
-const Iitjeepay = () => {
+const Neetpay = () => {
   return (
     <>
-      <div className="iitpwhole">
-        <div className="iitp">
+      <div className="neetpwhole">
+        <div className="neetp">
           <br />
-          <div className="iitphead">
+          <div className="neetphead">
             <h2>
               <u>
-                Payments for <span style={{ color: "#29e6a7" }}> IIT JEE</span>{" "}
+                Payments for <span style={{ color: "#29e6a7" }}> NEET</span>{" "}
                 Live Coaching
               </u>
             </h2>
           </div>
         </div>
-        <div className="iitinside">
+        <div className="neetinside">
           <br />
-          <div className="iit2">
+          <div className="neet2">
             <p>
               {" "}
               <FaBook /> One Time Payment - &#8377;1,17,999 (Inclusive of 18%
@@ -31,8 +31,8 @@ const Iitjeepay = () => {
             <div>
               <br />
               <Button
-                className="iit3"
-                href="https://pages.razorpay.com/pl_H2e81jva78oZR2/view"
+                className="neet3"
+                href="https://pages.razorpay.com/pl_Iis0058FjJECvk/view"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -43,14 +43,14 @@ const Iitjeepay = () => {
           <br />
           <div class="verticalLineieltsp"></div>
           <br />
-          <div className="iit2">
+          <div className="neet2">
             <p>
               {" "}
               <FaBook /> Three Time Payment - &#8377;1,21,000 (Inclusive of 18%
               GST)
             </p>
           </div>
-          <div className="iitpara">
+          <div className="neetpara">
             <i>Fee breakup: 71,000 + 25,000 + 25,000 = 1,21,000 (total) ​</i>
             <br />
             <br />
@@ -78,21 +78,21 @@ const Iitjeepay = () => {
               <br />
               <br />
               <Button
-                href="https://pages.razorpay.com/pl_H6FZkuMAH6xCUU/view"
+                href="https://pages.razorpay.com/pl_Iis8nL0KRW7Psi/view"
                 className="btn-align-1-pay"
                 target="_blank"
               >
                 Pay Now (1st Time Installment)
               </Button>
               <Button
-                href="https://pages.razorpay.com/pl_H6FtIJYr9ofQHF/view"
+                href="https://pages.razorpay.com/pl_IisEhB7NRnYwDP/view"
                 className="btn-align-2-pay"
                 target="_blank"
               >
                 Pay Now (2nd Time Installment)
               </Button>
               <Button
-                href="https://pages.razorpay.com/pl_H6FtIZNeFqSxuv/view"
+                href="https://pages.razorpay.com/pl_IisN6gk0YlaCDj/view"
                 className="btn-align-3-pay"
                 target="_blank"
               >
@@ -103,10 +103,10 @@ const Iitjeepay = () => {
           <br />
           <div class="verticalLineieltsp"></div>
           <br />
-          <div className="iit2">
+          <div className="neet2">
             <p>
               {" "}
-              <FaBook /> IIT JEE 2023 Study Material & Test Series -
+              <FaBook /> NEET 2023 Study Material & Test Series -
               &#8377;19,999/-
             </p>
           </div>
@@ -114,8 +114,8 @@ const Iitjeepay = () => {
             <div>
               <br />
               <Button
-                className="iit3"
-                href="https://pages.razorpay.com/pl_IjF4OiHS3hKam3/view"
+                className="neet3"
+                href="https://pages.razorpay.com/pl_IjFAhwHnqLXbBV/view"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -126,18 +126,18 @@ const Iitjeepay = () => {
           <br />
           <div class="verticalLineieltsp"></div>
           <br />
-          <div className="iit2">
+          <div className="neet2">
             <p>
               {" "}
-              <FaBook /> IIT JEE 2023 Online Test Series - &#8377;4,499/-
+              <FaBook /> NEET 2023 Online Test Series - &#8377;4,499/-
             </p>
           </div>
           <div>
             <div>
               <br />
               <Button
-                className="iit3"
-                href="https://pages.razorpay.com/pl_IjFK1wtRjKfkM3/view"
+                className="neet3"
+                href="https://pages.razorpay.com/pl_IjFQvXAVuyq3fy/view"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -151,6 +151,6 @@ const Iitjeepay = () => {
       </div>
     </>
   );
-}
+};
 
-export default Iitjeepay
+export default Neetpay;

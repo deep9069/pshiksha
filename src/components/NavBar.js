@@ -81,7 +81,7 @@ function NavBar() {
                       <NavLink exact to="/internship" onClick={handleClick}>
                         Internship
                       </NavLink>
-                      <NavLink exact to="/vaani" onClick={handleClick}>
+                      <NavLink exact to="/training_cum_internship" onClick={handleClick}>
                         Training cum Internship
                       </NavLink>
                       <NavLink exact to="/ambassador" onClick={handleClick}>

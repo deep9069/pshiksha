@@ -23,6 +23,12 @@ export function Neet() {
             </div>
           </div>
         </Container>
+        <div className="elem_0neet">
+          <h2>
+            1 Year Crash Course For{" "}
+            <span style={{ color: "#29e6a7" }}> NEET</span>
+          </h2>
+        </div>
         <br />
         <br />
         <div data-testid="richTextElement">
@@ -166,14 +172,14 @@ export function Neet() {
                 <p>860+ hours of live teaching sessions.</p>
               </li>
               <br />
-              <br/>
+              <br />
             </ul>
             <Button href={pdf1} target="_blank">
               Structure of Course
             </Button>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
             <i>
               As per NTA, for NEET a total of 15,44,275 students appeared for
               the exam out of which 8,70,075 qualified.

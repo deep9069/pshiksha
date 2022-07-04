@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import HomeTution from "./components/Pages/HomeTution";
 // import register  from "./components/Pages/Register";
 import { About } from "./components/Pages/About";
-import Vaani from "./components/Pages/Vaani";
+import Training from "./components/Pages/Training";
 import { Details } from "./components/Pages/Details";
 import PageNotFound from './pages/404';
 import { Redirect } from 'react-router';
@@ -58,7 +58,7 @@ function App() {
             />
             <Route exact path="/hometution" element={<HomeTution />} />
             <Route exact path="/ambassador" element={<Ambassador />} />
-            <Route exact path="/vaani" element={<Vaani />} />
+            <Route exact path="/training_cum_internship" element={<Training />} />
             <Route exact path="/iit" element={<IIt />} />
             <Route exact path="/iitjeepay" element={<Iitjeepay />} />
             <Route exact path="/neetpay" element={<Neetpay />} />

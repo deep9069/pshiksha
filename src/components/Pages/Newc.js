@@ -1,83 +1,110 @@
 import './Newc.scss'
 import React from 'react';
+import './Overseas.css';
+import { Link } from "react-router-dom";
+import card from "react-bootstrap/Card";
+import { Button, Container } from "react-bootstrap";
+import usa from "../assets/usa.png";
+import can from "../assets/can.png";
+import ger from "../assets/ger.png";
+import uk from "../assets/uk.png";
+import fra from "../assets/fra.png";
+import bel from "../assets/bel.png";
+import aus from "../assets/aus.png";
+import newz from "../assets/newz.png";
+import austria from "../assets/austria.png";
+import ire from "../assets/ire.png";
+import swe from "../assets/swe.png";
+import sin from "../assets/sin.png";
+
 const Newc =()=> {
   return (
     <>
-    <div className="wrapper">
-      <Card
-        img="https://images.unsplash.com/photo-1485738422979-f5c462d49f74?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1799&q=80"
-        title="USA"
-        description="The US boasts of some of the finest universities, a lot of which consistently rank in the world university rankings."
-      />
-
-      <Card
-        img="https://images.unsplash.com/photo-1578973615934-8d9cdb0792b4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1889&q=80"
-        title="Canada"
-        description="Canadians and international students in Canada enjoy a high standard of living. It's a great place to live and work."
+      <div className="wrapper">
+        <Card
+          img={aus}
+          title="Australia"
+          description="Many international students are choosing to study in Australia because of its friendly, laid-back nature, excellent education system, and high standard of living .."
+          link="/overseas/australia"
         />
 
-      <Card
-        img="https://images.unsplash.com/photo-1527866959252-deab85ef7d1b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
-        title="Germany"
-        description="International students, in general, agree that Germany is a good study destination."
-      />
+        <Card
+          img={austria}
+          title="Austria"
+          description=" Almost all students reviewing their experience of studying in Austria agree that the country provides great cultural richness and diversity for foreign students .."
+          link="/overseas/austria"
+        />
 
-<Card
-        img="https://images.unsplash.com/photo-1653304914373-135b8586c8a3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-        title="UK"
-        description="Take your boring salads up a knotch. This recipe is perfect for lunch
-          and only contains 5 ingredients!"
-      />
+        <Card
+          img={bel}
+          title="Belgium"
+          description=" Most student reviews of studying in Belgium focus on the topic of city life and culture in the country, which is seen as very positive .."
+          link="/overseas/belgium"
+        />
 
-<Card
-        img="https://images.unsplash.com/photo-1470470558828-e00ad9dbbc13?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-        title="France"
-        description="Take your boring salads up a knotch. This recipe is perfect for lunch
-          and only contains 5 ingredients!"
-      />
+        <Card
+          img={can}
+          title="Canada"
+          description="Canadians and international students in Canada enjoy a high standard of living. It's a great place to live and work. In fact, they rank #1 in the world when it comes to quality of life .."
+          link="/overseas/canada"
+        />
 
-<Card
-        img="https://images.unsplash.com/photo-1569734618166-a2397370d11e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1329&q=80"
-        title="Belgium"
-        description="Take your boring salads up a knotch. This recipe is perfect for lunch
-          and only contains 5 ingredients!"
-      />
+        <Card
+          img={fra}
+          title="France"
+          description="Attractive tuition rates in France. Quality higher education adapted to students' needs. Outstanding research and development opportunities. France is a world-class economic power .."
+          link="/overseas/france"
+        />
 
-<Card
-        img="https://images.unsplash.com/photo-1506973035872-a4ec16b8e8d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-        title="Australia"
-        description="Take your boring salads up a knotch. This recipe is perfect for lunch
-          and only contains 5 ingredients!"
-      />
+        <Card
+          img={ger}
+          title="Germany"
+          description="German universities are famous for delivering high-quality education - a lot of these universities even rank among the best in the world .."
+          link="/overseas/germany"
+        />
 
-<Card
-        img="https://images.unsplash.com/photo-1622421463401-88a0fb3fff8e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-        title="Newzealand"
-        description="Take your boring salads up a knotch. This recipe is perfect for lunch
-          and only contains 5 ingredients!"
-      />
+        <Card
+          img={ire}
+          title="Ireland"
+          description="Ireland is such a good place to study abroad for such a wide number of reasons, including the standard of teaching and education, the career opportunities and the enjoyable lifestyle .."
+          link="/overseas/ireland"
+        />
 
-<Card
-        img="https://images.unsplash.com/photo-1597086831879-756db15e81d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80"
-        title="Austria"
-        description="Take your boring salads up a knotch. This recipe is perfect for lunch
-          and only contains 5 ingredients!"
-      />
+        <Card
+          img={newz}
+          title="New Zealand"
+          description="With an excellent education system, internationally accredited qualifications, ample research opportunities and a matchless quality of life, New Zealand has a lot to offer .."
+          link="/overseas/newzealand"
+        />
 
-<Card
-        img="https://images.unsplash.com/photo-1519922639192-e73293ca430e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
-        title="Poland"
-        description="Take your boring salads up a knotch. This recipe is perfect for lunch
-          and only contains 5 ingredients!"
-      />
+        <Card
+          img={sin}
+          title="Singapore"
+          description="Efficient city planning, a developed economy, a sound legal system, convenient transportation, a warm climate, make Singapore a study destination suitable for people from all walks of life .."
+          link="/overseas/singapore"
+        />
 
-<Card
-        img="https://images.unsplash.com/photo-1525625293386-3f8f99389edd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1052&q=80"
-        title="Singapore"
-        description="Take your boring salads up a knotch. This recipe is perfect for lunch
-          and only contains 5 ingredients!"
-      />
-    </div>
+        <Card
+          img={swe}
+          title="Sweden"
+          description="Degree programs in Sweden offer students the opportunity to mix study and practical work, so that they have first-hand experience in their field when they graduate and enter the job market .."
+          link="/overseas/sweden"
+        />
+
+        <Card
+          img={uk}
+          title="United Kingdom"
+          description="Receiving a degree from a UK university will provide you with a solid foundation for the real world and will help you get your dream job .."
+          link="/overseas/united_kingdom"
+        />
+
+        <Card
+          img={usa}
+          title="USA"
+          description="The US boasts of some of the finest universities, a lot of which consistently rank in the world university rankings .."
+          link="/overseas/united_states_of_america"
+        />
+      </div>
     </>
   );
 }
@@ -90,7 +117,12 @@ function Card(props) {
         <h2 className="card__title">{props.title}</h2>
         <p className="card__description">{props.description}</p>
       </div>
-      <button className="card__btn">Learn More</button>
+      {/* <Button href={props.link} target="_blank" class="card__btn">
+        Learn More
+      </Button> */}
+      <Link to={props.link} target="_blank">
+        <button className="card__btn">Learn More</button>
+      </Link>
     </div>
   );
 };

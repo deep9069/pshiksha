@@ -1,0 +1,92 @@
+._2Hij5 {
+    font-stretch: expanded;
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.verticalLine1 {
+    border-bottom: solid rgba(0, 0, 0, 0.822);
+}
+
+.internship {
+    margin-top: 55px;
+}
+
+.para {
+    font-size: 18px;
+    font-stretch: expanded;
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.elem0intern {
+    text-align: center;
+    margin-left: 240px;
+}
+
+.element1ntern {
+    font-size: 18px;
+    font-size: medium;
+    font-weight: bold;
+    width: auto;
+}
+
+.element2 {
+    font-style: italic;
+    font-size: 18px;
+    color: rgb(210, 51, 30);
+}
+
+.collapsible {
+    font-size: 18px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.header {
+    font-size: 18px;
+    text-align: center;
+    margin-right: 430px;
+    cursor: pointer;
+    font-stretch: expanded;
+    font-weight: bolder;
+}
+
+.content {
+    font-stretch: expanded;
+    font-size: medium;
+}
+
+.para2 {
+    font-size: 18px;
+}
+
+.btn-intern {
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    margin: 1rem;
+    border: 2px solid #33ccff;
+    background: transparent;
+    color: #33ccff;
+    border-radius: 0.2rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    cursor: pointer;
+}
+
+:hover.btn-intern {
+    background: #33ccff;
+    text-decoration: none;
+    color: white;
+}

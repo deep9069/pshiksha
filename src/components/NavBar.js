@@ -68,7 +68,7 @@ function NavBar() {
                       </NavLink>
                     </div>
                     <div class="column">
-                      <h3>School Of Abroad</h3>
+                      <h3>Abroad</h3>
                       <NavLink exact to="/ielts" onClick={handleClick}>
                         IELTS
                       </NavLink>

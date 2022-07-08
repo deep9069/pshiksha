@@ -3,7 +3,6 @@ import './Internship.css'
 import { Button, Container } from "react-bootstrap";
 import "./Ielts.css";
 import { FaHandPointRight } from "react-icons/fa";
-import { Link } from "react-router-dom";
 
 const Internship = () => {
 	return (
@@ -163,13 +162,6 @@ const Internship = () => {
         </Button>
         <br />
         <br />
-        <br />
-        <p>
-          Interested in <b>Internship without Interview</b> checkout{" "}
-          <Link to="/intern_without_interview" target="_blank">
-            here
-          </Link>
-        </p>
       </div>
     </div>
   );

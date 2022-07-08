@@ -1,0 +1,159 @@
+.overmain {  /* common first */
+    font-stretch: expanded;
+    font-size: 18px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    margin-right: 120px;
+    margin-left: 120px;
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    background-color: white;
+    /* opacity: 10%; */
+}
+
+.overhead1 {    /* main heading */
+    display: flex;
+    justify-content: center;
+}
+
+.overhead2 {    /* sub heading */
+    font-size: 18px;
+    font-size: medium;
+    font-weight: bold;
+    width: auto;
+}
+
+.overpara0 {
+    margin-left: 25px;
+    width: auto;
+}
+
+.overpara1 {    /* align text wrt sub heading 2 */
+    margin-left: 29px;
+    width: auto;
+}
+
+.overpara2 {
+    margin: 1rem;
+}
+
+.overpara3 { /* souce of an image */
+    font-size: 15px;
+    font-style: oblique;
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+}
+
+.overpara4 {
+    /* font-size: 15px; */
+    /* font-style: oblique; */
+    align-items: center;
+    text-decoration: none;
+    color: blue;
+}
+
+.overimg1 {
+    margin: 1rem;
+}
+
+.overimg2 {
+    margin-top: 2px;
+    margin-left: -36px;
+    margin-bottom: -6px;
+}
+.overimg3 {
+    margin-top: 0px;  
+    margin-left: -11px;
+    margin-bottom: 4px;
+}
+.overimg4 {
+    margin-top: 8px;
+    margin-left: -23px;
+}
+.overimg5 {
+    margin-top: 9px;
+    margin-left: -50px;
+}
+.overimg6 {
+    margin-top: -9px;
+    margin-left: -67px;
+}
+.overimg7 {
+    margin-top: 8px;
+    margin-left: -25px;
+}
+.overimg8 {
+    margin-left: -9px;
+}
+
+.australia {
+    background-image: url("../assets/aus.png");
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    /* opacity: 15%; */
+}
+
+.austria {
+    background-image: url("../assets/austria.png");
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    /* opacity: 15%; */
+}
+
+.belgium {
+    background-image: url("../assets/bel.png");
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    /* opacity: 15%; */
+}
+
+.canada {
+    background-image: url("../assets/can.png");
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    /* opacity: 15%; */
+}
+
+.france {
+    background-image: url("../assets/fra.png");
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    /* opacity: 15%; */
+}
+
+.germany {
+    background-image: url("../assets/ger.png");
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    /* opacity: 15%; */
+}
+
+.ireland {
+    background-image: url("../assets/ire.png");
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    /* opacity: 15%; */
+}
+
+.newzealand {
+    background-image: url("../assets/newz.png");
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    /* opacity: 15%; */
+}
+
+.singapore {
+    background-image: url("../assets/sin.png");
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    /* opacity: 15%; */
+}
+
+.sweden {
+    background-image: url("../assets/swe.png");
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    /* opacity: 15%; */
+}
+
+.uk {
+    background-image: url("../assets/uk.png");
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    /* opacity: 15%; */
+}
+
+.usa {
+    background-image: url("../assets/usa.png");
+    /* background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%); */
+    /* opacity: 15%; */
+}

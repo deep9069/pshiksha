@@ -41,7 +41,8 @@ import Singapore from "./components/Pages/Singapore";
 import Sweden from "./components/Pages/Sweden";
 import Uk from "./components/Pages/Uk";
 import Usa from "./components/Pages/Usa";
-
+import Blog from "./components/blog/blog";
+import BlogPost from "./components/blog/BlogPost";
 function App() {
   const [user,setLoginUser]= useState({})
   return (
@@ -103,6 +104,8 @@ function App() {
             <Route exact path="/overseas/united_states_of_america" element={<Usa />} />
             <Route exact path="/newc" element={<Newc />} />
             <Route exact path="/privacy_policy" element={<PrivacyPolicy />} />
+            <Route exact path="/blog" element={<Blog/>} />
+            <Route exact path="/blogpost" element={<BlogPost/>} />
             <Route
               exact
               path="/terms_of_service"
@@ -111,17 +114,6 @@ function App() {
             <Route exact path="/user_policy" element={<UserPolicy />} />
             <Route element={PageNotFound} />
 
-            <Route
-              exact
-              path="/r"
-              element={
-                user && user._id ? (
-                  <Home1 setLoginUser={setLoginUser} />
-                ) : (
-                  <Login setLoginUser={setLoginUser} />
-                )
-              }
-            />
             <Route
               path="/login"
               element={<Login setLoginUser={setLoginUser} />}

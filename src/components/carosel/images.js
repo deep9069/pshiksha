@@ -1,6 +1,6 @@
 import portfolio from "./shikshaportfolio.png"
-import cg_blog from "./cg_blog.jpg";
-import img3 from "./img3.jpg"
+import cg_blog from "./internship.jpg";
+import img3 from "./neet.jpg"
 const images = [{
     id: 1,
     src: portfolio,

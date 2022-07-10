@@ -27,7 +27,7 @@ function NavBar() {
               }}
             />
             <i className="logotext" style={{ position: "relative", top: -10 }}>
-              P SHIKSHA 4.0{" "}
+              P SHIKSHA 4.0
             </i>
           </NavLink>
         </div>
@@ -99,6 +99,12 @@ function NavBar() {
                   <i class="fa fa-caret-down"></i>
                 </button>
                 <div class="dropdown-content1">
+                  <NavLink exact to="/blog" onClick={handleClick}>
+                    Blog
+                  </NavLink>
+                  <NavLink exact to="/blogpost" onClick={handleClick}>
+                    Post
+                  </NavLink>
                   <NavLink exact to="/privacy_policy" onClick={handleClick}>
                     Privacy Policy
                   </NavLink>

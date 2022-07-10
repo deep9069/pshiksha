@@ -10,8 +10,9 @@ export const Home1 = () => {
     <>
      <div className='hero'>
           <div className='row'>
-            <p style={{ color: "black" ,textAlign:"left",fontSize:22 }}>WELCOME TO PREMI JI's SHIKSHA 4.0</p>
-            <p style={{ color: "black" ,textAlign:"left",fontSize:18}}>Start a new learning journey with Us.</p>
+            <div className="txtbtn">
+            <p style={{ color: "black" ,textAlign:"left",fontSize:22, fontWeight:"bold"}}>WELCOME TO PREMI JI's SHIKSHA 4.0</p>
+            <p style={{ color: "black" ,textAlign:"left", fontWeight:"bold"}}>Start a new learning journey with Us.</p>
           
               <button className='btn-ielts' 
                 >
@@ -21,7 +22,7 @@ export const Home1 = () => {
               {/* <button>
                 VIEW COURSE <i className='fa fa-long-arrow-alt-right'></i>
               </button> */}
-
+</div>
         </div>
       </div>
       <ImageSlider images={images}/>

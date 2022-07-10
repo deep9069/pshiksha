@@ -23,7 +23,7 @@ const ImageSlider = ({images}) => {
         <Slider {...settings}>
           {images.map((item) => (
             <div key={item.id}>
-              <img src={item.src}  alt={item.alt} />
+              <img src={item.src} style={{width: "75%",height: "50%",verticalAlign: "center" }} alt={item.alt} />
             </div>
           ))}
         </Slider>

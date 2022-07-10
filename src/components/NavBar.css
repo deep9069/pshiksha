@@ -58,7 +58,8 @@
   text-align: left;
 }
 .navba a:hover, .dropdown1:hover .dropbtn1 {
-  background-color: red;
+  background-color: rgb(51, 51, 35)
+  ;
   height:55px;
   margin-bottom: 5px;
 }
@@ -87,13 +88,14 @@
 }
 
 .navba a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: rgb(51, 51, 35);
 }
 
 .dropdown-content {
   display: none;
   position: fixed;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
+  background: linear-gradient(160deg,#c9d9d6    20%, #949494 100%);
   margin-left: 10%;
   width: 1000px;
   left: 0;
@@ -137,9 +139,9 @@
   clear: both;
 }
 .navbar {
-  /* background: linear-gradient(135deg,rgb(40, 188, 214) 20%,rgb(64, 250, 79) 100%); */
+  background: linear-gradient(160deg,#00cdac    20%, #6dd5ed 100%);
   /* background-color: rgba(0, 0, 0, 0.2); */
-  background:#000000;
+  /* background:#000000; */
   height: 55px;
   width: 100%;
   display: flex;
@@ -168,11 +170,11 @@
   letter-spacing: 1px;
   font-weight: bold;
   font-family: 'Montserrat','sans-serif';
-  background: url('./assets/strip.png');
+  background: url('./assets/yellow and black.jpg');
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: text 9s linear infinite;
+  animation: text 11s linear infinite;
 }
 
 @keyframes text{

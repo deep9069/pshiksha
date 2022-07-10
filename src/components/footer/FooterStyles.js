@@ -2,11 +2,13 @@ import styled from 'styled-components';
 
 export const Box = styled.div`
 padding: 80px 60px;
-background: black;
+// background: black;
+background: linear-gradient(160deg,#00cdac    20%, #6dd5ed 100%);
 position: sticky;
 overflow:auto;
 width: auto;
 margin-bottom:-100px;
+margin-right:-100px;
 
 
 @media (max-width: 1000px) {
@@ -54,7 +56,7 @@ font-size: 18px;
 text-decoration: none;
 
 &:hover {
-	color: #1eb2a6;
+	color: black;
 	transition: 200ms ease-in;
 }
 `;

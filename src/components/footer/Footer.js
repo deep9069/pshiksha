@@ -7,6 +7,7 @@ Column,
 FooterLink,
 Heading,
 } from "./FooterStyles";
+import { NavLink } from "react-router-dom";
 
 export const Footer = () => {
 return (
@@ -25,43 +26,51 @@ return (
 			<FooterLink href="#">Testimonials</FooterLink>
 		</Column>
 		<Column>
-			<Heading>Services</Heading>
-			<FooterLink href="#">Writing</FooterLink>
-			<FooterLink href="#">Internships</FooterLink>
-			<FooterLink href="#">Coding</FooterLink>
-			<FooterLink href="#">Teaching</FooterLink>
+		<Heading>Services</Heading>
+		<NavLink exact to="./HomeTution" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
+			  <FooterLink >Tutions</FooterLink>
+			</NavLink>
+			<NavLink exact to="./HomeTution" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
+			  <FooterLink >Engineering</FooterLink>
+			</NavLink>
+			<NavLink exact to="./HomeTution" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
+			  <FooterLink >Exam prep</FooterLink>
+			</NavLink>
+			<NavLink exact to="./Overseas" className="link"style={{textDecoration:"none",marginBottom:"10px"}}>
+			  <FooterLink >Overseas</FooterLink>
+			</NavLink>
 		</Column>
 		<Column>
 			<Heading>Contact Us</Heading>
-			<FooterLink href="#">G-7/189, Above Gianis Ice cream, Sector 16,Rohini, new Delhi-110089</FooterLink>
+			<FooterLink href="https://goo.gl/maps/sKdJbVdrhc9fVh2g7">G-7/189, Above Gianis Ice cream, Sector 16,Rohini, new Delhi-110089</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>
-			<FooterLink href="#">
+			<FooterLink href="https://www.facebook.com/shiksha4.0">
 			<i className="fab fa-facebook-f">
 				<span style={{ marginLeft: "10px" }}>
 				Facebook
 				</span>
 			</i>
 			</FooterLink>
-			<FooterLink href="#">
+			<FooterLink href="https://www.instagram.com/shiksha4.0/">
 			<i className="fab fa-instagram">
 				<span style={{ marginLeft: "10px" }}>
 				Instagram
 				</span>
 			</i>
 			</FooterLink>
-			<FooterLink href="#">
-			<i className="fab fa-twitter">
+			<FooterLink href="https://shiksha4-0.tumblr.com/">
+			<i className="fab fa-tumblr">
 				<span style={{ marginLeft: "10px" }}>
-				Twitter
+				Tumblr
 				</span>
 			</i>
 			</FooterLink>
-			<FooterLink href="#">
-			<i className="fab fa-youtube">
+			<FooterLink href="https://www.reddit.com/user/FreeShiksha">
+			<i className="fab fa-reddit">
 				<span style={{ marginLeft: "10px" }}>
-				Youtube
+				Reddit
 				</span>
 			</i>
 			</FooterLink>

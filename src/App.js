@@ -43,6 +43,8 @@ import Uk from "./components/Pages/Uk";
 import Usa from "./components/Pages/Usa";
 import Blog from "./components/blog/blog";
 import BlogPost from "./components/blog/BlogPost";
+import NewPost from "./components/blog/NewPost";
+import Ck from "./components/blog/ck";
 function App() {
   const [user,setLoginUser]= useState({})
   return (
@@ -106,6 +108,7 @@ function App() {
             <Route exact path="/privacy_policy" element={<PrivacyPolicy />} />
             <Route exact path="/blog" element={<Blog/>} />
             <Route exact path="/blogpost" element={<BlogPost/>} />
+            <Route exact path="/newpost" element={<NewPost/>} />
             <Route
               exact
               path="/terms_of_service"

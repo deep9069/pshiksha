@@ -13,23 +13,32 @@ const ImageSlider = ({images}) => {
     slidesToScroll: 1,
     lazyLoad: true,
     autoplay: true,
-    autoplaySpeed: 4000,
-   
+    autoplaySpeed: 2000,
   };
   return (
     <>
-    <div className="carousel">
-      <div className="imgslider">
-        <Slider {...settings}>
-          {images.map((item) => (
-            <div key={item.id}>
-              <img src={item.src} style={{width: "75%",height: "50%",verticalAlign: "center" }} alt={item.alt} />
-            </div>
-          ))}
-        </Slider>
+      <div className="carousel">
+        <div className="imgslider">
+          <Slider {...settings}>
+            {images.map((item) => (
+              <div key={item.id}>
+                <a href={item.link} target='_blank'>
+                  <img
+                    src={item.src}
+                    style={{
+                      width: "75%",
+                      height: "50%",
+                      verticalAlign: "center",
+                    }}
+                    alt={item.alt}
+                  />
+                </a>
+              </div>
+            ))}
+          </Slider>
+        </div>
       </div>
-      </div>
-          </>
-  )
+    </>
+  );
 }
 export default ImageSlider;

@@ -10,10 +10,11 @@ body {
     width: 100%; 
  } 
 
- .imgslider{
+.imgslider{
     margin-left:7%;
     height: 100%;
- }
+}
+
 .tag {
     text-align: center;
 }

@@ -45,6 +45,16 @@ import Blog from "./components/blog/blog";
 import BlogPost from "./components/blog/BlogPost";
 import NewPost from "./components/blog/NewPost";
 import Ck from "./components/blog/ck";
+import Sitemap from "./pages/Sitemap";
+import Assignments from "./pages/Assignmentsmaking";
+import Backpaperprep from "./pages/Backpaperprep";
+import Btechprojects from "./pages/Btechprojects";
+import Cvmaking from "./pages/Cvmaking";
+import Peptalk from "./pages/Peptalk";
+import Placementprep from "./pages/Placementprep";
+import Presentationmaking from "./pages/Presentationmaking";
+import Update from "./pages/updateofdata";
+
 function App() {
   const [user,setLoginUser]= useState({})
   return (
@@ -52,14 +62,12 @@ function App() {
       <div className="App">
         <Router>
           <NavBar />
+          {/* <Sitemap/> */}
           <Routes>
             <Route exact path="/" element={<Home1 />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/contact" element={<Details />} />
-            <Route
-              exact
-              path="/internship"
-              element={
+            <Route exact path="/internship" element={
                 <>
                   <Internship />
                   <Collapsible />
@@ -67,23 +75,11 @@ function App() {
               }
             />
             <Route exact path="/details" element={<Details />} />
-            <Route
-              exact
-              path="/studentprogramme"
-              element={<studentProgramme />}
-            />
+            <Route exact path="/studentprogramme" element={<studentProgramme />}/>
             <Route exact path="/hometution" element={<HomeTution />} />
             <Route exact path="/ambassador" element={<Ambassador />} />
-            <Route
-              exact
-              path="/intern_without_interview"
-              element={<InternWoInterview />}
-            />
-            <Route
-              exact
-              path="/training_cum_internship"
-              element={<Training />}
-            />
+            <Route exact path="/intern_without_interview" element={<InternWoInterview />}/>
+            <Route exact path="/training_cum_internship" element={<Training />}/>
             <Route exact path="/iit" element={<IIt />} />
             <Route exact path="/iitjeepay" element={<Iitjeepay />} />
             <Route exact path="/neetpay" element={<Neetpay />} />
@@ -109,20 +105,24 @@ function App() {
             <Route exact path="/blog" element={<Blog/>} />
             <Route exact path="/blogpost" element={<BlogPost/>} />
             <Route exact path="/newpost" element={<NewPost/>} />
-            <Route
-              exact
-              path="/terms_of_service"
-              element={<TermsOfService />}
-            />
+            <Route exact path="/sitemap" element={<Sitemap/>} />
+
+            <Route exact path="/assignment" element={<Assignments/>} />
+            <Route exact path="/backpaper" element={<Backpaperprep/>} />
+            <Route exact path="/projects" element={<Btechprojects/>} />
+            <Route exact path="/cvmaking" element={<Cvmaking/>} />
+            <Route exact path="/petalk" element={<Peptalk/>} />
+            <Route exact path="/placementprep" element={<Placementprep/>} />
+            <Route exact path="/presentation" element={<Presentationmaking/>} />
+            <Route exact path="/terms_of_service" element={<TermsOfService />}/>
             <Route exact path="/user_policy" element={<UserPolicy />} />
             <Route element={PageNotFound} />
-
-            <Route
-              path="/login"
-              element={<Login setLoginUser={setLoginUser} />}
-            />
+            </Routes>
+            <Routes>
+            <Route exact path="/login" element={<Login setLoginUser={setLoginUser} />}/>
             <Route path="/register" element={<Register />} />
           </Routes>
+          <Update/>
           <Footer />
         </Router>
       </div>

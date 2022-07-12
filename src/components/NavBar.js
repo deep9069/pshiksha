@@ -35,31 +35,53 @@ function NavBar() {
         {/* <div className="nav-container"> */}
         <div className="innav">
           <ul className={click ? "nav-menu active" : "nav-menu"}>
+          <li className="nav-item">
+              <div class="dropdown1">
+                <div class="dropbtn1">
+                  Engineering
+                  <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="dropdown-content1">
+                <NavLink exact to="/placementprep" onClick={handleClick}>
+                        Placement Preparation
+                      </NavLink>
+                      <NavLink exact to="/cvmaking" onClick={handleClick}>
+                        professional CV making
+                      </NavLink>
+                      <NavLink exact to="/projects" onClick={handleClick}>
+                        Major/Minor project
+                      </NavLink>
+                      {/* <NavLink exact to="/iit" onClick={handleClick}>
+                        Plag-free reports
+                      </NavLink> */}
+                  <NavLink exact to="/assignment" onClick={handleClick}>
+                   Assignments
+                  </NavLink>
+                  <NavLink exact to="/backpaper" onClick={handleClick}>
+                   Back Paper prep
+                  </NavLink>
+                  <NavLink exact to="/petalk" onClick={handleClick}>
+                   Pre Talk
+                  </NavLink>
+                  <NavLink exact to="/placementprep" onClick={handleClick}>
+                   Placement Prep.
+                  </NavLink>
+                  <NavLink exact to="/presentation" onClick={handleClick}>
+                   Presentation
+                  </NavLink>
+                </div>
+              </div>
+            </li>
             <li className="nav-item">
               <div class="dropdown">
-                <button class="dropbtn">
+                <div class="dropbtn">
                   Services
                   <i class="fa fa-caret-down"></i>
-                </button>
+                </div>
                 <div class="dropdown-content">
                   <div class="row">
                     <div class="column">
-                      <h3>Engineering</h3>
-                      <NavLink exact to="/iit" onClick={handleClick}>
-                        Placement Preparation
-                      </NavLink>
-                      <NavLink exact to="/iit" onClick={handleClick}>
-                        professional CV making
-                      </NavLink>
-                      <NavLink exact to="/iit" onClick={handleClick}>
-                        Major/Minor project
-                      </NavLink>
-                      <NavLink exact to="/iit" onClick={handleClick}>
-                        Plag-free reports
-                      </NavLink>
-                    </div>
-                    <div class="column">
-                      <h3>Exams</h3>
+                      <h3 style={{marginBottom:"20px"}}>Exams</h3>
                       <NavLink exact to="/iit" onClick={handleClick}>
                         IIT
                       </NavLink>
@@ -68,7 +90,7 @@ function NavBar() {
                       </NavLink>
                     </div>
                     <div class="column">
-                      <h3>School Of Abroad</h3>
+                      <h3 style={{marginBottom:"20px"}}>School Of Abroad</h3>
                       <NavLink exact to="/ielts" onClick={handleClick}>
                         IELTS
                       </NavLink>
@@ -77,12 +99,12 @@ function NavBar() {
                       </NavLink>
                     </div>
                     <div class="column">
-                      <h3>Students</h3>
+                      <h3 style={{marginBottom:"20px"}}>Students</h3>
                       <NavLink exact to="/internship" onClick={handleClick}>
                         Internship
                       </NavLink>
                       <NavLink exact to="/training_cum_internship" onClick={handleClick}>
-                        Training cum Internship
+                        Online Training Internship
                       </NavLink>
                       <NavLink exact to="/ambassador" onClick={handleClick}>
                         Campus Ambassador
@@ -94,10 +116,10 @@ function NavBar() {
             </li>
             <li className="nav-item">
               <div class="dropdown1">
-                <button class="dropbtn1">
+                <div class="dropbtn1">
                   More
                   <i class="fa fa-caret-down"></i>
-                </button>
+                </div>
                 <div class="dropdown-content1">
                   <NavLink exact to="/blog" onClick={handleClick}>
                     Blog

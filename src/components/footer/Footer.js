@@ -8,6 +8,11 @@ FooterLink,
 Heading,
 } from "./FooterStyles";
 import { NavLink } from "react-router-dom";
+import { Col } from "react-grid-system";
+import scam from "../assets/scammaster.webp";
+import idfc from "../assets/idfc.webp";
+import razorpay from "../assets/razorpay.webp";
+import university from "../assets/dtunsutiiit.png";
 
 export const Footer = () => {
 return (
@@ -19,12 +24,12 @@ return (
 	</h4>
 	<Container>
 		<Row>
-		<Column>
+		{/* <Column>
 			<Heading>About Us</Heading>
 			<FooterLink href="#">Aim</FooterLink>
 			<FooterLink href="#">Vision</FooterLink>
 			<FooterLink href="#">Testimonials</FooterLink>
-		</Column>
+		</Column> */}
 		<Column>
 		<Heading>Services</Heading>
 		<NavLink exact to="./HomeTution" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
@@ -39,10 +44,6 @@ return (
 			<NavLink exact to="./Overseas" className="link"style={{textDecoration:"none",marginBottom:"10px"}}>
 			  <FooterLink >Overseas</FooterLink>
 			</NavLink>
-		</Column>
-		<Column>
-			<Heading>Contact Us</Heading>
-			<FooterLink href="https://goo.gl/maps/sKdJbVdrhc9fVh2g7">G-7/189, Above Gianis Ice cream, Sector 16,Rohini, new Delhi-110089</FooterLink>
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>
@@ -74,6 +75,51 @@ return (
 				</span>
 			</i>
 			</FooterLink>
+		</Column>
+		<Column>
+		<></>
+			<Heading>Contact Us</Heading>
+			<FooterLink href="https://goo.gl/maps/sKdJbVdrhc9fVh2g7"> <i className="fas fa-map-marked-alt"></i>&nbsp;&nbsp;G-7/189, Above Gianis Ice cream, Sector 16,Rohini, new Delhi-110089</FooterLink>
+			<FooterLink >
+			<i className="far fa-envelope-open">
+				<span style={{ marginLeft: "10px" }}>
+				pshiksha4.0@gmail.com
+				</span>
+			</i>
+			</FooterLink>
+			<FooterLink >
+			<i className="fas fa-phone">
+				<span style={{ marginLeft: "10px" }}>
+				+91-9599139063 +91-9821693299
+				</span>
+			</i>
+			</FooterLink>
+		</Column>
+		<Column>
+		<div style={{display:"flex"}}>
+		Verified by: 
+		<FooterLink >
+			<img src={scam} style={{marginLeft:18,width:"150px"}}></img>
+		</FooterLink>
+		</div>
+		<div style={{display:"flex",marginTop:"10px"}}>
+		Official Payment Partner:
+		<FooterLink >
+			<img src={idfc} style={{marginLeft:12,width:"150px"}}></img>
+		</FooterLink>
+		</div>
+		<div style={{display:"flex",marginTop:"10px"}}>
+		Official Bank Partner:
+		<FooterLink >
+			<img src={razorpay} style={{marginLeft:18,width:"150px"}}></img>
+		</FooterLink>
+		</div>
+		<div style={{display:"flex",marginTop:"10px"}}>
+		Official Partner:
+		<FooterLink >
+			<img src={university} style={{marginLeft:18,width:"150px"}}></img>
+		</FooterLink>
+		</div>
 		</Column>
 		</Row>
 	</Container>

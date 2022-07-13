@@ -24,6 +24,7 @@ function Training() {
           </div>
         </div>
       </Container>
+      <br/>
       <div className="wrapper">
         <Card
           img={pic1}

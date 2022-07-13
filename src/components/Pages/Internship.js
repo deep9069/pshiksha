@@ -164,12 +164,11 @@ const Internship = () => {
         <br />
         <br />
         <br />
-        <p>
-          Interested in <b>Internship without Interview</b> checkout{" "}
-          <Link to="/intern_without_interview" target="_blank">
-            here
-          </Link>
-        </p>
+        Interested in <b>Internship without Interview</b>{" "}
+          checkout&nbsp;
+        <Link to="/intern_without_interview" target="_blank" className="link-here">
+          here
+        </Link>
       </div>
     </div>
   );

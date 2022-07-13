@@ -5,188 +5,176 @@ import { BsFillPatchQuestionFill } from "react-icons/bs";
 
 const Ireland = () => {
   return (
-      <div className="ireland">
-        <div className="overmain">
-          <div className="overhead1">
-            <h1 style={{ fontSize: "40px" }}>
-              <b>
-                Ireland <ReactCountryFlag countryCode="ie" svg />
-              </b>
-            </h1>
-          </div>
-          <br />
-          <br />
-          <div className="overhead2">
-            <h2>
-              <BsFillPatchQuestionFill /> Why Study In Ireland
-            </h2>
-          </div>
-          <br />
-          <p className="overpara1">
-            {/* <h3>Growing Destination</h3>
-            <p>
-              Australia is currently the third most popular destination for
-              international students in the English-speaking world, behind the
-              United States and the UK.
-            </p>
-            <br />
-            <h3>Global Recognition</h3>
-            <p>
-              Graduates from Australian schools are recognized due to the
-              impressive international reputation of the Australian education
-              system.
-            </p>
-            <br />
-            <h3>Cost of Living</h3>
-            <p>
-              Living expenses and tuition costs are lower in Australia than they
-              are in the United States and United Kingdom. International
-              students are able to work part time while they study.
-            </p>
-            <br />
-            <h3>Diversity of Education</h3>
-            <p>
-              Institutions in Australia offer a wide variety of courses and
-              degrees, so international students can easily choose area of their
-              interest.
-            </p>
-            <br />
-            <h3>Technology</h3>
-            <p>
-              One of the most appealing thing of Australia for international
-              students is the emphasis on scientific research.{" "}
-            </p>
-            <br />
-            <h3>Work</h3>
-            <p>
-              International students are allowed to work up to 20 hours per week
-              while studying in Australia. This is a great opportunity for those
-              who want to earn money for their living expenses.
-            </p> */}
+    <div className="ireland">
+      <div className="overmain">
+        <div className="overhead1">
+          <h1 style={{ fontSize: "40px" }}>
+            <b>
+              Ireland <ReactCountryFlag countryCode="ie" svg />
+            </b>
+          </h1>
+        </div>
+        <br />
+        <br />
+        <div className="overhead2">
+          <h2>
+            <BsFillPatchQuestionFill /> Why Study In Ireland
+          </h2>
+        </div>
+        <br />
+        <p className="overpara1">
+          <h3>Quality education</h3>
+          <p>
+            Ireland’s education system is among the best you’ll find.
+            Universities in Ireland rank in the top 3% world-wide and graduates
+            from Irish universities are attractive to employers the world over.
           </p>
           <br />
+          <h3>Research opportunities</h3>
+          <p>
+            Irish universities are in the top 1% of research institutions in the
+            world. Some of the world’s biggest and best companies have key
+            strategic research facilities here and international students can
+            join research programmes that are driving innovation and changing
+            lives worldwide.
+          </p>
           <br />
-          <div className="overhead2">
-            <h2>
-              <BsFillPatchQuestionFill /> Requirements To Study In Ireland
-            </h2>
-          </div>
+          <h3>Career opportunities</h3>
+          <p>
+            Many leading global companies are located in Ireland and career
+            opportunities are plentiful. It is especially good for careers in
+            Software Development and IT, Engineering, Financial Services, Food
+            and Agriculture, Medtech and Pharma.
+          </p>
           <br />
-          <div className="overpara1">
+          <h3>Growing economy</h3>
+          <p>
+            The Irish economy is one of the fastest growing in the Eurozone and
+            the 6th most competitive in the world. It is an entrepreneurial
+            country with global connections.
+          </p>
+          <br />
+          <h3>English language</h3>
+          <p>
+            English is the main language spoken and the global language of
+            business and technology. Knowing how to read and write in English
+            increases your marketability and gives you a big advantage if you’re
+            aiming for a job in a multinational company or an English-speaking
+            country.{" "}
+          </p>
+          <br />
+          <h3>History and culture</h3>
+          <p>
+            Ireland is full of museums, cathedrals, parks and monuments and is
+            famous for its contribution to arts, literature, film and music.
+          </p>
+        </p>
+        <br />
+        <br />
+        <div className="overhead2">
+          <h2>
+            <BsFillPatchQuestionFill /> Requirements To Study In Ireland
+          </h2>
+        </div>
+        <br />
+        <div className="overpara1">
+          <p>
+            For each course, a minimum academic score of 60% and above in
+            Standard XII is required. Foundations and Diploma programmes are
+            available for students who have secured around 50%. The student
+            should have completed 18 years of age before joining a degree
+            program. It is important to remember that even though entry
+            requirement is lower at Irish universities, the education standard
+            is not. Hence, you should carefully enhance your ability to cope
+            with the high standard of education through the course of next few
+            years beforehand.
+          </p>
+          <br />
+          <p>The documents to be submitted are:</p>
+          <br />
+          <div className="overpara0">
             <ul>
-              {/* <li>
-                  Secondary and higher secondary report or certificate along
-                  with the transcripts (mark sheets or report cards) of the
-                  final exams. It is ideal to convert the marks obtained in
-                  accordance with Australia's grading system. IELTS and GMAT
-                  exam scorecard (in case the student is applying for an MBA
-                  course) must be provided. The minimum scores in IELTS and GMAT
-                  exam may vary from education provider to provider. Refer to
-                  the particular university website to see the eligibility
-                  requirements for the course.
-              </li>
-              <br />
               <li>
-                  If you are applying for an MBA degree or a degree in higher
-                  education like doctoral programs; you may be required to
-                  provide work experience certificates or letters, mentioning
-                  the complete work details: key responsibilities and positions
-                  held. A detailed CV is also mandatory.
+                Academic Transcripts: Mark Sheets of Standard X, XII, and the
+                bachelor’s degree (if applicable)
               </li>
-              <br />
+              <li>Internet-based TOEFL or IELTS scores</li>
               <li>
-                  A statement of purpose or personal essay mentioning career
-                  goals, interests, extracurricular activities, and why the
-                  student has chosen the particular stream and how he/she will
-                  manage financially during the stay in Australia needs to be
-                  provided.
+                If you have work experience then two letters of recommendation
+                (LOR) from the employer/manager who knows you well and can
+                comment on your professional abilities
               </li>
-              <br />
+              <li>Statement of Purpose (SOP)</li>
+              <li>Academic Resume</li>
               <li>
-                  Letter of recommendation (two recommended) from the person who
-                  has taught the student or knows him/her professionally,
-                  highlighting the strengths weaknesses of the student and why
-                  he/she would excel in the chosen field, also needs to be
-                  provided.
-              </li> */}
+                Portfolio (in case of students applying for art and design
+                courses or architecture programs)
+              </li>
+              <li>
+                Others (Certificates/achievements at the state and national
+                level and extracurricular activities)
+              </li>
+              <li>Proof of funds</li>
+              <li>Health insurance</li>
+              <li>A copy of your passport</li>
             </ul>
             <br />
           </div>
-          <br />
-          <br />
-          <div className="overhead2">
-            <h2>
-              <BsFillPatchQuestionFill /> Cost Of Studying In Ireland
-            </h2>
-          </div>
-          <br />
-          {/* <div className="overpara1">
-            <h3>1. Tuition fee is your prime expenditure</h3>
-            <div className="overimg1">
-              <br />
-              <br />
-              <p>
-                Please note all figures are indicative.
-                <br /> Most commonly, courses in humanities, arts and education
-                are a little cheaper.
-              </p>
-            </div>
-            <br />
-            <h3>2. Where will you live? Calculate accommodation costs</h3>
-            <div className="overimg1">
-              <br />
-              <a
-                href="https://www.studyinaustralia.gov.au/english/live-in-australia/living-costs"
-                className="overpara3"
-                target="_blank"
-              >
-                Source
-              </a>
-              <br />
-              <br />
-              <h4>Living Expenses</h4>
-              <br />
-              <p>
-                Government, general living expenses amount to $21,041 per year.
-                An international student spends between $20,000 and $27,000 per
-                year (given your living arrangements and personal choices).{" "}
-                <br />
-                <br />
-                You should also consider these common expenses when creating
-                your budget:
-              </p>
-              <br />
-              <br />
-              <a
-                href="https://www.studyinaustralia.gov.au/english/live-in-australia/living-costs"
-                className="overpara3"
-                target="_blank"
-              >
-                Source
-              </a>
-            </div>
-          </div> */}
-          <br />
-          <br />
-          <div className="overhead2">
-            <h2>
-              <BsFillPatchQuestionFill /> Scholarship To Study In Ireland
-            </h2>
-          </div>
-          <br />
-          {/* <p className="overpara1">
-            With so many Indian students applying to Australian institutions,
+          <p>
+            Photocopies of these documents should be translated in English and
+            certified by the educational institution or by notary.
+          </p>
+        </div>
+        <br />
+        <br />
+        <div className="overhead2">
+          <h2>
+            <BsFillPatchQuestionFill /> Cost Of Studying In Ireland
+          </h2>
+        </div>
+        <br />
+        <div className="overpara1">
+          <p>
+            The average tuition costs for attending a college in Ireland will
+            vary according to the school, the course and the city your school is
+            located in. The average rates for tuition vary from about €10,500
+            and €30,000 per year. This amount varies and is based on a number of
+            factors. There is no tuition fee for EU residents and the complete
+            education is free, however, international students are supposed to
+            bear their course costs. International students can also look at
+            various financial assistance and scholarships available to them.
+          </p>
+          <br/>
+          <h4>Living Expenses</h4>
+          <br/>
+          <p>
+            On average, an international student needs approximately €600 to
+            €1000 per month in Ireland. Prices differ a lot in the big cities
+            and small towns all across Ireland, with Dublin being the most
+            expensive city to live in.
+          </p>
+        </div>
+        <br />
+        <br />
+        <div className="overhead2">
+          <h2>
+            <BsFillPatchQuestionFill /> Scholarship To Study In Ireland
+          </h2>
+        </div>
+        <br />
+        <p className="overpara1">
+            With so many Indian students applying to Ireland institutions,
             different facilities and exemptions have been made available to help
             them. These scholarships assist Indian and foreign students in
-            decreasing the expenditure and cost to study in Australia.
+            decreasing the expenditure and cost to study in Ireland.
             Scholarships are awarded on the basis of merit, academic
             performance, or potential abilities. Interested students must
             contact our consultants for applying in the scholarship program.
-          </p> */}
-          <br />
-          <br />
-        </div>
+          </p>
+        <br />
+        <br />
       </div>
+    </div>
   );
 }
 

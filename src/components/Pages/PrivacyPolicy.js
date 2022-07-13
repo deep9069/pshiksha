@@ -31,7 +31,7 @@ const PrivacyPolicy = () => {
             the terms of this privacy policy (the &quot;Privacy Policy&quot;).
             Capitalized terms not defined in this Privacy Policy have the
             meanings set forth in the{" "}
-            <Link to="/terms_of_service" target="_blank">
+            <Link to="/terms_of_service" target="_blank" className='link-here'>
               Terms and Conditions
             </Link>
             . We reserve the right to change our Privacy Policy at any time. If
@@ -222,11 +222,11 @@ const PrivacyPolicy = () => {
             with you under their tems of service. One such third party is
             YouTube and by using the Sites or Services, you agree to be bound by
             the YouTube Terms of Service located&nbsp;
-            <a href="https://www.youtube.com/t/terms" target="_blank">
+            <a href="https://www.youtube.com/t/terms" target="_blank" className='link-here'>
               here
             </a>{" "}
             and also by the privacy policies of Google located&nbsp;
-            <a href="https://policies.google.com/privacy" target="_blank">
+            <a href="https://policies.google.com/privacy" target="_blank" className='link-here'>
               here
             </a>
             .&nbsp;

@@ -172,7 +172,6 @@ export function Neet() {
                 <p>860+ hours of live teaching sessions.</p>
               </li>
               <br />
-              <br />
             </ul>
             <Button href={pdf1} target="_blank">
               Structure of Course
@@ -298,6 +297,7 @@ export function Neet() {
         </div>
         <br />
         <br />
+        <br/>
         <h3>11. ASSIGNMENTS AND WORKSHEETS</h3>
         <p className="para3">
           Advanced Level Worksheets will be provided to maximize score on each

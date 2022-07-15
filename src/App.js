@@ -59,7 +59,7 @@ function App() {
   const [user,setLoginUser]= useState({})
   return (
     <>
-      <div className="App">
+      {/* <div className="App"> */}
         <Router>
           <NavBar />
           {/* <Sitemap/> */}
@@ -125,7 +125,7 @@ function App() {
           <Update/>
           <Footer />
         </Router>
-      </div>
+      {/* </div> */}
     </>
   );
 }

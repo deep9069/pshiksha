@@ -1,6 +1,7 @@
 .hero {
   display: flex;
   background-image: url("./assets/10502.jpg");
+
   /* background: linear-gradient(160deg,#de6262   20%, #ffb88c 100%); */
   background-size: cover;
   background-attachment: sticky;

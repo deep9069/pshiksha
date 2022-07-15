@@ -77,9 +77,9 @@ return (
 			</FooterLink>
 		</Column>
 		<Column>
-		<></>
+		
 			<Heading>Contact Us</Heading>
-			<FooterLink href="https://goo.gl/maps/sKdJbVdrhc9fVh2g7"> <i className="fas fa-map-marked-alt"></i>&nbsp;&nbsp;G-7/189, Above Gianis Ice cream, Sector 16,Rohini, new Delhi-110089</FooterLink>
+			<FooterLink href="https://goo.gl/maps/sKdJbVdrhc9fVh2g7"> <i className="fas fa-map-marked-alt"><span style={{ marginLeft: "10px" }}>G-7/189, Above &nbsp;Gianis Ice cream, &nbsp;Sector-16, Rohini, new Delhi-110089</span></i></FooterLink>
 			<FooterLink >
 			<i className="far fa-envelope-open">
 				<span style={{ marginLeft: "10px" }}>
@@ -87,13 +87,13 @@ return (
 				</span>
 			</i>
 			</FooterLink>
-			<FooterLink >
+			
 			<i className="fas fa-phone">
 				<span style={{ marginLeft: "10px" }}>
-				+91-9599139063 +91-9821693299
+				+91-9599139063 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91-9821693299
 				</span>
 			</i>
-			</FooterLink>
+			
 		</Column>
 		<Column>
 		<div style={{display:"flex"}}>

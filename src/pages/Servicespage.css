@@ -5,16 +5,16 @@
 * {
 	box-sizing: border-box;
 	margin: 0;
-	padding: 0;
+	padding: 50;
 }
 
 html {
 	scroll-behavior: smooth;
 }
-body {
+/* body {
 	background: #FFF;
 	font-family: 'Open Sans', sans-serif;
-}
+} */
 
 header {
 	height: 90vh;
@@ -256,6 +256,7 @@ a, button {
 /*PORTFOLIO*/
 .extra {
 	width: 100%;
+	background-color: #ffffff;
 }
 .extra p {
 	padding: 30px;

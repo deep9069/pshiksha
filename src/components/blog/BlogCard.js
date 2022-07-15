@@ -7,7 +7,7 @@ import { NavLink } from "react-router-dom";
 const BlogCard = () => {
   return (
     <>
-    <div className="blogcont">
+    {/* <div className="blogcont"> */}
     <div className='testimonal padding'>
     
       <h2 style={{textAlign:"center",marginBottom:-25,fontSize:"30"}}>Blogs</h2>
@@ -43,7 +43,7 @@ const BlogCard = () => {
           </div>
         </div>
       </div>
-      </div>
+      {/* </div> */}
     </>
   )
 }

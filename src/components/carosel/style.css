@@ -11,12 +11,12 @@ body {
  } 
 
 .imgslider{
-    margin-left:7%;
     height: 100%;
+    margin-left: -85px;
+    margin-right: -160px;
 }
   
 .slick-slide img {
-    /* display: flex; */
     margin: auto;
     width: 75;
     height: 35%;

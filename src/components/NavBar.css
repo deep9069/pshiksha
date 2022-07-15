@@ -161,11 +161,10 @@
   position: fixed;
   display: flex;
   line-height: 143px;
-  margin-right: 70%;
-
-  
+  margin-right: 1rem;
+  margin-right: 75%;
+  /* width: 100%; */
 }
-
 
 .innav{
   position:fixed;

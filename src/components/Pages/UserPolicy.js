@@ -149,7 +149,7 @@ const UserPolicy = () => {
             remove any User Content for any reason or for no reason, including
             User Content that Premi ji's Shiksha 4.0 believes violates this
             Acceptable Use Policy or its{" "}
-            <Link to="/terms_of_service" target="_blank">
+            <Link to="/terms_of_service" target="_blank" className="link-here">
               Terms and Conditions
             </Link>
             . Premi ji's Shiksha 4.0 may also permanently or temporarily
@@ -157,7 +157,7 @@ const UserPolicy = () => {
             any reason, including if, in Premi Ji's Shiksha 4.0's sole
             determination, a User violates any provision of this Acceptable Use
             Policy, our{" "}
-            <Link to="/terms_of_service" target="_blank">
+            <Link to="/terms_of_service" target="_blank" className="link-here">
               Terms and Conditions
             </Link>
             , or for no reason.

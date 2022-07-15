@@ -23,8 +23,10 @@ const Neetpay = () => {
           <div className="neet2">
             <p>
               {" "}
-              <FaBook /> One Time Payment - &#8377;1,17,999 (Inclusive of 18%
-              GST)
+              <h4>
+                <FaBook /> One Time Payment - &#8377;1,17,999 (Inclusive of 18%
+                GST)
+              </h4>
             </p>
           </div>
           <div>
@@ -43,11 +45,15 @@ const Neetpay = () => {
           <br />
           <div class="verticalLineieltsp"></div>
           <br />
+          <br/>
+          <br/>
           <div className="neet2">
             <p>
               {" "}
-              <FaBook /> Three Time Payment - &#8377;1,21,000 (Inclusive of 18%
-              GST)
+              <h4>
+                <FaBook /> Three Time Payment - &#8377;1,21,000 (Inclusive of
+                18% GST)
+              </h4>
             </p>
           </div>
           <div className="neetpara">
@@ -72,7 +78,7 @@ const Neetpay = () => {
           <br />
           <br />
           <br />
-          <div>
+          <div className="neet-3-btns">
             <div>
               <br />
               <br />
@@ -101,13 +107,17 @@ const Neetpay = () => {
             </div>
           </div>
           <br />
+          <br/>
           <div class="verticalLineieltsp"></div>
           <br />
+          <br/>
           <div className="neet2">
             <p>
               {" "}
-              <FaBook /> NEET 2023 Study Material & Test Series -
-              &#8377;19,999/-
+              <h4>
+                <FaBook /> NEET 2023 Study Material & Test Series -
+                &#8377;19,999/-
+              </h4>
             </p>
           </div>
           <div>
@@ -126,10 +136,14 @@ const Neetpay = () => {
           <br />
           <div class="verticalLineieltsp"></div>
           <br />
+          <br/>
+          <br/>
           <div className="neet2">
             <p>
               {" "}
-              <FaBook /> NEET 2023 Online Test Series - &#8377;4,499/-
+              <h4>
+                <FaBook /> NEET 2023 Online Test Series - &#8377;4,499/-
+              </h4>
             </p>
           </div>
           <div>

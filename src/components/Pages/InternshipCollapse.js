@@ -232,6 +232,7 @@ function Collapsible() {
               <a
                 href="mailto:pshiksha4.0@gmail.com?subject=Query%20regarding%20internship"
                 target="_self"
+                className="link-here"
               >
                 pshiksha4.0@gmail.com
               </a>

@@ -5,188 +5,207 @@ import { BsFillPatchQuestionFill } from "react-icons/bs";
 
 const Sweden = () => {
   return (
-      <div className="sweden">
-        <div className="overmain">
-          <div className="overhead1">
-            <h1 style={{ fontSize: "40px" }}>
-              <b>
-                Sweden <ReactCountryFlag countryCode="se" svg />
-              </b>
-            </h1>
-          </div>
-          <br />
-          <br />
-          <div className="overhead2">
-            <h2>
-              <BsFillPatchQuestionFill /> Why Study In Sweden
-            </h2>
-          </div>
-          <br />
-          <p className="overpara1">
-            {/* <h3>Growing Destination</h3>
-            <p>
-              Australia is currently the third most popular destination for
-              international students in the English-speaking world, behind the
-              United States and the UK.
-            </p>
-            <br />
-            <h3>Global Recognition</h3>
-            <p>
-              Graduates from Australian schools are recognized due to the
-              impressive international reputation of the Australian education
-              system.
-            </p>
-            <br />
-            <h3>Cost of Living</h3>
-            <p>
-              Living expenses and tuition costs are lower in Australia than they
-              are in the United States and United Kingdom. International
-              students are able to work part time while they study.
-            </p>
-            <br />
-            <h3>Diversity of Education</h3>
-            <p>
-              Institutions in Australia offer a wide variety of courses and
-              degrees, so international students can easily choose area of their
-              interest.
-            </p>
-            <br />
-            <h3>Technology</h3>
-            <p>
-              One of the most appealing thing of Australia for international
-              students is the emphasis on scientific research.{" "}
-            </p>
-            <br />
-            <h3>Work</h3>
-            <p>
-              International students are allowed to work up to 20 hours per week
-              while studying in Australia. This is a great opportunity for those
-              who want to earn money for their living expenses.
-            </p> */}
+    <div className="sweden">
+      <div className="overmain">
+        <div className="overhead1">
+          <h1 style={{ fontSize: "40px" }}>
+            <b>
+              Sweden <ReactCountryFlag countryCode="se" svg />
+            </b>
+          </h1>
+        </div>
+        <br />
+        <br />
+        <div className="overhead2">
+          <h2>
+            <BsFillPatchQuestionFill /> Why Study In Sweden
+          </h2>
+        </div>
+        <br />
+        <p className="overpara1">
+          <h3>High Quality, Unconventional Education</h3>
+          <p>
+            Studying in Sweden is different from studying in other countries
+            because Swedish universities have an open climate with a strong
+            focus on group work. The Swedish education system focuses more on
+            your academic interests than pushing you to achieve a grade. Swedish
+            universities work to prepare you for a successful future; the job
+            market values ambitious, innovative, and perceptive team players, so
+            Swedish universities attempt to instill these qualities in their
+            students. Degree programs in Sweden offer students the opportunity
+            to mix study and practical work, so that they have first-hand
+            experience in their field when they graduate and enter the job
+            market.
           </p>
           <br />
+          <p>
+            The education system in Sweden is student-centric. Relationships
+            between students and teachers are relaxed and informal; as a student
+            in Sweden, you will be expected to address your teachers by their
+            first names. Swedish universities prize personal initiative and
+            independent thinking; if you choose to study in Sweden, you will be
+            expected and required to take an active role and contribute with
+            your opinions and ideas in lectures, seminars, and group
+            discussions. This will give you the opportunity to develop your
+            individual strengths and cultivate you academic abilities.
+          </p>
           <br />
-          <div className="overhead2">
-            <h2>
-              <BsFillPatchQuestionFill /> Requirements To Study In Sweden
-            </h2>
-          </div>
+          <p>
+            Almost everyone in Sweden speaks English nowadays; 89 per cent of
+            Swedes are bilingual, so international students from
+            English-speaking countries need not worry about not being able to
+            communicate if they don’t speak Swedish.
+          </p>
           <br />
-          <div className="overpara1">
+          <h3>Highly Innovative Country</h3>
+          <p>
+            Sweden is one of the world’s most modern countries, and the
+            birthplace of many successful corporations. A number of successful
+            inventions have resulted from research at Swedish universities and
+            companies, including the computer mouse, Bluetooth, the pacemaker,
+            the ball bearing, the dialysis machine, and internet applications
+            such as Spotify and Skype. These recent inventions are built on a
+            long history of excellence in academia and research in Sweden.
+            Sweden is the home of the Nobel prize and several highly acclaimed
+            universities dating back to the 15th century. This innate creativity
+            has established Sweden as a strong nation within design, fashion,
+            and music. It is one of the largest music-exporting countries in the
+            world.
+          </p>
+        </p>
+        <br />
+        <br />
+        <div className="overhead2">
+          <h2>
+            <BsFillPatchQuestionFill /> Requirements To Study In Sweden
+          </h2>
+        </div>
+        <br />
+        <div className="overpara1">
+          <h3>Bachelor's requirements</h3>{" "}
+          <p>
+            The requirements for a bachelor’s program in a Swedish university
+            are pretty simple and straightforward.
+          </p>
+          <br />
+          <div className="overpara0">
             <ul>
-              {/* <li>
-                  Secondary and higher secondary report or certificate along
-                  with the transcripts (mark sheets or report cards) of the
-                  final exams. It is ideal to convert the marks obtained in
-                  accordance with Australia's grading system. IELTS and GMAT
-                  exam scorecard (in case the student is applying for an MBA
-                  course) must be provided. The minimum scores in IELTS and GMAT
-                  exam may vary from education provider to provider. Refer to
-                  the particular university website to see the eligibility
-                  requirements for the course.
-              </li>
-              <br />
               <li>
-                  If you are applying for an MBA degree or a degree in higher
-                  education like doctoral programs; you may be required to
-                  provide work experience certificates or letters, mentioning
-                  the complete work details: key responsibilities and positions
-                  held. A detailed CV is also mandatory.
+                The student must have graduated high school with 60% marks and
+                must have completed the age of 18 before enrolling in a degree
+                program.
               </li>
-              <br />
               <li>
-                  A statement of purpose or personal essay mentioning career
-                  goals, interests, extracurricular activities, and why the
-                  student has chosen the particular stream and how he/she will
-                  manage financially during the stay in Australia needs to be
-                  provided.
+                Prove your English proficiency: The English language general
+                requirements are studies that are equivalent to Swedish upper
+                secondary English Course 6.
               </li>
-              <br />
               <li>
-                  Letter of recommendation (two recommended) from the person who
-                  has taught the student or knows him/her professionally,
-                  highlighting the strengths weaknesses of the student and why
-                  he/she would excel in the chosen field, also needs to be
-                  provided.
-              </li> */}
+                Students must have completed courses in mathematics equivalent
+                to the level of maths taught at Swedish universities;
+                approximately ten years of mathematics study.
+              </li>
             </ul>
             <br />
           </div>
+          <p>
+            This just means that you need to take an internationally recognized
+            English proficiency test like IELTS or TOEFL and make sure it meets
+            the requirements for the branch and university you are applying to.
+          </p>
+        </div>
+        <br />
+        <div className="overpara1">
+          <h3>Masters requirements</h3>{" "}
+          <p>
+            Entry requirements for getting a master’s degree from a Swedish
+            university is as follows:
+          </p>
           <br />
-          <br />
-          <div className="overhead2">
-            <h2>
-              <BsFillPatchQuestionFill /> Cost Of Studying In Sweden
-            </h2>
+          <div className="overpara0">
+            <ul>
+              <li>
+                Must have completed a bachelor’s degree from an internationally
+                recognized university or a degree equivalent to the Swedish
+                Kandidatexamen.
+              </li>
+              <li>English proficiency: Get a good IELTS or TOEFL score.</li>
+            </ul>
           </div>
+        </div>
+        <br />
+        <div className="overpara1">
+          <h3>PHD Entry requirements</h3>{" "}
+          <p>
+            Entry Requirements for a Ph.D. from a Swedish university is as
+            follows:
+          </p>
           <br />
-          {/* <div className="overpara1">
-            <h3>1. Tuition fee is your prime expenditure</h3>
-            <div className="overimg1">
-              <br />
-              <br />
-              <p>
-                Please note all figures are indicative.
-                <br /> Most commonly, courses in humanities, arts and education
-                are a little cheaper.
-              </p>
-            </div>
-            <br />
-            <h3>2. Where will you live? Calculate accommodation costs</h3>
-            <div className="overimg1">
-              <br />
-              <a
-                href="https://www.studyinaustralia.gov.au/english/live-in-australia/living-costs"
-                className="overpara3"
-                target="_blank"
-              >
-                Source
-              </a>
-              <br />
-              <br />
-              <h4>Living Expenses</h4>
-              <br />
-              <p>
-                Government, general living expenses amount to $21,041 per year.
-                An international student spends between $20,000 and $27,000 per
-                year (given your living arrangements and personal choices).{" "}
-                <br />
-                <br />
-                You should also consider these common expenses when creating
-                your budget:
-              </p>
-              <br />
-              <br />
-              <a
-                href="https://www.studyinaustralia.gov.au/english/live-in-australia/living-costs"
-                className="overpara3"
-                target="_blank"
-              >
-                Source
-              </a>
-            </div>
-          </div> */}
-          <br />
-          <br />
-          <div className="overhead2">
-            <h2>
-              <BsFillPatchQuestionFill /> Scholarship To Study In Sweden
-            </h2>
+          <div className="overpara0">
+            <ul>
+              <li>
+                The previous degree completed must be in the same field of
+                study.
+              </li>
+              <li>
+                The applicant must also submit the thesis submitted in the
+                previous degree along with the application.
+              </li>
+              <li>
+                Might require proficiency in both English and Swedish language
+                since some seminars could be conducted in Swedish.
+              </li>
+            </ul>
           </div>
+        </div>
+        <br />
+        <br />
+        <div className="overhead2">
+          <h2>
+            <BsFillPatchQuestionFill /> Cost Of Studying In Sweden
+          </h2>
+        </div>
+        <br />
+        <div className="overpara1">
+          <p>
+            If you're an EU / EEA / Swiss citizen or if you have been granted
+            permanent Swedish residency, you won't have to pay tuition fees. For
+            other international students, the yearly higher education costs in
+            Sweden vary depending on the university and program. Tuition fees in
+            Sweden range from approximately SEK 80,000 per year (approximately
+            7,915 EUR or 9,523 USD as of Feb, 2021) to SEK 295,000 (or
+            approximately 29,188 EUR or 35,117 USD as of Feb, 2021).
+          </p>
           <br />
-          {/* <p className="overpara1">
-            With so many Indian students applying to Australian institutions,
+          <h4>Living Expenses</h4>
+          <br />
+          <p>
+            Living costs depend on the location of study (bigger cities are
+            generally more expensive) but are approximately 8,568 SEK per month
+            including rent (approximately 848 EUR or 1,020 USD as of Feb, 2021).
+          </p>
+        </div>
+        <br />
+        <br />
+        <div className="overhead2">
+          <h2>
+            <BsFillPatchQuestionFill /> Scholarship To Study In Sweden
+          </h2>
+        </div>
+        <br />
+        <p className="overpara1">
+            With so many Indian students applying to Sweden institutions,
             different facilities and exemptions have been made available to help
             them. These scholarships assist Indian and foreign students in
-            decreasing the expenditure and cost to study in Australia.
+            decreasing the expenditure and cost to study in Sweden.
             Scholarships are awarded on the basis of merit, academic
             performance, or potential abilities. Interested students must
             contact our consultants for applying in the scholarship program.
-          </p> */}
-          <br />
-          <br />
-        </div>
+          </p>
+        <br />
+        <br />
       </div>
+    </div>
   );
 }
 

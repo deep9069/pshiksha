@@ -127,11 +127,11 @@ export function Iitjee() {
                 </li>
               </ul>
               <br />
-              <p>&nbsp;</p>
               <Button href={pdf1} target="_blank">
                 Structure of Course
               </Button>
             </div>
+            <br />
             <br />
             <br />
             <i>
@@ -267,7 +267,8 @@ export function Iitjee() {
               </Button>
             </div>
             <br />
-            <br />
+            <br/>
+            <br/>
             <h3>11. ASSIGNMENTS AND WORKSHEETS</h3>
             <p className="para3">
               Advanced Level Worksheets will be provided to maximize score on

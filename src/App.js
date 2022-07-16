@@ -122,7 +122,7 @@ function App() {
             <Route exact path="/login" element={<Login setLoginUser={setLoginUser} />}/>
             <Route path="/register" element={<Register />} />
           </Routes>
-          <Update/>
+          {/* <Update/> */}
           <Footer />
         </Router>
       {/* </div> */}

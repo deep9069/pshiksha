@@ -8,7 +8,7 @@ import Computer from "../components/assets/courses/computer.png"
 import Data from "../components/assets/courses/data.png"
 import Algo from "../components/assets/courses/algo.png"
 import Projects from "../components/assets/courses/projects.png"
-
+import Update from "../pages/updateofdata";
 const Btechprojects = () => {
     return (
         <>
@@ -53,6 +53,7 @@ const Btechprojects = () => {
                         “Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”
                     </p>
             </div>
+            <Update/>
         </>
     );
 };

@@ -118,6 +118,7 @@ a, button {
 .head-container {
 	/* margin-top: 150px;
     margin-bottom: -500px; */
+	margin-top: 5%;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -890,6 +891,7 @@ footer .btn:hover {
 	}
 	.quote1 p {
 		font-size: 30px;
+		color:black
 	}
 	.service-container .right-side img {
 		width: 90%;

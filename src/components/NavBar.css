@@ -63,7 +63,7 @@
   margin-bottom: 5px;
 }
 .dropdown-content1 a:hover {
-  background-color: #ddd;
+  background-color: #1eb2a6;
 }
 
 .dropdown1:hover .dropdown-content1 {
@@ -162,7 +162,7 @@
   display: flex;
   line-height: 143px;
   margin-right: 1rem;
-  margin-right: 75%;
+  margin-right: 72%;
   /* width: 100%; */
 }
 
@@ -188,14 +188,14 @@
   from {background-position: 0% 50%;}
   to{background-position: 100% 100%;}
 }
-.quote{
+/* .quote{
   justify-self: center;
   margin-bottom: 40%;
   margin-right: -5%;
   font-family:georgia,garamond,serif;
   font-size:200%;
-  color: white;
-}
+  color: rgb(0, 0, 0);
+} */
 
 /* .nav-logo {
   color: #000e14ff;

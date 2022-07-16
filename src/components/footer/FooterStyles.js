@@ -9,16 +9,16 @@ overflow:auto;
 width: auto;
 margin-bottom:-100px;
 margin-right:-100px;
-
+border:solid;
 
 @media (max-width: 1000px) {
 	padding: 70px 30px;
 }
 `
 
-export const copyright=styled.div`
-margin-bottom:10px;
-`
+// export const copyright=styled.div`
+// margin-bottom:-10px;
+// `
 export const Container = styled.div`
 	display: flex;
 	flex-direction: column;

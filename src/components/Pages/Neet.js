@@ -7,7 +7,7 @@ import pdf1 from "../assets/Shiksha_NEET.pdf";
 import pdf2 from "../assets/Online_test_series_neet.pdf";
 import pdf3 from "../assets/Study_Material_Neet.pdf";
 import pdf4 from "../assets/NEET_Fee_Package.pdf";
-
+import Update from "../../pages/updateofdata";
 export function Neet() {
   return (
     <>
@@ -383,6 +383,7 @@ export function Neet() {
       <br />
       <br />
       <br />
+      <Update/>
     </>
   );
 }

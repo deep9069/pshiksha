@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 import { Button, Container } from "react-bootstrap";
 import "./Ielts.css";
 import { FaHandPointRight } from "react-icons/fa";
-
+import Update from "../../pages/updateofdata";
 const Ielts = () => {
   return (
     <div className="ielts">
@@ -399,6 +399,7 @@ const Ielts = () => {
           <button className="btn-ielts-2">Enroll Today</button>
         </Link>
       </div>
+      <Update/>
     </div>
   );
 };

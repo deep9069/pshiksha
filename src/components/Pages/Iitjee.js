@@ -7,7 +7,7 @@ import pdf1 from "../assets/Shiksha_IIT-JEE.pdf";
 import pdf2 from "../assets/Online_test_series.pdf";
 import pdf3 from "../assets/Study_Material.pdf";
 import pdf4 from "../assets/iit-jee_Fee_Package.pdf";
-
+import Update from "../../pages/updateofdata";
 export function Iitjee() {
     return (
       <>
@@ -361,6 +361,7 @@ export function Iitjee() {
         <br />
         <br />
         <br />
+        <Update/>
       </>
     );
 }

@@ -5,6 +5,7 @@ import ImageSlider from "./carosel/imageSlider"
 import images from "./carosel/images"
 import Overview from "./websiteoverview/overview";
 import { NavLink } from "react-router-dom";
+import Update from "../pages/updateofdata";
 export const Home1 = () => {
   return (
     <>
@@ -32,6 +33,7 @@ export const Home1 = () => {
       </div>
       <ImageSlider images={images}/>
       <Overview/>
+      <Update/>
     </>
   )
 }

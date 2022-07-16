@@ -3,7 +3,7 @@ import { Button, Container, Card, Row, Col, Stack } from 'react-bootstrap'
 import Newc from './Newc'
 import './Overseas.css'
 import { FaHandPointRight } from "react-icons/fa";
-
+import Update from "../../pages/updateofdata";
 const Overseas =()=> {
     return (
       <>
@@ -307,6 +307,7 @@ const Overseas =()=> {
             <br/>
           </div>
         </div>
+        <Update/>
       </>
     );
 };

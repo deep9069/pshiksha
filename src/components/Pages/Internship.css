@@ -68,14 +68,16 @@
     font-size: 18px;
 }
 
-.btn-intern {
+.btn-intern-this {
     text-align: center;
     text-decoration: none;
     padding: 1rem;
     font-family: inherit;
     font-weight: bold;
     font-size: 1rem;
-    margin: 1rem;
+    /* margin: 1rem; */
+    margin-left: 420px;
+    margin-right: 10px;
     border: 2px solid #33ccff;
     background: transparent;
     color: #33ccff;
@@ -84,7 +86,7 @@
     cursor: pointer;
 }
 
-:hover.btn-intern {
+:hover.btn-intern-this {
     background: #33ccff;
     text-decoration: none;
     color: white;

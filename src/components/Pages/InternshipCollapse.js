@@ -14,13 +14,13 @@ function Collapsible() {
         <br />
         <h3>
           {isExpanded ? (
-            <p className="btn-intern">
+            <div className="btn-intern-this">
               INTERNSHIP BROCHURE <FaHandPointUp />
-            </p>
+            </div>
           ) : (
-            <p className="btn-intern">
+            <div className="btn-intern-this">
               INTERNSHIP BROCHURE <FaHandPointDown />
-            </p>
+            </div>
           )}
         </h3>
       </div>

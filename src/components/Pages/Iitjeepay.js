@@ -162,6 +162,8 @@ const Iitjeepay = () => {
             <br />
           </div>
         </div>
+        <br/>
+        <br/>
       </div>
     </>
   );

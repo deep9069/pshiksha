@@ -45,8 +45,8 @@ const Neetpay = () => {
           <br />
           <div class="verticalLineieltsp"></div>
           <br />
-          <br/>
-          <br/>
+          <br />
+          <br />
           <div className="neet2">
             <p>
               {" "}
@@ -107,10 +107,10 @@ const Neetpay = () => {
             </div>
           </div>
           <br />
-          <br/>
+          <br />
           <div class="verticalLineieltsp"></div>
           <br />
-          <br/>
+          <br />
           <div className="neet2">
             <p>
               {" "}
@@ -136,8 +136,8 @@ const Neetpay = () => {
           <br />
           <div class="verticalLineieltsp"></div>
           <br />
-          <br/>
-          <br/>
+          <br />
+          <br />
           <div className="neet2">
             <p>
               {" "}
@@ -162,6 +162,8 @@ const Neetpay = () => {
             <br />
           </div>
         </div>
+        <br />
+        <br />
       </div>
     </>
   );

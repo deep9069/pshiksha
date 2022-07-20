@@ -6,7 +6,6 @@ import can1 from "../assets/can1.png";
 import can2 from "../assets/can2.png";
 import can3 from "../assets/can3.png";
 import can4 from "../assets/can4.png";
-import can5 from "../assets/can5.png";
 
 const Canada = () => {
   return (
@@ -170,9 +169,6 @@ const Canada = () => {
           <h4>Cost of living in Canada</h4>
           <div className="overimg5">
             <img src={can4}></img>
-          </div>
-          <div className="overimg6">
-            <img src={can5}></img>
           </div>
           <br />
           <h5>

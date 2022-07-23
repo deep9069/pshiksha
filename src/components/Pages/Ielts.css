@@ -112,7 +112,7 @@
     text-align: center;
     border-radius: 25px;
     font-size: 18px;
-    padding-top: 20px;
+    padding-top: 15px;
     padding-right: 30px;
     padding-left: 20px;
     margin-left: 40px;
@@ -123,18 +123,18 @@
 }
 
 .ielph2 {
-    
+    margin-left: -10px;
 }
 
-.ielph3 {
+.ielph3-btn {
     font-size: 18px;
     text-align: center;
     padding: 1rem;
     font-family: inherit;
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 570px;
-    margin-right: 570px;
+    margin-left: 600px;
+    /* margin-right: 570px; */
     text-decoration: none;
     border: 2px solid #33ccff;
     background: transparent;

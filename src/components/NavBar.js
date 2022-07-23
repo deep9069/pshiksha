@@ -46,10 +46,10 @@ function NavBar() {
                         Placement Preparation
                       </NavLink>
                       <NavLink exact to="/cvmaking" onClick={handleClick}>
-                        professional CV making
+                        Professional CV making
                       </NavLink>
                       <NavLink exact to="/projects" onClick={handleClick}>
-                        Major/Minor project
+                        Major/Minor Project
                       </NavLink>
                       {/* <NavLink exact to="/iit" onClick={handleClick}>
                         Plag-free reports
@@ -58,16 +58,19 @@ function NavBar() {
                    Assignments
                   </NavLink>
                   <NavLink exact to="/backpaper" onClick={handleClick}>
-                   Back Paper prep
+                   Back Paper Prep
                   </NavLink>
                   <NavLink exact to="/petalk" onClick={handleClick}>
-                   Pre Talk
+                   Pep Talk
                   </NavLink>
                   <NavLink exact to="/placementprep" onClick={handleClick}>
                    Placement Prep.
                   </NavLink>
                   <NavLink exact to="/presentation" onClick={handleClick}>
                    Presentation
+                  </NavLink>
+                  <NavLink exact to="/gettutor" onClick={handleClick}>
+                   Get Tutor
                   </NavLink>
                 </div>
               </div>

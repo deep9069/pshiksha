@@ -101,9 +101,9 @@ nav1 ul li a:hover {
 	cursor: pointer;
 	transition: all 1s;
 }
-hr{
+/* hr{
     border: 1px solid #29E6A7;
-}
+} */
 
 a, button {
 	float: left;

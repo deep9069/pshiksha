@@ -54,6 +54,9 @@ import Peptalk from "./pages/Peptalk";
 import Placementprep from "./pages/Placementprep";
 import Presentationmaking from "./pages/Presentationmaking";
 import Update from "./pages/updateofdata";
+import Dochat from "./pages/Dochat";
+
+
 
 function App() {
   const [user,setLoginUser]= useState({})
@@ -64,6 +67,9 @@ function App() {
           <NavBar />
           {/* <Sitemap/> */}
           <Routes>
+          <Route exact path="/dochat" element={<Dochat />} />
+
+
             <Route exact path="/" element={<Home1 />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/contact" element={<Details />} />

@@ -10,10 +10,11 @@ const BlogCard = () => {
     {/* <div className="blogcont"> */}
     <div className='testimonal padding'>
     
-      <h2 style={{textAlign:"center",marginBottom:-25,fontSize:"30"}}>Blogs</h2>
-      <NavLink exact to="/newpost" className="btn-intern" style={{float:"right"}}>
+      <h2 style={{textAlign:"center",marginBottom:-25}}>Blogs</h2>
+      <NavLink exact to="/newpost" className="btn-intern" style={{float:"right",marginRight:"2%"}}>
       
-          <div style={{display:"inline",marginRight:"5px"}}><FaPlus/></div><h3 style={{display:"inline"}}>Create New</h3>
+          <div style={{display:"inline",marginRight:"10px"}}><FaPlus/></div>
+          <h3 style={{display:"inline"}}>Create New</h3>
         </NavLink>
 
         <div className='container' style={{marginTop:100}}>

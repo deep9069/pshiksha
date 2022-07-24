@@ -3,7 +3,7 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
-    title: "Online Courses",
+    title: "Online Crash Courses",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
   {
@@ -15,7 +15,7 @@ export const homeAbout = [
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
-    title: "Learn with Expert",
+    title: "Learn with Experts",
     desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
   },
 ]

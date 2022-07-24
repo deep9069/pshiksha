@@ -9,7 +9,7 @@ import Data from "../components/assets/courses/data.png"
 import Algo from "../components/assets/courses/algo.png"
 import Projects from "../components/assets/courses/projects.png"
 import Update from "../pages/updateofdata";
-
+import Footer from "../components/footer/Footer";
 
 const Hometuition = () => {
     return (
@@ -131,6 +131,7 @@ const Hometuition = () => {
                     </p>
             </div>
            <Update/>
+           <Footer/>
         </>
     );
 };

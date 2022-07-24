@@ -9,13 +9,13 @@ function NavBar() {
   return (
     <>
       <nav className="navbar">
-        <div className="comp-logo">
+        {/* <div className="comp-logo"> */}
           <NavLink
             exact
             to="/"
-            activeClassName="active"
-            className="nav-links"
             onClick={handleClick}
+            className="comp-logo"
+            style={{alignSelf:"center"}}
           >
             <img
               src={logo}
@@ -23,17 +23,19 @@ function NavBar() {
                 width: 110,
                 height: 110,
                 verticalAlign: "center",
-                marginTop: 5,
+                // marginTop: 5,
               }}
             />
-            <i className="logotext" style={{ position: "relative", top: -10 }}>
+            <div style={{marginTop:"75px",}}>
+            <i className="logotext">
               P SHIKSHA 4.0
             </i>
+            </div>
           </NavLink>
-        </div>
+        {/* </div> */}
 
         {/* <div className="nav-container"> */}
-        <div className="innav">
+        {/* <div className="innav"> */}
           <ul className={click ? "nav-menu active" : "nav-menu"}>
           <li className="nav-item">
               <div class="dropdown1">
@@ -63,9 +65,6 @@ function NavBar() {
                   <NavLink exact to="/petalk" onClick={handleClick}>
                    Pre Talk
                   </NavLink>
-                  <NavLink exact to="/placementprep" onClick={handleClick}>
-                   Placement Prep.
-                  </NavLink>
                   <NavLink exact to="/presentation" onClick={handleClick}>
                    Presentation
                   </NavLink>
@@ -73,33 +72,33 @@ function NavBar() {
               </div>
             </li>
             <li className="nav-item">
-              <div class="dropdown">
-                <div class="dropbtn">
+              <div class="dropdown1">
+                <div class="dropbtn1">
                   Services
                   <i class="fa fa-caret-down"></i>
                 </div>
-                <div class="dropdown-content">
-                  <div class="row">
-                    <div class="column">
-                      <h3 style={{marginBottom:"20px"}}>Exams</h3>
+                <div class="dropdown-content1">
+                  {/* <div class="row"> */}
+                    {/* <div class="column"> */}
+                      <h3 style={{marginLeft:"10px"}}>Exams</h3>
                       <NavLink exact to="/iit" onClick={handleClick}>
                         IIT
                       </NavLink>
                       <NavLink exact to="/neet" onClick={handleClick}>
                         NEET
                       </NavLink>
-                    </div>
-                    <div class="column">
-                      <h3 style={{marginBottom:"20px"}}>School Of Abroad</h3>
+                    {/* </div> */}
+                    {/* <div class="column"> */}
+                      <h3 style={{marginLeft:"10px"}}>School Of Abroad</h3>
                       <NavLink exact to="/ielts" onClick={handleClick}>
                         IELTS
                       </NavLink>
                       <NavLink exact to="/overseas" onClick={handleClick}>
                         Overseas
                       </NavLink>
-                    </div>
-                    <div class="column">
-                      <h3 style={{marginBottom:"20px"}}>Students</h3>
+                    {/* </div> */}
+                    {/* <div class="column"> */}
+                      <h3 style={{marginLeft:"10px"}}>Students</h3>
                       <NavLink exact to="/internship" onClick={handleClick}>
                         Internship
                       </NavLink>
@@ -109,8 +108,8 @@ function NavBar() {
                       <NavLink exact to="/ambassador" onClick={handleClick}>
                         Campus Ambassador
                       </NavLink>
-                    </div>
-                  </div>
+                    {/* </div> */}
+                  {/* </div> */}
                 </div>
               </div>
             </li>
@@ -157,7 +156,7 @@ function NavBar() {
           <div className="nav-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
-        </div>
+        {/* </div> */}
       </nav>
     </>
   );

@@ -123,7 +123,7 @@ function App() {
             <Route path="/register" element={<Register />} />
           </Routes>
           {/* <Update/> */}
-          <Footer />
+          {/* <Footer /> */}
         </Router>
       {/* </div> */}
     </>

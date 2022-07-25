@@ -1,16 +1,35 @@
 .Ap .ck-editor__editable {
   font-family: "Noto Sans", sans-serif;
-  min-height: 20em !important;
+  min-height: 20em ;
 }
 .content-grid{
-    display: grid !important;
-    grid-template-columns: auto auto auto !important;
-    grid-template-rows: auto auto auto !important;
+    display: grid ;
+    grid-template-columns: auto auto auto ;
+    grid-template-rows: auto auto auto ;
   }
   
+  .content-grid2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 12px;
+  }
+
+  .items-shadow-blog {
+    /* margin-left: 100px; */
+  }
+
+  .container-blog {
+      display: flex;
+      flex-direction: row;
+      background-color: #fff;
+  }
+
   .grid-container {
-    display: grid !important;
-    grid-template-columns: 80% auto !important;
+    display: grid ;
+    grid-template-columns: 80% auto ;
     /* background-color: #2196F3; */
     /* padding: 10px; */
     width: 105%;
@@ -19,42 +38,31 @@
     height: auto;
   }
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8) !important;
+    background-color: rgba(255, 255, 255, 0.8) ;
     /* border: 1px solid rgba(0, 0, 0, 0.8); */
-    padding: 5px !important;
-    font-size: 30px !important;
+    padding: 5px ;
+    font-size: 30px ;
     /* background-color: #1eb2a6; */
-    text-align: center !important;
+    text-align: center ;
   }
   .blogimg{
-    /* display: flex; */
-      position: relative !important;
-      /* background-size: cover; */
-      border: solid !important;
-      height: 30% !important;
-      width: 100% !important;
-      justify-content: center !important;
+      position: relative ;
+      border: solid ;
+      height: 30% ;
+      width: 100% ;
+      justify-content: center ;
       
   }
   .blog img {
     width: 100%;
     height: 100%;
     border-radius: 5%;
-    margin-left: 70px;
   }
   .blog .text {
     padding: 40px 30px;
   }
   .blog h1 {
-    font-weight: 500;
-    font-size: 22px;
     line-height: 30px;
-    margin: 20px 0;
-    transition: 0.5s;
-  }
-  .blog h1:hover {
-    color: #1eb2a6;
-    cursor: pointer;
   }
   .blog span {
     text-transform: uppercase;
@@ -74,3 +82,6 @@
     color: grey;
   }
   
+  .blog-name {
+    margin-top: 15px;
+  }

@@ -13,7 +13,6 @@ import scam from "../assets/scammaster.webp";
 import idfc from "../assets/idfc.webp";
 import razorpay from "../assets/razorpay.webp";
 import university from "../assets/dtunsutiiit.png";
-import Chatbutton from "../../pages/Chatbutton";
 
 export const Footer = () => {
 return (
@@ -42,9 +41,6 @@ return (
 			</NavLink>
 			<NavLink exact to="./Overseas" className="link"style={{textDecoration:"none",marginBottom:"10px"}}>
 			  <FooterLink >Overseas</FooterLink>
-			</NavLink>
-			<NavLink exact to="./dochat" className="link"style={{textDecoration:"none",marginBottom:"10px"}}>
-			  <FooterLink ><Chatbutton/></FooterLink>
 			</NavLink>
 		</Column>
 		<Column>

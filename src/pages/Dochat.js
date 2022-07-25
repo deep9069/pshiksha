@@ -17,7 +17,6 @@ const Dochat = () => {
                 <div class="messaging">
                     <div style={{ textAlign: "center", marginBottom: "15px" }}>
                         <h3 >Chat Room</h3>
-                        <p style={{color:"grey", fontFamily:"poppins", fontWeight:"lighter"}}>Get the best guidance from your seniors</p>
                     </div>
                     <div class="inbox_msg">
 
@@ -64,12 +63,12 @@ const Dochat = () => {
                                 
 
                                     <div style={{ width: "70%", display: "flex" }}>
-                                        <BsEmojiSmile style={{ marginRight: "5px",cursor:"pointer", width:"30px" }} />
-                                        <GrAttachment style={{cursor:"pointer"}}/>
-                                        <input placeholder='Type message..'></input>
+                                        <BsEmojiSmile style={{ marginRight: "5px" }} />
+                                        <GrAttachment />
+                                        <input style={{ width: "100%" }} placeholder='Type message..'></input>
                                     </div>
                                     <div style={{ width: "30%", float: "right" }}>
-                                        <IoMdSend style={{ marginLeft: "10px", cursor:"pointer" }} />
+                                        <IoMdSend style={{ marginLeft: "10px" }} />
                                     </div>
                                 </div>
                             </div>

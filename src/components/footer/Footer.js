@@ -12,7 +12,15 @@ import { Col } from "react-grid-system";
 import scam from "../assets/scammaster.webp";
 import idfc from "../assets/idfc.webp";
 import razorpay from "../assets/razorpay.webp";
+<<<<<<< HEAD
 import university from "../assets/dtunsutiiit.png";
+=======
+import dtu from "../assets/dtu logo.jpg";
+import nsut from "../assets/nsut logo.png";
+
+import Chatbutton from "../../pages/Chatbutton";
+>>>>>>> 71922caca958676ee37d2f50943cb049d20539a1
+
 
 export const Footer = () => {
 return (
@@ -31,16 +39,16 @@ return (
 		<Column>
 		<Heading>Services</Heading>
 		<NavLink exact to="./HomeTution" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
-			  <FooterLink >Tutions</FooterLink>
+			  <FooterLink ><p style={{fontSize:16}}>Tutions</p></FooterLink>
 			</NavLink>
-			<NavLink exact to="./HomeTution" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
-			  <FooterLink >Engineering</FooterLink>
+			<NavLink exact to="./sitemap" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
+			  <FooterLink ><p style={{fontSize:16}}>All Courses</p></FooterLink>
 			</NavLink>
-			<NavLink exact to="./HomeTution" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
-			  <FooterLink >Exam prep</FooterLink>
+			<NavLink exact to="./blog" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
+			  <FooterLink ><p style={{fontSize:16}}>Blogs</p></FooterLink>
 			</NavLink>
 			<NavLink exact to="./Overseas" className="link"style={{textDecoration:"none",marginBottom:"10px"}}>
-			  <FooterLink >Overseas</FooterLink>
+			  <FooterLink ><p style={{fontSize:16}}>Overseas</p></FooterLink>
 			</NavLink>
 		</Column>
 		<Column>
@@ -48,7 +56,7 @@ return (
 			<FooterLink href="https://www.facebook.com/shiksha4.0" style={{marginRight:"90px"}}>
 			<i className="fab fa-facebook-f">
 				<span style={{ marginLeft: "10px" }}>
-				Facebook
+				&nbsp;Facebook
 				</span>
 			</i>
 			</FooterLink>
@@ -62,7 +70,7 @@ return (
 			<FooterLink href="https://shiksha4-0.tumblr.com/" style={{marginRight:"110px"}}>
 			<i className="fab fa-tumblr">
 				<span style={{ marginLeft: "10px" }}>
-				Tumblr
+				&nbsp;Tumblr
 				</span>
 			</i>
 			</FooterLink>
@@ -110,33 +118,36 @@ return (
 		<div style={{display:"flex",color:"white"}}>
 		Verified by: 
 		<FooterLink >
-			<img src={scam} style={{marginLeft:18,width:"150px"}}></img>
+			<img src={scam} style={{marginLeft:18,width:"120px",height:"33px"}}></img>
 		</FooterLink>
 		</div>
 		<div style={{display:"flex",marginTop:"10px",color:"white"}}>
 		Official Payment Partner:
 		<FooterLink >
-			<img src={idfc} style={{marginLeft:12,width:"150px",color:"white"}}></img>
+			<img src={idfc} style={{marginLeft:12,width:"120px",height:"33px"}}></img>
 		</FooterLink>
 		</div>
 		<div style={{display:"flex",marginTop:"10px",color:"white"}}>
 		Official Bank Partner:
 		<FooterLink >
-			<img src={razorpay} style={{marginLeft:18,width:"150px"}}></img>
+			<img src={razorpay} style={{marginLeft:18,width:"120px"}}></img>
 		</FooterLink>
 		</div>
 		<div style={{display:"flex",marginTop:"10px",color:"white"}}>
 		Official Partner:
 		<FooterLink >
-			<img src={university} style={{marginLeft:18,width:"150px"}}></img>
+			<div style={{display:"flex"}}>
+			<img src={dtu} style={{marginLeft:18,width:"50px",height:"50px"}}></img>
+			<img src={nsut} style={{marginLeft:18,width:"50px",height:"50px"}}></img>
+			</div>
 		</FooterLink>
 		</div>
 		</Column>
 		</Row>
-	</Container>
-	<div className="copyright" style={{marginRight:"3%",marginBottom:"-1.5%"}}>
+		<div className="copyright" style={{marginRight:"20px"}}>
 	<h6 style={{ color: "white",fontWeight:14 ,textAlign:"center",fontSize:18}}>Copyright ©2022 All rights reserved P.Shiksha 4.0</h6>
 	</div>
+	</Container>
 	</Box>
 );
 };

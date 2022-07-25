@@ -10,10 +10,19 @@ const Post  = () => {
 <>
     <div className='newpost' style={{marginTop:100}}>
     <div style={{display:"flex"}}>
-    <div style={{marginLeft:"8%"}}>
+    <div style={{marginLeft:"4%"}}>
     <h1 >Creating New Post</h1>
     </div>
-    <div style={{marginLeft:"60%"}}>
+    
+        </div>
+    <div style={{marginTop:"2%",marginLeft:"4%"}}>
+      {/* <h3 style={{marginBottom:5,marginLeft:10}}>Heading</h3> */}
+    <input className="post" type="text" name="heading" placeholder="Heading" style={{width:"96%",height:40,fontSize:15}}></input>
+    <div style={{marginTop:50,width:"96%"}}>
+      
+      <Ck/>
+    </div>
+    <div style={{marginLeft:"88.5%",marginTop:"2%"}}>
     <Button
           target="_blank"
           rel="noreferrer"
@@ -25,15 +34,7 @@ const Post  = () => {
         </Button>
         
         </div>
-        </div>
-    <div style={{marginTop:"2%",marginLeft:"4%"}}>
-      {/* <h3 style={{marginBottom:5,marginLeft:10}}>Heading</h3> */}
-    <input className="post" type="text" name="heading" placeholder="Heading" style={{width:"96%",height:40,marginLeft:49,fontSize:15}}></input>
-    <div style={{marginLeft:"4%",marginTop:50}}>
-      
-      <Ck/>
-    </div>
-    
+    <div style={{marginTop:"10%"}}></div>
     </div>
     
     </div>

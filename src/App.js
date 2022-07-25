@@ -1,7 +1,7 @@
 import "./App.css";
 import NavBar from "./components/NavBar";
 import { BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import HomeTution from "./components/Pages/HomeTution";
+
 // import register  from "./components/Pages/Register";
 import { About } from "./components/Pages/About";
 import Training from "./components/Pages/Training";
@@ -53,7 +53,13 @@ import Cvmaking from "./pages/Cvmaking";
 import Peptalk from "./pages/Peptalk";
 import Placementprep from "./pages/Placementprep";
 import Presentationmaking from "./pages/Presentationmaking";
+// import Hometuition from "./pages/Hometuition";
 import Update from "./pages/updateofdata";
+import Dochat from "./pages/Dochat";
+import Gettutor from "./pages/Gettutor";
+import Chatbutton from "./pages/Chatbutton";
+
+
 
 function App() {
   const [user,setLoginUser]= useState({})
@@ -64,6 +70,9 @@ function App() {
           <NavBar />
           {/* <Sitemap/> */}
           <Routes>
+          <Route exact path="/dochat" element={<Dochat />} />
+
+
             <Route exact path="/" element={<Home1 />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/contact" element={<Details />} />
@@ -76,7 +85,7 @@ function App() {
             />
             <Route exact path="/details" element={<Details />} />
             <Route exact path="/studentprogramme" element={<studentProgramme />}/>
-            <Route exact path="/hometution" element={<HomeTution />} />
+    
             <Route exact path="/ambassador" element={<Ambassador />} />
             <Route exact path="/intern_without_interview" element={<InternWoInterview />}/>
             <Route exact path="/training_cum_internship" element={<Training />}/>
@@ -114,6 +123,7 @@ function App() {
             <Route exact path="/petalk" element={<Peptalk/>} />
             <Route exact path="/placementprep" element={<Placementprep/>} />
             <Route exact path="/presentation" element={<Presentationmaking/>} />
+            <Route exact path="/gettutor" element={<Gettutor/>} />
             <Route exact path="/terms_of_service" element={<TermsOfService />}/>
             <Route exact path="/user_policy" element={<UserPolicy />} />
             <Route element={PageNotFound} />
@@ -123,7 +133,9 @@ function App() {
             <Route path="/register" element={<Register />} />
           </Routes>
           {/* <Update/> */}
+
           {/* <Footer /> */}
+
         </Router>
       {/* </div> */}
     </>

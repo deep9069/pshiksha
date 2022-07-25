@@ -101,9 +101,9 @@ nav1 ul li a:hover {
 	cursor: pointer;
 	transition: all 1s;
 }
-hr{
+/* hr{
     border: 1px solid #29E6A7;
-}
+} */
 
 a, button {
 	float: left;
@@ -119,6 +119,7 @@ a, button {
 	/* margin-top: 150px;
     margin-bottom: -500px; */
 	margin-top: 5%;
+	margin-left: 5%;
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -250,6 +251,12 @@ a, button {
 .diffSection .content {
 	margin: 10px;
 	text-align: center;
+	padding: 10px 100px;
+	font-size: 1.1em;
+}
+.diffSection .content2 {
+	margin: 10px;
+	text-align: left;
 	padding: 10px 100px;
 	font-size: 1.1em;
 }

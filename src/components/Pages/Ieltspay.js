@@ -20,15 +20,16 @@ const Ieltspay = () => {
       <div className="ieltsinside">
         <br />
         <div className="ielph2">
-          <h4>
+          <p>
+            {" "}
             <FaBook /> IELTS General [Online] - &#8377;21,600/-
-          </h4>
+          </p>
         </div>
         <div>
           <div>
             <br />
             <Button
-              className="ielph3-btn"
+              className="ielph3"
               href="https://pages.razorpay.com/pl_IjbrRvJvULIKbg/view"
               target="_blank"
               rel="noreferrer"
@@ -38,20 +39,19 @@ const Ieltspay = () => {
           </div>
         </div>
         <br />
-        <br />
         <div class="verticalLineieltsp"></div>
         <br />
-        <br />
         <div className="ielph2">
-          <h4>
+          <p>
+            {" "}
             <FaBook /> IELTS General [Offline] - &#8377;25,200/-
-          </h4>
+          </p>
         </div>
         <div>
           <div>
             <br />
             <Button
-              className="ielph3-btn"
+              className="ielph3"
               href="https://pages.razorpay.com/pl_IjbwieknmytDa3/view"
               target="_blank"
               rel="noreferrer"
@@ -61,20 +61,19 @@ const Ieltspay = () => {
           </div>
         </div>
         <br />
-        <br />
         <div class="verticalLineieltsp"></div>
         <br />
-        <br />
         <div className="ielph2">
-          <h4>
+          <p>
+            {" "}
             <FaBook /> IELTS Academic Training [Online] - &#8377;28,800/-
-          </h4>
+          </p>
         </div>
         <div>
           <div>
             <br />
             <Button
-              className="ielph3-btn"
+              className="ielph3"
               href="https://pages.razorpay.com/pl_Ijc1FdnzIzV0dE/view"
               target="_blank"
               rel="noreferrer"
@@ -84,20 +83,19 @@ const Ieltspay = () => {
           </div>
         </div>
         <br />
-        <br />
         <div class="verticalLineieltsp"></div>
         <br />
-        <br />
         <div className="ielph2">
-          <h4>
+          <p>
+            {" "}
             <FaBook /> IELTS Academic Training [Offline] - &#8377;32,400/-
-          </h4>
+          </p>
         </div>
         <div>
           <div>
             <br />
             <Button
-              className="ielph3-btn"
+              className="ielph3"
               href="https://pages.razorpay.com/pl_IjcCxyBW30Hgaf/view"
               target="_blank"
               rel="noreferrer"
@@ -108,8 +106,6 @@ const Ieltspay = () => {
           <br />
           <br />
         </div>
-        <br />
-        <br />
       </div>
     </>
   );

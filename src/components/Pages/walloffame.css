@@ -1,0 +1,118 @@
+.wallhead1 {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonal .items {
+    padding: 30px;
+    transition: 0.5s;
+}
+
+.container-wall {
+    display: flex;
+    background-color: #fff;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.content-grid2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.testimonal {
+    margin-top: 56px;
+}
+
+.testimonal .img {
+    position: relative;
+}
+
+.testimonal img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.testimonal i {
+    position: absolute;
+    bottom: 0;
+    left: 60px;
+    background-color: #1eb2a6;
+    color: #fff;
+}
+
+.testimonal .name {
+    /* margin: 25px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonal .name h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.name-post {
+    justify-content: center;
+    text-align: center;
+    /* color: #1eb2a6; */
+    text-decoration: underline;
+}
+
+.testimonal .name span {
+    color: #1eb2a6;
+    /* margin-left: 20px; */
+}
+
+.testimonal p {
+    margin-top: 20px;
+    color: grey;
+    transition: 0.5s;
+}
+
+.testimonal .items:hover {
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor:default;
+}
+
+.testimonal .items:hover span,
+.testimonal .items:hover p {
+    color: #fff;
+}
+
+.testimonal .items:hover i {
+    background-color: #fff;
+    color: #1eb2a6;
+}
+
+.test-link-1 {
+    font-size: 30px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.test-link-2 {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-right: 10px;
+    display: inline;
+    float: right;
+}
+
+.wall-college {
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* .wall-date {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+} */

@@ -22,7 +22,7 @@ return (
 	<h4 style={{ marginRight:"6%", color: "white", textAlign: "center", marginTop: "-60px"}}>
 	Premi ji's Shiksha 4.0
 	</h4>
-	<Container style={{marginTop:"20px"}}>
+	{/* <Container > */}
 		<Row>
 		{/* <Column>
 			<Heading>About Us</Heading>
@@ -47,28 +47,28 @@ return (
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>
-			<FooterLink href="https://www.facebook.com/shiksha4.0" style={{marginRight:"90px"}}>
+			<FooterLink href="https://www.facebook.com/shiksha4.0" style={{marginRight:"250px"}}>
 			<i className="fab fa-facebook-f">
-				<span style={{ marginLeft: "10px" }}>
+				<span style={{marginLeft:"10px"}}>
 				&nbsp;Facebook
 				</span>
 			</i>
 			</FooterLink>
-			<FooterLink href="https://www.instagram.com/shiksha4.0/" style={{marginRight:"90px"}}>
+			<FooterLink href="https://www.instagram.com/shiksha4.0/" style={{marginRight:"250px"}}>
 			<i className="fab fa-instagram">
 				<span style={{ marginLeft: "10px" }}>
 				Instagram
 				</span>
 			</i>
 			</FooterLink>
-			<FooterLink href="https://shiksha4-0.tumblr.com/" style={{marginRight:"110px"}}>
+			<FooterLink href="https://shiksha4-0.tumblr.com/" style={{marginRight:"250px"}}>
 			<i className="fab fa-tumblr">
 				<span style={{ marginLeft: "10px" }}>
 				&nbsp;Tumblr
 				</span>
 			</i>
 			</FooterLink>
-			<FooterLink href="https://www.reddit.com/user/FreeShiksha" style={{marginRight:"110px"}}>
+			<FooterLink href="https://www.reddit.com/user/FreeShiksha" style={{marginRight:"250px"}}>
 			<i className="fab fa-reddit">
 				<span style={{ marginLeft: "10px" }}>
 				Reddit
@@ -79,14 +79,7 @@ return (
 		<Column>
 		
 			<Heading>Contact Us</Heading>
-			{/* <FooterLink href="https://goo.gl/maps/sKdJbVdrhc9fVh2g7"> 
-			<i className="fas fa-map-marked-alt">
-				<span style={{ marginLeft: "10px" }}>
-				G-7/189, Above &nbsp;Gianis Ice cream, &nbsp;Sector-16, Rohini, new Delhi-110089
-				</span>
-			</i>
-			</FooterLink> */}
-			<FooterLink href="mailto:pshiksha4.0@gmail.com">
+			<FooterLink href="mailto:pshiksha4.0@gmail.com" style={{marginRight:"100px"}}>
 			<i className="far fa-envelope-open">
 				<span style={{ marginLeft: "10px" }}>
 				pshiksha4.0@gmail.com
@@ -96,10 +89,10 @@ return (
 			
 			<i className="fas fa-phone" style={{color:"white"}}>
 				<span style={{ marginLeft: "10px",color:"white"}}>
-				+91-9599139063 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+91-9821693299
+				+91-9599139063 &nbsp;+91-9821693299
 				</span>
 			</i>
-			<FooterLink style={{marginRight:"20px",marginTop:"20px"}}>
+			<FooterLink style={{marginRight:"70px",marginTop:"20px"}}>
 			<i className="fas fa-map-marker-alt">
 				<span style={{ marginLeft: "10px",fontSize:"1",fontFamily:"Helvetica",fontWeight:10 }}>
 				G-7/189, Above &nbsp;Gianis Ice cream, &nbsp;Sector-16, Rohini, new Delhi-110089
@@ -116,13 +109,13 @@ return (
 		</FooterLink>
 		</div>
 		<div style={{display:"flex",marginTop:"10px",color:"white"}}>
-		Official Payment Partner:
+		Official Bank Partner:
 		<FooterLink >
 			<img src={idfc} style={{marginLeft:12,width:"120px",height:"33px"}}></img>
 		</FooterLink>
 		</div>
 		<div style={{display:"flex",marginTop:"10px",color:"white"}}>
-		Official Bank Partner:
+		Official Payment Partner:
 		<FooterLink >
 			<img src={razorpay} style={{marginLeft:18,width:"120px"}}></img>
 		</FooterLink>
@@ -141,7 +134,7 @@ return (
 		<div className="copyright" style={{marginRight:"20px"}}>
 	<h6 style={{ color: "white",fontWeight:14 ,textAlign:"center",fontSize:18}}>Copyright ©2022 All rights reserved P.Shiksha 4.0</h6>
 	</div>
-	</Container>
+	{/* </Container> */}
 	</Box>
 );
 };

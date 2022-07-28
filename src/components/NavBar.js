@@ -60,7 +60,7 @@ function NavBar() {
                    Assignments
                   </NavLink>
                   <NavLink exact to="/backpaper" onClick={handleClick}>
-                   Back Paper prep
+                    Paper prep
                   </NavLink>
                   <NavLink exact to="/petalk" onClick={handleClick}>
                    Pre Talk

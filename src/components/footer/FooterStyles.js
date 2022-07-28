@@ -5,13 +5,15 @@ padding: 80px 60px;
 // background: black;
 background: linear-gradient(160deg,#00cdac    20%, #6dd5ed 100%);
 position: sticky;
-overflow:auto;
+overflow:none;
 width: auto;
+height:auto;
 margin-bottom:-100px;
-margin-right:-100px;
+margin-right:-50px;
 border:solid;
+// background: red;
 
-@media (max-width: 1000px) {
+@media (max-width: auto) {
 	padding: 70px 30px;
 }
 `
@@ -23,31 +25,34 @@ export const Container = styled.div`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	max-width: 1000px;
+	// max-width: 1000px;
     margin-top:40px;
 	height:auto;
+	margin-left:3.5%;
     margin-bottom:-80px;
-
-  //background: red;
+    padding:auto auto;
+    background: red;
 `
 
 export const Column = styled.div`
 display: flex;
 flex-direction: column;
-text-align: left;
-margin-left: 60px;
+// text-align: left;
+// margin-left: 60px;
 `;
 
 export const Row = styled.div`
 display: grid;
+margin-top: 50px;
 grid-template-columns: repeat(auto-fill,
-						minmax(185px, 1fr));
+						minmax(250px, 1fr));
 grid-gap: 20px;
 
 @media (max-width: 1000px) {
 	grid-template-columns: repeat(auto-fill,
 						minmax(200px, 1fr));
 }
+
 `;
 
 export const FooterLink = styled.a`

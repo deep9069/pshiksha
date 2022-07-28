@@ -85,7 +85,6 @@
     font-family: inherit;
     font-weight: bold;
     font-size: 1rem;
-    /* margin: 1rem; */
     border: 2px solid #33ccff;
     background: transparent;
     color: #33ccff;
@@ -99,8 +98,6 @@
     font-size: 18px;
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-right: 150px;
-    margin-left: 100px;
 }
 
 .ieltsinside {
@@ -112,29 +109,19 @@
     text-align: center;
     border-radius: 25px;
     font-size: 18px;
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-left: 20px;
-    margin-left: 40px;
-    margin-right: 50px;
-    width: 1062px;
+    padding-top: 15px;
     height: 75px;
     justify-content: center;
 }
 
-.ielph2 {
-    
-}
-
-.ielph3 {
+.ielph3-btn {
     font-size: 18px;
     text-align: center;
     padding: 1rem;
     font-family: inherit;
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 570px;
-    margin-right: 570px;
+    margin-left: 45vw;
     text-decoration: none;
     border: 2px solid #33ccff;
     background: transparent;
@@ -144,7 +131,7 @@
     cursor: pointer;
 }
 
-:hover.ielph3 {
+:hover.ielph3-btn {
     background: #33ccff;
     color: white;
 }

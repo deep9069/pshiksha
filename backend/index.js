@@ -1,5 +1,6 @@
 const express = require('express');
 const cookieParser = require('cookie-parser');
+const cors=require('cors');
 const app = express();
 const port = 8000;
 //const expressLayouts = require('express-ejs-layouts');
@@ -7,42 +8,24 @@ const db = require('./configs/mongoose');
 // used for session cookie
 const session = require('express-session');
 const passport = require('passport');
-//const passportLocal = require('./config/passport-local-strategy');
-const passportJWT = require('./configs/passport-jwt-strategy');
+const passportLocal = require('./configs/passport-local-strategy');
 const MongoStore = require('connect-mongo');
 const axios =require('axios');
-// const sassMiddleware = require('node-sass-middleware');
-// const flash = require('connect-flash');
-// const customMware = require('./config/middleware');
-
-
-// app.use(sassMiddleware({
-//     src: './assets/scss',
-//     dest: './assets/css',
-//     debug: true,
-//     outputStyle: 'extended',
-//     prefix: '/css'
-// }));
-app.use(express.urlencoded());
-
+app.use(express.json())
+app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
+app.use(cors());
 
-
-
-
-
-
-// set up the view engine
 
 // mongo store is used to store the session cookie in the db
 app.use(session({
-    name: 'codeial',
+    name: 'pshiksha4.0',
     // TODO change the secret before deployment in production mode
     secret: 'codeial',
     saveUninitialized: false,
     resave: false,
     cookie: {
-        maxAge: (1000 * 60 * 5)
+        maxAge: (1000 * 60 * 60 * 24 * 30)
     },
     store: MongoStore.create({ mongoUrl:'mongodb://localhost/PSHIKSHA4'}),autoRemove:'disabled'
     // store: new MongoStore(
@@ -56,18 +39,9 @@ app.use(session({
     //     }
     // )
 }));
-//console.log('session created 1!');
 app.use(passport.initialize());
-//console.log('session created 2!');
 app.use(passport.session());
-//console.log('session created 3!');
-
 passport.setAuthenticatedUser;
-//console.log('session created 4!');
-// app.use(flash());
-// app.use(customMware.setFlash);
-
-// // use express router
 app.use('/', require('./routes'));
 //console.log('session created 5!');
 

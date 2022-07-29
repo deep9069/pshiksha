@@ -5,9 +5,9 @@ const jwt = require('jsonwebtoken');
 module.exports.signin = async function(req, res){
 
     try{
-        let user = await User.findOne({email: 'pratyushk039@gmail.com'});
-        console.log(user);
-        if (!user || user.password != '1'){
+
+        let user = await User.findOne({email: req.body.email});
+        if (!user || user.password != req.body.password){
             return res.json(422, {
                 message: "Invalid username or password"
             });

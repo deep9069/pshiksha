@@ -25,7 +25,7 @@ const Login =({setLoginUser})=>{
     }
 
     const login =()=>{
-            axios.post("http://localhost:9002/login", user)
+            axios.post("http://localhost:8000/login", user)
             .then(res=>{
                 alert(res.data.message)
                 setLoginUser(res.data.user)
@@ -47,7 +47,7 @@ const Login =({setLoginUser})=>{
             <input className="fill" type="text" name="email" value={user.email} placeholder="Email" onChange={handleChange}></input>
             <input className="fill" type="password" name="password" value={user.password} placeholder="Password" onChange={handleChange}></input>
             <h4 className="gradient">Forgot Password?</h4>
-            <div className="button" onClick={login}>CONTINUE</div>
+            <div className="button" onClick={login}>Continue</div>
             <div>not registered?</div>
             <div className="button" onClick={handleClick}>Register Now</div>
         </div>

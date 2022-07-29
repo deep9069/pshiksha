@@ -9,12 +9,15 @@
 
 .elem0neet {
     text-align: center;
-    margin-left: 410px;
+    /* margin-left: 410px; */
+    justify-content:center;
 }
 
 .elem_0neet {
     text-align: center;
-    margin-left: 65px;
+    /* margin-left: 65px; */
+    justify-content: center;
+
 }
 
 .eleme1neet {
@@ -75,17 +78,21 @@
     border-radius: 0.2rem;
     transition: background 200ms ease-in, color 200ms ease-in;
     cursor: pointer;
+    /* margin-left: 12rem; */
 }
 
 .btn-align-1 {
-    margin-left: 120px;
+    /* margin-left: 120px; */
     display: inline-block;
+    margin-left: 15rem;
+
 }
 
 .btn-align-2 {
-    margin-left: 360px;
+    /* margin-left: 360px; */
     margin-right: 360px;
     display: inline-block;
+    
 }
 
 .btn-align-3 {
@@ -99,8 +106,8 @@
 }
 
 .btn-align-2-pay {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
     display: inline-block;
 }
 

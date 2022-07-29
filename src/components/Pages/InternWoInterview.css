@@ -76,13 +76,14 @@
     font-family: inherit;
     font-weight: bold;
     font-size: 1rem;
-    margin: 1rem;
+    /* margin: 1rem; */
     border: 2px solid #33ccff;
     background: transparent;
     color: #33ccff;
     border-radius: 0.2rem;
     transition: background 200ms ease-in, color 200ms ease-in;
     cursor: pointer;
+    margin-left: 36vw;
 }
 
 :hover.btn-intern {

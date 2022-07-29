@@ -5,17 +5,18 @@
     margin-bottom: 25px;
     margin-right: 120px;
     margin-left: 120px;
-    
 }
 
 .elem0iit {
-    text-align: center;
-    margin-left: 410px;
+    /* text-align: center;
+    margin-left: 410px; */
+    justify-content: center;
 }
 
 .elem_0iit {
     text-align: center;
-    margin-left: 90px;
+    /* margin-left: 90px; */
+    justify-content: center;
 }
 
 .eleme1iit {
@@ -100,9 +101,10 @@
 }
 
 .btn-align-2-pay {
-    margin-left: 50px;
-    margin-right: 50px;
+    /* margin-left: 50px;
+    margin-right: 50px; */
     display: inline-block;
+    justify-content: center;
 }
 
 .btn-align-3-pay {
@@ -132,13 +134,13 @@
     border-radius: 25px;
     font-size: 18px;
     padding-top: 30px;
-    padding-right: 30px;
+    /* padding-right: 30px;
     padding-left: 10px;
     margin-left: 150px;
     margin-right: 50px;
-    width: 1062px;
+    width: 1062px; */
     height: 75px;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .iitpara {
@@ -148,9 +150,9 @@
     padding-top: 20px;
     padding-right: 30px;
     padding-left: 10px;
-    margin-left: 124px;
+    /* margin-left: 124px;
     margin-right: 50px;
-    width: 1062px;
+    width: 1062px; */
     height: 75px;
     justify-content: center;
 }
@@ -168,8 +170,8 @@
     font-family: inherit;
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 620px;
-    margin-right: 500px;
+    /* margin-left: 620px;
+    margin-right: 500px; */
     text-decoration: none;
     border: 2px solid #33ccff;
     background: transparent;
@@ -177,6 +179,8 @@
     border-radius: 0.2rem;
     transition: background 200ms ease-in, color 200ms ease-in;
     cursor: pointer;
+    margin-left: 47vw;
+
 }
 
 :hover.iit3 {

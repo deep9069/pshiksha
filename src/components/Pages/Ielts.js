@@ -391,14 +391,16 @@ const Ielts = () => {
         <br />
         <br />
       </div>
-      <Button href={pdf} target="_blank" class="btn-ielts">
+      <a href={pdf} target="_blank" class="btn-ielts">
         Fee Structure
-      </Button>
+        
+      </a>
       <div href={pdf} target="_blank" rel className="btn-align">
         <Link to="/ieltspay" target="_blank">
           <button className="btn-ielts-2">Enroll Today</button>
         </Link>
       </div>
+      <br />
       <Update/>
     </div>
   );

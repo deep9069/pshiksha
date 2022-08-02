@@ -1,0 +1,19 @@
+.aboutus {
+    font-stretch: expanded;
+    font-size: 18px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.elem0as {
+    text-align: center;
+    justify-content: center;
+}
+
+.elemaspara {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}

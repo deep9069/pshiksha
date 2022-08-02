@@ -54,20 +54,20 @@ function NavBar() {
                 {/* <NavLink exact to="/iit" onClick={handleClick}>
                         Plag-free reports
                       </NavLink> */}
-                  <NavLink exact to="/assignment" onClick={handleClick}>
-                   Assignments
-                  </NavLink>
-                  <NavLink exact to="/backpaper" onClick={handleClick}>
-                    Paper prep
-                  </NavLink>
-                  <NavLink exact to="/petalk" onClick={handleClick}>
-                   Pre Talk
-                  </NavLink>
-                  <NavLink exact to="/presentation" onClick={handleClick}>
-                   Presentation
-                  </NavLink>
-                </div>
+                <NavLink exact to="/assignment" onClick={handleClick}>
+                  Assignments
+                </NavLink>
+                <NavLink exact to="/backpaper" onClick={handleClick}>
+                  Paper prep
+                </NavLink>
+                <NavLink exact to="/petalk" onClick={handleClick}>
+                  Pre Talk
+                </NavLink>
+                <NavLink exact to="/presentation" onClick={handleClick}>
+                  Presentation
+                </NavLink>
               </div>
+            </div>
           </li>
           <li className="nav-item">
             <div class="dropdown1">
@@ -122,6 +122,9 @@ function NavBar() {
                 <i class="fa fa-caret-down"></i>
               </div>
               <div class="dropdown-content1">
+                <NavLink exact to="/about_us" onClick={handleClick}>
+                  About Us
+                </NavLink>
                 <NavLink exact to="/blog" onClick={handleClick}>
                   Blog
                 </NavLink>

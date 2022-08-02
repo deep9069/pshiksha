@@ -81,12 +81,12 @@
 }
 
 .btn-align-1 {
-    /* margin-left: 120px; */
+    margin-left: 120px;
     display: inline-block;
 }
 
 .btn-align-2 {
-    /* margin-left: 360px; */
+    margin-left: 360px;
     margin-right: 360px;
     display: inline-block;
 }

@@ -2,8 +2,6 @@ const passport = require('passport');
 const LocalStrategy = require('passport-local').Strategy;
 
 const User = require('../schemas/user');
-
-
 passport.use(new LocalStrategy({
     usernameField:'email'
 },
@@ -13,17 +11,17 @@ passport.use(new LocalStrategy({
                 console.log('Error in finding user->passport');
                 return done(err);
             }
-            if(!user || user.password != password){
+            if(!user || !user.password==password){
                 console.log('Invalid Username or Password');
                 return done(null,false);
             }
+            console.log('user found !')
             return done(null,user);
         });
     }
 
 ));
 
-module.exports = passport;
 
 //serializing user to decide which key is to be kept in the cookie
 passport.serializeUser(function(user,done){

@@ -4,7 +4,7 @@ const passport = require('passport');
 
 const LController = require('../../controllers/login_control');
 
-router.post('/', LController.signin);
+router.post('/', passport.authenticate('local',{failureRedirect: 'http://localhost:3000/login'}),LController.signin);
 
 // use passport as a middleware to authenticate
 // router.post('/create-session', passport.authenticate(

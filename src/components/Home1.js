@@ -9,6 +9,9 @@ import Update from "../pages/updateofdata";
 import Footer from "./footer/Footer";
 import photo from "./assets/10502.jpg"
 import Query from "./query/query"
+import Newcard from "./arzaman_work/newcard";
+import Dochat from "./arzaman_work/dochat";
+import Rating from "./arzaman_work/rating";
 export const Home1 = () => {
   return (
     <>
@@ -22,7 +25,8 @@ export const Home1 = () => {
       
       <div style={{display:"inline",marginRight:"5px"}}><FaPlus/></div><h3 style={{display:"inline"}}>Create New</h3>
     </NavLink> */}
-               <NavLink exact to="/sitemap">
+              
+              <NavLink exact to="/sitemap">
               <button className='btn-ielts' 
                 >
                  
@@ -42,6 +46,10 @@ export const Home1 = () => {
       </div>
       <ImageSlider className="slider" images={images}/>
       <Overview/>
+      
+      <Newcard/>
+      <Dochat/>
+      {/* <Rating/> */}
       <Update/>
       <Query/>
       <Footer/>

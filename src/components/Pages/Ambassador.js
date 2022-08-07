@@ -201,7 +201,7 @@ const Ambassador = () => {
       <br />
       <br />
       <div>
-        <Button href="https://docs.google.com/forms/d/e/1FAIpQLSezu555aTApyA-HM6fU27_9_8M6Rx8GZAwAXP-ZU6JVs8_qVQ/viewform?usp=sf_link" target="_blank" >
+        <Button className="combtn" href="https://docs.google.com/forms/d/e/1FAIpQLSezu555aTApyA-HM6fU27_9_8M6Rx8GZAwAXP-ZU6JVs8_qVQ/viewform?usp=sf_link" target="_blank" >
           Start Today!
         </Button>
       </div>

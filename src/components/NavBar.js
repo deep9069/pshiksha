@@ -62,50 +62,9 @@ function NavBar() {
                   </NavLink>
                   <NavLink exact to="/backpaper" onClick={handleClick}>
                    Paper prep
-                  </NavLink>
-                  {/* <h3 style={{ marginLeft: "10px" }}>Paper prep</h3> */}
-                  {/* <NavLink exact to="" onClick={handleClick}>
-                    Btech
-                  </NavLink> */}
-                  {/* <div class="dropdown">
-              <div class="dropbtn">
-                Btech
-                <i class="fa fa-caret-down"></i>
+                  </NavLink> 
               </div>
-              <div class="dropdown-content">
-                <li>
-                  software Engineering
-                </li>
-                <li>
-                  computer Engineering
-                </li>
-                <li>
-                  electrical Engineering
-                </li>
-                <li>
-                  civil Engineering
-                </li>
-                </div>
-                
-              </div>
-              <div class="dropdown">
-              <div class="dropbtn">
-                Mtech
-                <i class="fa fa-caret-down"></i>
-              </div>
-              <div class="dropdown-content">
-                <NavLink exact to="/placementprep" onClick={handleClick}>
-                  Plac
-                </NavLink>
-                <NavLink exact to="/cvmaking" onClick={handleClick}>
-                  prof
-                </NavLink>
-                </div>
-              </div> */}
-
-                </div>
-              </div>
-            {/* </div> */}
+            </div>
           </li>
           <li className="nav-item">
             <div class="dropdown1">

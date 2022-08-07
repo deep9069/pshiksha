@@ -21,7 +21,7 @@ const AboutCard = () => {
                 return (
                   <div className='item flex' style={{justifyContent: "space-around"}}>
                     <div className="row">
-                    <div className='img'>
+                    <div className='img1'>
                       <img src={val.cover} alt='' />
                     </div>
                       <h2 style={{ color: "black", marginLeft:"35px",marginTop:"10px"}}>{val.title}</h2>

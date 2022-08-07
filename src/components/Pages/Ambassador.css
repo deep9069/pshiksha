@@ -9,7 +9,8 @@
 
 .elem0amb {
     text-align: center;
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    justify-content: center;
 }
 
 .element1amb {

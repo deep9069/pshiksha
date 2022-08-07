@@ -26,6 +26,7 @@ import Ieltspay from "./components/Pages/Ieltspay";
 import Newc from "./components/Pages/Newc";
 import Overseas from "./components/Pages/Overseas";
 import Neetpay from "./components/Pages/Neetpay";
+import AboutUs from "./components/Pages/aboutus";
 import PrivacyPolicy from "./components/Pages/PrivacyPolicy";
 import TermsOfService from "./components/Pages/TermsOfService";
 import UserPolicy from "./components/Pages/UserPolicy";
@@ -55,6 +56,7 @@ import Placementprep from "./pages/Placementprep";
 import Presentationmaking from "./pages/Presentationmaking";
 import Update from "./pages/updateofdata";
 import WallOfFame from "./components/Pages/walloffame";
+import Programme from "./components/Pages/programme";
 
 function App() {
   const [user,setLoginUser]= useState({})
@@ -117,6 +119,7 @@ function App() {
             element={<Usa />}
           />
           <Route exact path="/newc" element={<Newc />} />
+          <Route exact path="/about_us" element={<AboutUs />} />
           <Route exact path="/privacy_policy" element={<PrivacyPolicy />} />
           <Route exact path="/blog" element={<Blog />} />
           <Route exact path="/blogpost" element={<BlogPost />} />
@@ -142,6 +145,7 @@ function App() {
           />
           <Route path="/register" element={<Register />} />
           <Route exact path="/wallOfFame" element={<WallOfFame />} />
+          <Route exact path="/programme" element={<Programme />} />
         </Routes>
       </Router>
     </>

@@ -18,7 +18,7 @@ export function Neet() {
               <h1 style={{ fontSize: "50px" }}>
                 <b>
                   NEET<span style={{ color: "#29e6a7" }}> Coaching</span>
-                </b>
+                </b>  
               </h1>
             </div>
           </div>

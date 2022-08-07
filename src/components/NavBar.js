@@ -105,6 +105,7 @@ function NavBar() {
 
                 </div>
               </div>
+            {/* </div> */}
           </li>
           <li className="nav-item">
             <div class="dropdown1">
@@ -156,6 +157,9 @@ function NavBar() {
                 <i class="fa fa-caret-down"></i>
               </div>
               <div class="dropdown-content1">
+                <NavLink exact to="/about_us" onClick={handleClick}>
+                  About Us
+                </NavLink>
                 <NavLink exact to="/blog" onClick={handleClick}>
                   Blog
                 </NavLink>

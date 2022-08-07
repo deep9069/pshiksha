@@ -27,7 +27,7 @@ function NavBar() {
             }}
           />
           <div style={{ marginTop: "75px" }}>
-            <i className="logotext">P SHIKSHA 4.0</i>
+            <i className="logotext">P. SHIKSHA 4.0</i>
           </div>
         </NavLink>
         {/* </div> */}
@@ -51,14 +51,8 @@ function NavBar() {
                 <NavLink exact to="/projects" onClick={handleClick}>
                   Major/Minor project
                 </NavLink>
-                {/* <NavLink exact to="/iit" onClick={handleClick}>
-                        Plag-free reports
-                      </NavLink> */}
                   <NavLink exact to="/assignment" onClick={handleClick}>
                    Assignments
-                  </NavLink>
-                  <NavLink exact to="/backpaper" onClick={handleClick}>
-                    Paper prep
                   </NavLink>
                   <NavLink exact to="/petalk" onClick={handleClick}>
                    Pre Talk
@@ -66,6 +60,49 @@ function NavBar() {
                   <NavLink exact to="/presentation" onClick={handleClick}>
                    Presentation
                   </NavLink>
+                  <NavLink exact to="/backpaper" onClick={handleClick}>
+                   Paper prep
+                  </NavLink>
+                  {/* <h3 style={{ marginLeft: "10px" }}>Paper prep</h3> */}
+                  {/* <NavLink exact to="" onClick={handleClick}>
+                    Btech
+                  </NavLink> */}
+                  {/* <div class="dropdown">
+              <div class="dropbtn">
+                Btech
+                <i class="fa fa-caret-down"></i>
+              </div>
+              <div class="dropdown-content">
+                <li>
+                  software Engineering
+                </li>
+                <li>
+                  computer Engineering
+                </li>
+                <li>
+                  electrical Engineering
+                </li>
+                <li>
+                  civil Engineering
+                </li>
+                </div>
+                
+              </div>
+              <div class="dropdown">
+              <div class="dropbtn">
+                Mtech
+                <i class="fa fa-caret-down"></i>
+              </div>
+              <div class="dropdown-content">
+                <NavLink exact to="/placementprep" onClick={handleClick}>
+                  Plac
+                </NavLink>
+                <NavLink exact to="/cvmaking" onClick={handleClick}>
+                  prof
+                </NavLink>
+                </div>
+              </div> */}
+
                 </div>
               </div>
           </li>
@@ -78,7 +115,6 @@ function NavBar() {
               <div class="dropdown-content1">
                 {/* <div class="row"> */}
                 {/* <div class="column"> */}
-                <h3 style={{ marginLeft: "10px" }}>Exams</h3>
                 <NavLink exact to="/iit" onClick={handleClick}>
                   IIT
                 </NavLink>
@@ -89,7 +125,6 @@ function NavBar() {
                 {/* <div class="column"> */}
                 {/* </div> */}
                 {/* <div class="column"> */}
-                <h3 style={{ marginLeft: "10px" }}>Students</h3>
                 <NavLink exact to="/internship" onClick={handleClick}>
                   Internship
                 </NavLink>
@@ -105,7 +140,6 @@ function NavBar() {
                 </NavLink>
                 {/* </div> */}
                 {/* </div> */}
-                <h3 style={{ marginLeft: "10px" }}>School Of Abroad</h3>
                 <NavLink exact to="/ielts" onClick={handleClick}>
                   IELTS
                 </NavLink>

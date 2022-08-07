@@ -32,18 +32,19 @@ return (
 		</Column> */}
 		<Column>
 		<Heading>Services</Heading>
-		<NavLink exact to="./HomeTution" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
+		{/* <NavLink exact to="./HomeTution" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
 			  <FooterLink ><p style={{fontSize:16}}>Tutions</p></FooterLink>
-			</NavLink>
+			</NavLink> */}
 			<NavLink exact to="./sitemap" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
 			  <FooterLink ><p style={{fontSize:16}}>All Courses</p></FooterLink>
-			</NavLink>
-			<NavLink exact to="./blog" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
-			  <FooterLink ><p style={{fontSize:16}}>Blogs</p></FooterLink>
 			</NavLink>
 			<NavLink exact to="./Overseas" className="link"style={{textDecoration:"none",marginBottom:"10px"}}>
 			  <FooterLink ><p style={{fontSize:16}}>Overseas</p></FooterLink>
 			</NavLink>
+			<NavLink exact to="./blog" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
+			  <FooterLink ><p style={{fontSize:16}}>Blogs</p></FooterLink>
+			</NavLink>
+			
 		</Column>
 		<Column>
 			<Heading>Social Media</Heading>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Ambassador.css'
-import { Button, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { FaHandPointRight } from "react-icons/fa";
 
 const Ambassador = () => {
@@ -201,9 +201,9 @@ const Ambassador = () => {
       <br />
       <br />
       <div>
-        <Button className="combtn" href="https://docs.google.com/forms/d/e/1FAIpQLSezu555aTApyA-HM6fU27_9_8M6Rx8GZAwAXP-ZU6JVs8_qVQ/viewform?usp=sf_link" target="_blank" >
+        <a className="amb-btn" href="https://docs.google.com/forms/d/e/1FAIpQLSezu555aTApyA-HM6fU27_9_8M6Rx8GZAwAXP-ZU6JVs8_qVQ/viewform?usp=sf_link" target="_blank" >
           Start Today!
-        </Button>
+        </a>
       </div>
       <br/>
       <br/>

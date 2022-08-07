@@ -1,6 +1,6 @@
 import React,{ useState } from "react";
 import './Internship.css'
-import { Button, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "./Ielts.css";
 import { FaHandPointRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
@@ -9,7 +9,7 @@ const Internship = () => {
 	return (
     <div className="internship">
       <div id="comp-kpfaw7sg" class="_2Hij5" data-testid="richTextElement">
-        <Container className="elem0intern">
+        <Container className="elem_0intern">
           <div data-testid="richTextElement">
             <div className="d-flex align-items-center flex-column">
               <h1 style={{ fontSize: "50px" }}>
@@ -153,17 +153,18 @@ const Internship = () => {
         <div class="verticalLine1"></div>
         <br />
         <br />
-        <Button
+        <a
           href="https://dare2compete.com/o/lsKFtfX?lb=0YxdjR5"
           target="_blank"
           rel="noreferrer"
-          class="btn-intern"
+          className="btn-intern1"
         >
           Start Today!
-        </Button>
-        <br />
-        <br />
-        <br />
+        </a>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
         Interested in <b>Internship without Interview</b>{" "}
           checkout&nbsp;
         <Link to="/intern_without_interview" target="_blank" className="link-here">

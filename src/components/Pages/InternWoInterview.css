@@ -11,6 +11,10 @@
     border-bottom: solid rgba(0, 0, 0, 0.822);
 }
 
+.elem_0intern {
+    justify-content: center;
+}
+
 .internship {
     margin-top: 55px;
 }
@@ -23,18 +27,6 @@
     margin-bottom: 25px;
     margin-right: 120px;
     margin-left: 120px;
-}
-
-.elem0intern {
-    text-align: center;
-    margin-left: 240px;
-}
-
-.element1ntern {
-    font-size: 18px;
-    font-size: medium;
-    font-weight: bold;
-    width: auto;
 }
 
 .element2 {
@@ -54,7 +46,7 @@
 .header {
     font-size: 18px;
     text-align: center;
-    margin-right: 430px;
+    /* margin-right: 430px; */
     cursor: pointer;
     font-stretch: expanded;
     font-weight: bolder;
@@ -76,7 +68,6 @@
     font-family: inherit;
     font-weight: bold;
     font-size: 1rem;
-    /* margin: 1rem; */
     border: 2px solid #33ccff;
     background: transparent;
     color: #33ccff;

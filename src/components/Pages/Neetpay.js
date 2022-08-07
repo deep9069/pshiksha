@@ -1,6 +1,5 @@
 import React from "react";
 import "./Neet.css";
-import Button from "react-bootstrap/Button";
 import { FaBook } from "react-icons/fa";
 
 const Neetpay = () => {
@@ -32,14 +31,14 @@ const Neetpay = () => {
           <div>
             <div>
               <br />
-              <Button
+              <a
                 className="neet3"
                 href="https://pages.razorpay.com/pl_Iis0058FjJECvk/view"
                 target="_blank"
                 rel="noreferrer"
               >
                 Pay Now
-              </Button>
+              </a>
             </div>
           </div>
           <br />
@@ -83,27 +82,27 @@ const Neetpay = () => {
               <br />
               <br />
               <br />
-              <Button
+              <a
                 href="https://pages.razorpay.com/pl_Iis8nL0KRW7Psi/view"
                 className="btn-align-1-pay"
                 target="_blank"
               >
                 Pay Now (1st Time Installment)
-              </Button>
-              <Button
+              </a>
+              <a
                 href="https://pages.razorpay.com/pl_IisEhB7NRnYwDP/view"
                 className="btn-align-2-pay"
                 target="_blank"
               >
                 Pay Now (2nd Time Installment)
-              </Button>
-              <Button
+              </a>
+              <a
                 href="https://pages.razorpay.com/pl_IisN6gk0YlaCDj/view"
                 className="btn-align-3-pay"
                 target="_blank"
               >
                 Pay Now (3rd Time Installment)
-              </Button>
+              </a>
             </div>
           </div>
           <br />
@@ -123,14 +122,14 @@ const Neetpay = () => {
           <div>
             <div>
               <br />
-              <Button
+              <a
                 className="neet3"
                 href="https://pages.razorpay.com/pl_IjFAhwHnqLXbBV/view"
                 target="_blank"
                 rel="noreferrer"
               >
                 Pay Now
-              </Button>
+              </a>
             </div>
           </div>
           <br />
@@ -149,14 +148,14 @@ const Neetpay = () => {
           <div>
             <div>
               <br />
-              <Button
+              <a
                 className="neet3"
                 href="https://pages.razorpay.com/pl_IjFQvXAVuyq3fy/view"
                 target="_blank"
                 rel="noreferrer"
               >
                 Pay Now
-              </Button>
+              </a>
             </div>
             <br />
             <br />

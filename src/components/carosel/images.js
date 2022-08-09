@@ -11,7 +11,7 @@ const images = [
     id: 1,
     src: c_tution,
     alt: "HOME TUITION",
-    link: "/hometution",
+    link: "/gettutor",
   },
   {
     id: 2,

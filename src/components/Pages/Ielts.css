@@ -9,7 +9,9 @@
 
 .elem0ielts {
     text-align: center;
-    margin-left: 410px;
+    /* margin-left: 410px; */
+    justify-content: center;
+
 }
 
 .element1ielts {
@@ -66,6 +68,7 @@
     border-radius: 0.2rem;
     transition: background 200ms ease-in, color 200ms ease-in;
     cursor: pointer;
+    /* margin-left: 16rem;  */
 }
 
 :hover.btn-ielts, :hover.btn-ielts-2 {
@@ -75,8 +78,10 @@
 }
 
 .btn-align {
-    margin-left: 773px;
+    /* margin-left: 170px;
+    margin-right: 170px; */
     display: inline-block;
+    float:right;
 }
 
 .btn-ielts-2 {
@@ -85,22 +90,21 @@
     font-family: inherit;
     font-weight: bold;
     font-size: 1rem;
-    /* margin: 1rem; */
     border: 2px solid #33ccff;
     background: transparent;
     color: #33ccff;
     border-radius: 0.2rem;
     transition: background 200ms ease-in, color 200ms ease-in;
-    cursor: pointer;
-}
+    cursor: pointer;    
+    /* margin: left 12rem; */
+     /* margin-left: 12rem;  */
+} 
 
 .ieltsp {
     font-stretch: expanded;
     font-size: 18px;
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-right: 150px;
-    margin-left: 100px;
 }
 
 .ieltsinside {
@@ -112,29 +116,19 @@
     text-align: center;
     border-radius: 25px;
     font-size: 18px;
-    padding-top: 20px;
-    padding-right: 30px;
-    padding-left: 20px;
-    margin-left: 40px;
-    margin-right: 50px;
-    width: 1062px;
+    padding-top: 15px;
     height: 75px;
     justify-content: center;
 }
 
-.ielph2 {
-    
-}
-
-.ielph3 {
+.ielph3-btn {
     font-size: 18px;
     text-align: center;
     padding: 1rem;
     font-family: inherit;
     font-weight: bold;
     font-size: 1rem;
-    margin-left: 570px;
-    margin-right: 570px;
+    margin-left: 45vw;
     text-decoration: none;
     border: 2px solid #33ccff;
     background: transparent;
@@ -144,7 +138,7 @@
     cursor: pointer;
 }
 
-:hover.ielph3 {
+:hover.ielph3-btn {
     background: #33ccff;
     color: white;
 }

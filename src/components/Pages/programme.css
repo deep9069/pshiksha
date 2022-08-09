@@ -1,0 +1,61 @@
+.progmain {
+    font-stretch: expanded;
+    font-size: 18px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    margin-right: 120px;
+    margin-left: 120px;
+}
+
+.proghead1 {
+    display: flex;
+    justify-content: center;
+}
+
+.proghead2 {
+    font-size: 18px;
+    font-size: medium;
+    font-weight: bold;
+    width: auto;
+}
+
+.progpara1 {
+    margin-left: 29px;
+    width: auto;
+}
+
+.progbtn1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+}
+
+.progbtn2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 30vw;
+    justify-content: center;
+}
+
+.progbtn3 {
+    display: inline;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 81px;
+    justify-content: center;
+}
+
+.progcont {
+    background-color: rgb(170, 168, 168);
+    width: 80%;
+    border-radius: 15px;
+    margin-left: 6vw;
+}
+.seats {
+    background-color: rgb(99, 86, 211);
+    color: white;
+    padding: 0.4%;
+    text-align: right;
+    border-radius: 15px;
+    width: 80%;
+}

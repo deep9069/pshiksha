@@ -62,7 +62,7 @@ animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
 
 .loginMain:hover {
     /* box-shadow: 0 18px 26px 0 rgba(0,0,0,0.2); */
-    background-color: #1eb2a6;
+    background-color:rgb(170, 255, 248);
     color: #fff;
     cursor: pointer;
   }

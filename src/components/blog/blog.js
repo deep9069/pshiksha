@@ -1,6 +1,7 @@
 import React from "react"
 import BlogCard from "./BlogCard"
 import "./blog.css"
+import Footer from "../footer/Footer";
 export const Blog = () => {
   return (
     <>
@@ -12,6 +13,7 @@ export const Blog = () => {
         </div>
         </div>
       </div>
+      <Footer/>
     </>
   )
 }

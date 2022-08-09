@@ -7,7 +7,6 @@ import usa2 from "../assets/usa2.png";
 
 const Usa = () => {
   return (
-    <div className="usa">
       <div className="overmain">
         <div className="overhead1">
           <h1 style={{ fontSize: "40px" }}>
@@ -158,7 +157,6 @@ const Usa = () => {
         <br />
         <br />
       </div>
-    </div>
   );
 }
 

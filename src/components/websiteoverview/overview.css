@@ -1,5 +1,6 @@
 .aboutHome {
     height: auto;
+    display: flex;
   }
 
   .container{
@@ -12,9 +13,12 @@
   /* .left-row{
     width: 55%;
   } */
+  
+ 
+
 .img{
   position: relative;
-  margin-left: -35px;
+  /* margin-left: -25px; */
 }
   .aboutHome #heading {
     text-align: left;
@@ -22,12 +26,12 @@
   }
   .aboutHome .left img {
     width: 400px;
-    height: 800px;
-    /* background-size: cover; */
+    height: 740px;
+    background-size: cover;
     object-fit: cover;
   }
   .aboutHome .right {
-    padding: 50px 50px;
+    /* padding: 50px 50px; */
     /* background-color: black; */
     /* width:30%; */
   }
@@ -40,6 +44,7 @@
     padding: 20px;
     height: 150px;
     transition: 0.5s;
+    justify-content: space-evenly;
   }
   .aboutHome .img {
     width: 0px;
@@ -57,11 +62,31 @@
     color: #999999;
   }
   .aboutHome .item:hover {
-    background-color: #1eb2a6;
-    color: #fff;
-    cursor: pointer;
-    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
+    /* background-color: #1eb2a6; */
+    /* color: #fff; */
+    /* cursor: pointer; */
+    /* box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%); */
   }
   .aboutHome .item:hover p {
     color: #fff;
+  }
+  @media screen and (max-width: 810px) {
+  .aboutHome .left img {
+    width: 380px;
+    height: 730px;
+    background-size: cover;
+    object-fit: cover;
+  }
+}
+  @media screen and (max-width: 768px) {
+    .img1{
+      display: none;
+    }
+
+    .aboutHome .left img {
+      width: 400px;
+      height: 750px;
+      background-size: cover;
+      object-fit: cover;
+    }
   }

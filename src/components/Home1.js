@@ -52,7 +52,7 @@ export const Home1 = () => {
       <div className="ratingcard-area" style={{ display: "flex", justifyContent: "space-around", marginBottom: "5%" }}>
       <Newcard
           name="Frontend Developer"
-          instructor="Jitesh Kumar"
+          instructor="Mayank Sharma"
           details="An all in one course for an aspiring frontent developer"
         />
         <Newcard

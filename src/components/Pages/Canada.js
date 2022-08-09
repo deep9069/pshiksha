@@ -9,7 +9,6 @@ import can4 from "../assets/can4.png";
 
 const Canada = () => {
   return (
-    <div className="canada">
       <div className="overmain">
         <div className="overhead1">
           <h1 style={{ fontSize: "40px" }}>
@@ -197,7 +196,6 @@ const Canada = () => {
         <br />
         <br />
       </div>
-    </div>
   );
 }
 

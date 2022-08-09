@@ -7,7 +7,6 @@ import uk2 from "../assets/uk2.png";
 
 const Uk = () => {
   return (
-    <div className="uk">
       <div className="overmain">
         <div className="overhead1">
           <h1 style={{ fontSize: "40px" }}>
@@ -148,7 +147,6 @@ const Uk = () => {
         <br />
         <br />
       </div>
-    </div>
   );
 }
 

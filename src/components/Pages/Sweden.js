@@ -5,7 +5,6 @@ import { BsFillPatchQuestionFill } from "react-icons/bs";
 
 const Sweden = () => {
   return (
-    <div className="sweden">
       <div className="overmain">
         <div className="overhead1">
           <h1 style={{ fontSize: "40px" }}>
@@ -205,7 +204,6 @@ const Sweden = () => {
         <br />
         <br />
       </div>
-    </div>
   );
 }
 

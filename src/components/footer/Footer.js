@@ -15,6 +15,7 @@ import razorpay from "../assets/razorpay.webp";
 import university from "../assets/dtunsutiiit.png";
 import dtu from "../assets/dtu logo.jpg";
 import nsut from "../assets/nsut logo.png";
+import Chatbutton from "../../pages/Chatbutton";
 
 export const Footer = () => {
 return (
@@ -43,6 +44,9 @@ return (
 			</NavLink>
 			<NavLink exact to="./blog" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
 			  <FooterLink ><p style={{fontSize:16}}>Blogs</p></FooterLink>
+			</NavLink>
+			<NavLink exact to="./dochat" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
+			  <FooterLink ><p style={{fontSize:16}}><Chatbutton/></p></FooterLink>
 			</NavLink>
 			
 		</Column>

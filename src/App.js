@@ -57,6 +57,9 @@ import Presentationmaking from "./pages/Presentationmaking";
 import Update from "./pages/updateofdata";
 import WallOfFame from "./components/Pages/walloffame";
 import Programme from "./components/Pages/programme";
+import Dochat from "./pages/Dochat";
+import Gettutor from "./pages/Gettutor";
+
 
 function App() {
   const [user,setLoginUser]= useState({})
@@ -70,6 +73,7 @@ function App() {
           <Route exact path="/" element={<Home1 />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Details />} />
+          <Route exact path="/dochat" element={<Dochat />} />
           <Route
             exact
             path="/internship"
@@ -95,6 +99,7 @@ function App() {
           />
           <Route exact path="/training_cum_internship" element={<Training />} />
           <Route exact path="/iit" element={<IIt />} />
+          <Route exact path="/gettutor" element={<Gettutor />} />
           <Route exact path="/iitjeepay" element={<Iitjeepay />} />
           <Route exact path="/neetpay" element={<Neetpay />} />
           <Route exact path="/neet" element={<Neet />} />

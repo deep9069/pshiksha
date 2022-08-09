@@ -63,6 +63,9 @@ function NavBar() {
                   <NavLink exact to="/backpaper" onClick={handleClick}>
                    Paper prep
                   </NavLink> 
+                  <NavLink exact to="/gettutor" onClick={handleClick}>
+                  Home Tuition
+                  </NavLink> 
               </div>
             </div>
           </li>

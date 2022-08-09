@@ -46,9 +46,27 @@ export const Home1 = () => {
       </div>
       <ImageSlider className="slider" images={images}/>
       <Overview/>
-      
-      <Newcard/>
-      <Dochat/>
+      <h2 style={{ textAlign: "center", fontSize: "55px", marginBottom: "5%" }}>
+        Our Top Rated <span style={{ color: "#29E6A7" }}>Courses</span>
+      </h2>
+      <div className="ratingcard-area" style={{ display: "flex", justifyContent: "space-around", marginBottom: "5%" }}>
+      <Newcard
+          name="Frontend Developer"
+          instructor="Jitesh Kumar"
+          details="An all in one course for an aspiring frontent developer"
+        />
+        <Newcard
+          name="Full-Stack Developer"
+          instructor="Deepak Kumar"
+          details="An all in one course for an aspiring frontent developer"
+        />
+        <Newcard
+          name="Backend Developer"
+          instructor="Arzamaan"
+          details="An all in one course for an aspiring frontent developer"
+        />
+      </div>
+  
       {/* <Rating/> */}
       <Update/>
       <Query/>

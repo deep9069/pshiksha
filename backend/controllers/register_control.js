@@ -1,5 +1,6 @@
 const User=require('../schemas/user');
 module.exports.register = function(req, res){
+
     User.findOne({email: req.body.email}, function(err, user){
         if(err){console.log(err); return ;}
 

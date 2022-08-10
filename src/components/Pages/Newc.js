@@ -2,8 +2,6 @@ import './Newc.scss'
 import React from 'react';
 import './Overseas.css';
 import { Link } from "react-router-dom";
-import card from "react-bootstrap/Card";
-import { Button, Container } from "react-bootstrap";
 import usa from "../assets/usa.png";
 import can from "../assets/can.png";
 import ger from "../assets/ger.png";
@@ -117,9 +115,6 @@ function Card(props) {
         <h2 className="card__title">{props.title}</h2>
         <p className="card__description">{props.description}</p>
       </div>
-      {/* <Button href={props.link} target="_blank" class="card__btn">
-        Learn More
-      </Button> */}
       <Link to={props.link} target="_blank">
         <button className="card__btn">Learn More</button>
       </Link>

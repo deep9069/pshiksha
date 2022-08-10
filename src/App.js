@@ -130,28 +130,6 @@ function App() {
           <Route exact path="/blogpost" element={<BlogPost />} />
           <Route exact path="/newpost" element={<NewPost />} />
           <Route exact path="/sitemap" element={<Sitemap />} />
-{/* 
- Backend
-            <Route exact path="/assignment" element={<Assignments/>} />
-            <Route exact path="/backpaper" element={<Backpaperprep/>} />
-            <Route exact path="/projects" element={<Btechprojects/>} />
-            <Route exact path="/cvmaking" element={<Cvmaking/>} />
-            <Route exact path="/petalk" element={<Peptalk/>} />
-            <Route exact path="/placementprep" element={<Placementprep/>} />
-            <Route exact path="/presentation" element={<Presentationmaking/>} />
-            <Route exact path="/terms_of_service" element={<TermsOfService />}/>
-            <Route exact path="/user_policy" element={<UserPolicy />} />
-            <Route element={PageNotFound} />
-            </Routes>
-            <Routes>
-            <Route exact path="/login" element={<Login setLoginUser={setLoginUser} />}/>
-            <Route path="/register" element={<Register />} />
-          </Routes>
-          
-        </Router>
-       
-
-*/}
           <Route exact path="/assignment" element={<Assignments />} />
           <Route exact path="/backpaper" element={<Backpaperprep />} />
           <Route exact path="/projects" element={<Btechprojects />} />
@@ -164,11 +142,7 @@ function App() {
           <Route element={PageNotFound} />
         </Routes>
         <Routes>
-          <Route
-            exact
-            path="/login"
-            element={<Login setLoginUser={setLoginUser} />}
-          />
+          <Route exact path="/login" element={<Login setLoginUser={setLoginUser} />}/>
           <Route path="/register" element={<Register />} />
           <Route exact path="/wallOfFame" element={<WallOfFame />} />
           <Route exact path="/programme" element={<Programme />} />

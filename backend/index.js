@@ -14,6 +14,7 @@ app.use(cookieParser());
 app.use(express.json())
 app.use(cors());
 // mongo store is used to store the session cookie in the db
+
 app.use(session({
     name: 'pshiksha',
     // TODO change the secret before deployment in production mode
@@ -25,8 +26,9 @@ app.use(session({
     },
     store: new MongoStore(
         {
-            mongoUrl: 'mongodb://localhost/PSHIKSHA4' ,
-            autoRemove: 'disabled'
+            uri: 'mongodb://localhost/PSHIKSHA4' ,
+            collection:'userSessions'
+            // autoRemove: 'disabled'
         
         },
         function(err){

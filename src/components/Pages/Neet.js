@@ -1,5 +1,5 @@
 import React from "react";
-import { Button, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "./Neet.css";
 import { FaHandPointRight } from "react-icons/fa";
@@ -18,7 +18,7 @@ export function Neet() {
               <h1 style={{ fontSize: "50px" }}>
                 <b>
                   NEET<span style={{ color: "#29e6a7" }}> Coaching</span>
-                </b>
+                </b>  
               </h1>
             </div>
           </div>
@@ -173,9 +173,9 @@ export function Neet() {
               </li>
               <br />
             </ul>
-            <Button href={pdf1} target="_blank">
+            <a href={pdf1} className="btn-neet-2" target="_blank">
               Structure of Course
-            </Button>
+            </a>
             <br />
             <br />
             <br />
@@ -291,9 +291,9 @@ export function Neet() {
             will be provided to students.
           </p>
           <br />
-          <Button href={pdf2} className="btn-neet-2" target="_blank">
+          <a href={pdf2} className="btn-neet-2" target="_blank">
             Test Series
-          </Button>
+          </a>
         </div>
         <br />
         <br />
@@ -313,9 +313,9 @@ export function Neet() {
             and style of the NEET exam.
           </p>
           <br />
-          <Button href={pdf3} className="btn-neet-2" target="_blank">
+          <a href={pdf3} className="btn-neet-2" target="_blank">
             Study Material
-          </Button>
+          </a>
           <br />
           <br />
         </div>
@@ -367,18 +367,18 @@ export function Neet() {
         </div>
       </div>
       <br />
-      <Button
+      <a
         href="https://docs.google.com/forms/d/e/1FAIpQLSeBmACT5U_gCTZhGTdN5COkaza56NkF_xPYTVXPPg24dhWniQ/closedform"
         className="btn-align-1"
         target="_blank"
       >
         Register Now
-      </Button>
-      <Button href={pdf4} className="btn-align-2" target="_blank">
+      </a>
+      <a href={pdf4} className="btn-align-2" target="_blank">
         Fee Structure
-      </Button>
+      </a>
       <Link to="/neetpay" target="_blank">
-        <Button className="btn-align-3">Pay Now</Button>
+        <a className="btn-align-3">Pay Now</a>
       </Link>
       <br />
       <br />

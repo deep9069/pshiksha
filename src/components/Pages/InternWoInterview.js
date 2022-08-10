@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./InternWoInterview.css";
-import { Button, Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import "./Ielts.css";
 import { FaHandPointRight } from "react-icons/fa";
 
@@ -8,7 +8,7 @@ const InternWoInterview = () => {
   return (
     <div className="internship">
       <div id="comp-kpfaw7sg" class="_2Hij5" data-testid="richTextElement">
-        <Container className="elem0intern">
+        <Container className="elem_0intern">
           <div data-testid="richTextElement">
             <div className="d-flex align-items-center flex-column">
               <h1 style={{ fontSize: "50px" }}>
@@ -161,9 +161,9 @@ const InternWoInterview = () => {
         <div class="verticalLine1"></div>
         <br />
         <br />
-        <Button href="" target="_blank" rel="noreferrer" class="btn-intern">
+        <a href="" target="_blank" rel="noreferrer" className="btn-intern1">
           Start Today!
-        </Button>
+        </a>
         <br />
         <br />
       </div>

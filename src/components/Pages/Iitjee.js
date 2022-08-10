@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Container } from 'react-bootstrap'
+import { Container } from 'react-bootstrap'
 import { Link } from "react-router-dom";
 import "./Iitjee.css";
 import { FaHandPointRight } from "react-icons/fa";
@@ -127,9 +127,9 @@ export function Iitjee() {
                 </li>
               </ul>
               <br />
-              <Button href={pdf1} target="_blank">
+              <a href={pdf1} className="btn-iit-2"  target="_blank">
                 Structure of Course
-              </Button>
+              </a>
             </div>
             <br />
             <br />
@@ -262,13 +262,13 @@ export function Iitjee() {
                 pattern, will be provided to students.
               </p>
               <br />
-              <Button href={pdf2} className="btn-iit-2" target="_blank">
+              <a href={pdf2} className="btn-iit-2" target="_blank">
                 Test Series
-              </Button>
+              </a>
             </div>
-            <br/>
-            <br/>
-            <br/>
+            <br />
+            <br />
+            <br />
             <h3>11. ASSIGNMENTS AND WORKSHEETS</h3>
             <p className="para3">
               Advanced Level Worksheets will be provided to maximize score on
@@ -284,9 +284,9 @@ export function Iitjee() {
                 with the format and style of the JEE exam.
               </p>
               <br />
-              <Button href={pdf3} className="btn-iit-2" target="_blank">
+              <a href={pdf3} className="btn-iit-2" target="_blank">
                 Study Material
-              </Button>
+              </a>
               <br />
               <br />
             </div>
@@ -345,23 +345,23 @@ export function Iitjee() {
           </div>
           <br />
         </div>
-        <Button
+        <a
           href="https://docs.google.com/forms/d/e/1FAIpQLSeBmACT5U_gCTZhGTdN5COkaza56NkF_xPYTVXPPg24dhWniQ/closedform"
           className="btn-align-1"
           target="_blank"
         >
           Register Now
-        </Button>
-        <Button href={pdf4} className="btn-align-2" target="_blank">
+        </a>
+        <a href={pdf4} className="btn-align-2" target="_blank">
           Fee Structure
-        </Button>
+        </a>
         <Link to="/iitjeepay" target="_blank">
-          <Button className="btn-align-3">Pay Now</Button>
+          <a className="btn-align-3">Pay Now</a>
         </Link>
         <br />
         <br />
         <br />
-        <Update/>
+        <Update />
       </>
     );
 }

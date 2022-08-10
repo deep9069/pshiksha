@@ -24,9 +24,8 @@
     margin-left: 120px;
 }
 
-.elem0intern {
-    text-align: center;
-    margin-left: 240px;
+.elem_0intern {
+    justify-content: center;
 }
 
 .element1ntern {
@@ -68,6 +67,27 @@
     font-size: 18px;
 }
 
+.btn-intern1 {
+    text-align: center;
+    text-decoration: none;
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    border: 2px solid #33ccff;
+    background: transparent;
+    color: #33ccff;
+    border-radius: 0.2rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    cursor: pointer;
+}
+
+:hover.btn-intern1 {
+    background: #33ccff;
+    text-decoration: none;
+    color: white;
+}
+
 .btn-intern-this {
     text-align: center;
     text-decoration: none;
@@ -75,15 +95,13 @@
     font-family: inherit;
     font-weight: bold;
     font-size: 1rem;
-    /* margin: 1rem; */
-    margin-left: 420px;
-    margin-right: 10px;
     border: 2px solid #33ccff;
     background: transparent;
     color: #33ccff;
     border-radius: 0.2rem;
     transition: background 200ms ease-in, color 200ms ease-in;
     cursor: pointer;
+    margin-left: 32vw;
 }
 
 :hover.btn-intern-this {

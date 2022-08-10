@@ -6,7 +6,6 @@ import sin1 from "../assets/sin1.png";
 
 const Singapore = () => {
   return (
-    <div className="singapore">
       <div className="overmain">
         <div className="overhead1">
           <h1 style={{ fontSize: "40px" }}>
@@ -163,7 +162,6 @@ const Singapore = () => {
         <br />
         <br />
       </div>
-    </div>
   );
 }
 

@@ -9,7 +9,8 @@
 
 .elem0amb {
     text-align: center;
-    margin-left: 150px;
+    /* margin-left: 150px; */
+    justify-content: center;
 }
 
 .element1amb {
@@ -27,7 +28,7 @@
     font-style: italic;
 }
 
-.btn {
+.amb-btn {
     text-align: center;
     text-decoration: none;
     padding: 1rem;
@@ -43,7 +44,7 @@
     cursor: pointer;
 }
 
-:hover.btn {
+:hover.amb-btn {
     background: #33ccff;
     color: white;
 }

@@ -1,0 +1,74 @@
+
+#card{
+    position:relative;
+      /* margin:20px auto; */
+      /* margin: 5% 2%; */
+      border-radius:2px;
+      width:450px;
+      height:165px;
+      box-shadow:0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+      transition:box-shadow 1s;
+    /* overflow:hidden; */
+    margin: 2%;
+    background-color: black;
+  }
+
+  #card .text{
+    width: 60%;
+    padding-left:24px;
+    padding-top:5px;
+  }
+  #card .text:first-of-type {
+    padding-top:8px;
+  }
+  #title{
+    color:#29E6A7;
+    font-size:22px;
+    padding-top:16px;
+  }
+  #artist{
+    color:rgb(255, 255, 255);
+  }
+  #album{
+    width: 50%;
+    color:rgba(177, 177, 177, 0.87);
+  }
+  #card img{
+    height:165px;
+    width:40%;
+    position:absolute;
+    top:0;
+    right:0;
+  }
+  #rating{
+    border-top: 1px solid rgba(0,0,0,.1);
+    width:260px;
+    padding-left:24px;
+    padding-top:8px;
+    position:absolute;
+    bottom:8px;
+    transition:1s;
+  }
+  #card .rateToggle{
+    bottom:-45px;
+  }
+  #rating .material-icons{
+    cursor:default;
+    font-size:28px;
+    padding-right:5px;
+    color: #faca43;
+  }
+  #rating .material-icons:nth-child(6){
+    position:absolute;
+    bottom:-45px;
+    transition:1s;
+    right:8px;
+  }
+  #rating .material-icons:nth-child(6).expandToggle{
+    bottom:50px;
+    transition:1s;
+  }
+  #card:hover{
+      box-shadow:0 8px 10px 1px rgba(0,0,0,.14),0 3px 14px 2px rgba(0,0,0,.12),0 5px 5px -3px rgba(0,0,0,.2);
+      transition:box-shadow 1s;
+  }

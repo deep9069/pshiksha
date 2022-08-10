@@ -10,21 +10,21 @@ const AboutCard = () => {
     <>
       <div className='aboutHome'>
         <div className='container'>
-          <div className='left row'>
-            <img src={courseimage} alt='' />
+          <div className='left row' >
+            <img className="img1" src={courseimage} alt='' />
           </div>
-          <div className='right row'>
-            {/* <Heading subtitle='LEARN ANYTHING' title='Benefits About Online Learning Expertise' /> */}
-            <p style={{textAlign:"center",fontSize:20,fontWeight:"bold"}}>Benefits About Online Learning Expertise</p>
+          <div className='right row' style={{marginRight:"5%",display:"flex"}}>
+  
             <div className='items'>
+            <p style={{textAlign:"center",fontSize:20,fontWeight:"bold"}}>Benefits About Online Learning Expertise</p>
               {homeAbout.map((val) => {
                 return (
-                  <div className='item flex'>
+                  <div className='item flex' style={{justifyContent: "space-around"}}>
                     <div className="row">
-                    <div className='img'>
+                    <div className='img1'>
                       <img src={val.cover} alt='' />
                     </div>
-                      <h2 style={{ color: "black" }}>{val.title}</h2>
+                      <h2 style={{ color: "black", marginLeft:"35px",marginTop:"10px"}}>{val.title}</h2>
                     </div>
                       <p style={{ color: "black" ,textAlign:"left",fontSize:18,marginTop:17}}>{val.desc}</p>
                   </div>

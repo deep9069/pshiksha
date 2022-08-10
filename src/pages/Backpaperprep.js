@@ -9,6 +9,7 @@ import Data from "../components/assets/courses/data.png"
 import Algo from "../components/assets/courses/algo.png"
 import Projects from "../components/assets/courses/projects.png"
 import Update from "../pages/updateofdata";
+import { NavLink } from 'react-router-dom';
 
 
 const Backpaperprep = () => {
@@ -36,18 +37,967 @@ const Backpaperprep = () => {
 
             <div class="course" style={{ marginBottom: "20px" }}>
                 <center><div class="cbox">
-                    <div class="det"><a href="subjects/jee.html"><img src={Book} />JEE Preparation</a></div>
-                    <div class="det"><a href="subjects/gate.html"><img src={D1} />GATE Preparation</a></div>
-                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} />Sample Papers</a></div>
-                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />Daily Quiz</a></div>
+                    {/* <div class="det"><a href="subjects/jee.html"><img src={Book} />JEE Preparation</a></div> */}
+                    
+                    
+                    <div class="dropdown">
+              <div class="dropbtn">
+              <div class="det"><a><img src={Book} />Btech</a></div>
+                {/* <i class="fa fa-caret-down"></i> */}
+              </div>
+              <div class="dropdown-content">
+               <ul>
+               Branches
+                  <li><a>Computer</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                      subjects
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul>
+                  </li>
+
+                  <li><a>Software</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Information & Technology</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Mathematics & computing </a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Electronics & Communications</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Electrical </a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+
+                  <li><a>civil </a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+
+                  <li><a>Mechanical</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a>
+                        <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+
+                  <li><a>Mechanical & automotive </a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Production & Industrial </a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Polymer & Chemical </a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Biotechnology</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Engineering Physics</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Environmental</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+              </ul>
+                
+
+
                 </div>
+              </div>
+              <div class="dropdown">
+              <div class="dropbtn">
+              <div class="det"><a><img src={Book} />Mtech</a></div>
+                {/* <i class="fa fa-caret-down"></i> */}
+              </div>
+              <div class="dropdown-content">
+               <ul>
+               Branches
+                  <li><a>Computer</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                      subjects
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul>
+                  </li>
+
+                  <li><a>Software</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Information & Technology</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Mathematics & computing </a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Electronics & Communications</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a>
+                    <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Electrical </a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+
+                  <li><a>civil </a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+
+                  <li><a>Mechanical</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a>
+                        <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+
+                  <li><a>Mechanical & automotive </a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Production & Industrial </a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Polymer & Chemical </a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Biotechnology</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Engineering Physics</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+                  <li><a>Environmental</a>
+                  <ul>
+                    Semester
+                    <li><a>I</a>
+                    <ul>
+                        <li><a>Mathematics I</a></li>
+                        <li><a>Physics I</a></li>
+                        <li><a>Chemistry</a></li>
+                        <li><a>Basic Mechanical engg.</a></li>
+                        <li><a>Work Shop</a></li>
+                      </ul></li>
+                    <li><a>II</a>
+                    <ul>
+                        <li><a>Mathematics II</a></li>
+                        <li><a>Physics II</a></li>
+                        <li><a>Basic Electrical engg.</a></li>
+                        <li><a>Programming Fundamentals</a></li>
+                        <li><a>Engineering Graphics</a></li>
+                      </ul>
+                    </li>
+                    <li><a>III</a>
+                      <ul>
+                        <li><a>OS</a></li>
+                        <li><a>DBMS</a></li>
+                      </ul>
+                    </li>
+                    <li><a>IV</a></li>
+                    <li><a>V</a></li>
+                    <li><a>VI</a></li>
+                    <li><a>VII</a></li>
+                    <li><a>VIII</a></li>
+                  </ul></li>
+              </ul>
+                
+
+
+                </div>
+              </div>
+                </div>
+                
                 </center>
-                <div class="cbox">
-                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />Computer Courses</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />Data Structures</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />Algorithm</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Projects</a></div>
-                </div>
             </div>
             <div class="diffSection" id="portfolio_section" style={{}}>
                 <center><p style={{ fontSize: "50px", padding: "100px", paddingBottom: "40px" }}>Portfolio</p></center>

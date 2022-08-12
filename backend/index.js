@@ -8,8 +8,10 @@ const session = require('express-session');
 const MongoStore =require('connect-mongodb-session')(session);
 const app = express();
 const axios =require('axios');
+const bodyParser = require('body-parser');
 const port = 8000;
 app.use(express.urlencoded({ extended: true }));
+//app.use(bodyParser);
 app.use(cookieParser());
 app.use(express.json())
 app.use(cors());
@@ -38,8 +40,8 @@ app.use(session({
 }));
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(passport.authenticate('session'));
-//app.use(passport.setAuthenticatedUser); // session creation.
+//app.use(passport.authenticate('session'));
+app.use(passport.setAuthenticatedUser); // session creation.
 app.use('/', require('./routes'));
 app.listen(port, function(err){
     if (err){

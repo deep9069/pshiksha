@@ -17,7 +17,9 @@ module.exports.register = function(req, res){
 
     });
 }
-module.exports.home = function(req, res){
-    console.log('Frontend Home');
-    return;
+module.exports.home = function(req, res)
+{
+
+    console.log('Backend Home');
+    return res.json(200,{message:'This is the BACKEND of PSHIKSHA4.0 Web app'});
 }

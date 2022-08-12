@@ -1,5 +1,5 @@
 const Blog=require('../schemas/blog');
-const jwt = require('jsonwebtoken');
+//const jwt = require('jsonwebtoken');
 
 module.exports.fetch = async function(req, res){
     console.log('Blog API is up!');

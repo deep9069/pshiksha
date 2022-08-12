@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-padding: 80px 60px;
+padding: 10px 90px;
 // background: black;
 background: linear-gradient(160deg,#00cdac    20%, #6dd5ed 100%);
 position: sticky;
@@ -10,7 +10,7 @@ width: auto;
 height:auto;
 margin-bottom:-100px;
 margin-right:-50px;
-border:solid;
+border:solid yellow;
 // background: red;
 
 @media (max-width: auto) {

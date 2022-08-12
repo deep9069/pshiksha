@@ -10,8 +10,7 @@ import Footer from "./footer/Footer";
 import photo from "./assets/10502.jpg"
 import Query from "./query/query"
 import Newcard from "./arzaman_work/newcard";
-import Dochat from "./arzaman_work/dochat";
-import Rating from "./arzaman_work/rating";
+
 export const Home1 = () => {
   return (
     <>
@@ -58,7 +57,7 @@ export const Home1 = () => {
         <Newcard
           name="Full-Stack Developer"
           instructor="Deepak Kumar"
-          details="An all in one course for an aspiring frontent developer"
+          details="full stack development"
         />
         <Newcard
           name="Backend Developer"
@@ -66,8 +65,6 @@ export const Home1 = () => {
           details="An all in one course for an aspiring frontent developer"
         />
       </div>
-  
-      {/* <Rating/> */}
       <Update/>
       <Query/>
       <Footer/>

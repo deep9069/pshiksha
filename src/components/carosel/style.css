@@ -7,17 +7,17 @@ body {
  .carousel
  { 
     margin-bottom: 2%;
-    width: 100%; 
+    width: auto;
  } 
 
 .imgslider{
-    height: 100%;
-    margin-left: -85px;
-    margin-right: -90px;
+    height: auto;
+    margin-left: 6vw;
+    margin-right: 6vw;
 }
   
 .slick-slide img {
     margin: auto;
-    width: 75;
+    width: auto;
     height: 35%;
 }

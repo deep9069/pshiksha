@@ -9,30 +9,30 @@ overflow:none;
 width: auto;
 height:auto;
 margin-bottom:-100px;
-margin-right:-50px;
+// margin-right:-50px;
 border:solid yellow;
 // background: red;
 
 @media (max-width: auto) {
-	padding: 70px 30px;
+	// padding: auto auto;
 }
 `
 
 // export const copyright=styled.div`
 // margin-bottom:-10px;
 // `
-export const Container = styled.div`
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	// max-width: 1000px;
-    margin-top:40px;
-	height:auto;
-	margin-left:3.5%;
-    margin-bottom:-80px;
-    padding:auto auto;
-    background: red;
-`
+// export const Container = styled.div`
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: center;
+// 	// max-width: 1000px;
+//     margin-top:40px;
+// 	height:auto;
+// 	margin-left:3.5%;
+//     margin-bottom:-80px;
+//     padding:auto auto;
+//     background: red;
+// `
 
 export const Column = styled.div`
 display: flex;

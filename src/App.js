@@ -70,7 +70,7 @@ function App() {
         <NavBar />
         {/* <Sitemap/> */}
         <Routes>
-          <Route exact path="/" element={<Home1 />} />
+          <Route exact path="/" element={<Home1/>} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Details />} />
           <Route exact path="/dochat" element={<Dochat />} />

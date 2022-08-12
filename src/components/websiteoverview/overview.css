@@ -1,6 +1,7 @@
 .aboutHome {
-    height: auto;
     display: flex;
+    height: auto;
+    width: auto;
   }
 
   .container{
@@ -10,39 +11,55 @@
     
   }
 
+  .row{
+    display: flex;
+    /* width: 40%; */
+    /* margin: auto; */
+    width: 50%;
+
+  }
+
   /* .left-row{
     width: 55%;
   } */
   
  
 
-.img{
-  position: relative;
+.img1{
+  /* position: relative; */
   /* margin-left: -25px; */
+  margin: auto;
+  width: 50%;
+  /* padding: 10px; */
 }
   .aboutHome #heading {
     text-align: left;
     padding: 0;
   }
+
   .aboutHome .left img {
+    display: flex;
     width: 400px;
     height: 740px;
     background-size: cover;
     object-fit: cover;
   }
   .aboutHome .right {
-    /* padding: 50px 50px; */
+    display: flexbox;
     /* background-color: black; */
-    /* width:30%; */
   }
   .aboutHome .items {
     margin-top: 50px;
   }
   .aboutHome .item {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
     background-color: #fff;
-    margin-top: 30px;
+    margin-top: 15px;
     padding: 20px;
-    height: 150px;
+    width: auto;
+    height: auto;
     transition: 0.5s;
     justify-content: space-evenly;
   }
@@ -52,6 +69,7 @@
   .aboutHome img {
     width: 50px;
     height: 50px;
+
     
   }
   .aboutHome .item h2 {
@@ -62,10 +80,10 @@
     color: #999999;
   }
   .aboutHome .item:hover {
-    /* background-color: #1eb2a6; */
-    /* color: #fff; */
-    /* cursor: pointer; */
-    /* box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%); */
+    background-color: #1eb2a6;
+    color: #fff;
+    cursor: pointer;
+    box-shadow: 0 5px 25px -2px rgb(0 0 0 / 6%);
   }
   .aboutHome .item:hover p {
     color: #fff;
@@ -79,14 +97,21 @@
   }
 }
   @media screen and (max-width: 768px) {
-    .img1{
+    /* .img1{
+      display: none;
+    } */
+
+    .aboutHome .left img {
+      display: none;
+    }
+    .aboutHome .left{
       display: none;
     }
 
-    .aboutHome .left img {
-      width: 400px;
-      height: 750px;
-      background-size: cover;
-      object-fit: cover;
+    .aboutHome .right{
+      margin-left: 4%;
+      width: auto;
     }
+
+    
   }

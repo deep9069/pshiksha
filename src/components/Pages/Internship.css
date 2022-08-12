@@ -1,17 +1,17 @@
 ._2Hij5 {
     font-stretch: expanded;
     font-size: 18px;
-    margin-top: 25px; 
+    margin-top: 3vh; 
     margin-bottom: 25px;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 .verticalLine1 {
     border-bottom: solid rgba(0, 0, 0, 0.822);
 }
 .internship{
-    margin-top: 55px;
+    margin-top: 3vh;
 }
 
 .para {
@@ -20,8 +20,6 @@
     font-style: italic;
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-right: 120px;
-    margin-left: 120px;
 }
 
 .elem_0intern {
@@ -43,10 +41,8 @@
 
 .collapsible {
     font-size: 18px;
-    margin-top: 25px;
+    margin-top: 3vh;
     margin-bottom: 25px;
-    margin-right: 120px;
-    margin-left: 120px;
 }
 
 .header {
@@ -60,7 +56,7 @@
 
 .content {
     font-stretch: expanded;
-    font-size: medium;
+    font-size: large;
 }
 
 .para2 {
@@ -114,4 +110,11 @@
     display: contents;
     color: blue;
     font-size:large;
+}
+
+@media screen and (max-width: 768px) {
+    .btn-intern-this {
+        padding-right: 100px;
+        margin-left: 22vw;
+    }
 }

@@ -29,7 +29,7 @@ function Collapsible() {
       <div {...getCollapseProps()}>
         <div className="content">
           <p>
-            <div className="para2">
+            <div>
               We are offering unique programme which gives
               internship-cum-training in different departments. This internship
               will help you to understand and enhance your skills while working

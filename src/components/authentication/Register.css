@@ -14,8 +14,6 @@
     transition: 0.5s;
     color: white;
     /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
-    
-    
 }
 
 .gradient{
@@ -45,10 +43,10 @@ animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
     background: #1877f2;
     border: 1px solid #1877f2;
     color: #fff;
-    font-size: 1.25rem;
-    padding: 0.5rem;
+    font-size: 1.1rem;
+    padding: 0.25rem;
     margin: 0.5rem 0;
-    border-radius: 8px;
+    border-radius: 18px;
     width: 93.5%;
     left: 10px;
     outline: none;
@@ -57,12 +55,12 @@ animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
 }
 
 .button:hover {
-    box-shadow: 2px 2px 10px 4px rgb(0, 0, 0);
+    box-shadow: 2px 2px 10px 4px rgb(167, 167, 167);
 }
 
 .loginMain:hover {
     /* box-shadow: 0 18px 26px 0 rgba(0,0,0,0.2); */
-    background-color:rgb(170, 255, 248);
+    background-color:rgb(120, 247, 236);
     color: #fff;
     cursor: pointer;
   }
@@ -87,4 +85,10 @@ animation: rainbow-text-simple-animation-rev 0.75s ease forwards;
     width: 100%;
     height: 100%;
     /* border: solid; */
+}
+
+@media screen and (max-width: 768px) {
+    .loginMain {
+        width: 90%;
+    }
 }

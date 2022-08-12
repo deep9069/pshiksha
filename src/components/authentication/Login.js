@@ -54,8 +54,10 @@ const Login =({setLoginUser})=>{
 */}
             <br/>
             <br/>
+            <br/>
             <h3 className="gradient">Forgot Password?</h3>
-            <div className="button" onClick={login}>CONTINUE</div>
+            <div className="button" onClick={login}>Continue</div>
+            <br/>
             <h3 className="gradient">Not Registered?</h3>
 
             <div className="button" onClick={handleClick}>Register Now</div>

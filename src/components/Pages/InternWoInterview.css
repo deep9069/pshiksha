@@ -1,10 +1,10 @@
 ._2Hij5 {
     font-stretch: expanded;
     font-size: 18px;
-    margin-top: 25px;
+    margin-top: 3vh;
     margin-bottom: 25px;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-right: 8vw;
+    margin-left: 8vw;
 }
 
 .verticalLine1 {
@@ -25,8 +25,8 @@
     font-style: italic;
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 .element2 {
@@ -39,8 +39,8 @@
     font-size: 18px;
     margin-top: 25px;
     margin-bottom: 25px;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 
 .header {

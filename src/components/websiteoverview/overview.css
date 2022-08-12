@@ -1,4 +1,5 @@
 .aboutHome {
+  background-color: #fff;
     display: flex;
     height: auto;
     width: auto;
@@ -43,6 +44,7 @@
     height: 740px;
     background-size: cover;
     object-fit: cover;
+    margin-top: 8%;
   }
   .aboutHome .right {
     display: flexbox;

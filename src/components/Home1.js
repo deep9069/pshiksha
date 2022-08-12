@@ -14,7 +14,6 @@ import Newcard from "./arzaman_work/newcard";
 export const Home1 = () => {
   return (
     <>
-    <div className="maincont" style={{ backgroundColor:"red"}}>
      <div className='hero'>
      
           <div className='row1'>
@@ -64,7 +63,6 @@ export const Home1 = () => {
       <Update/>
       <Query/>
       <Footer/>
-      </div>
     </>
   )
 }

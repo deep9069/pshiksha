@@ -1,10 +1,10 @@
 .ielts {
     font-stretch: expanded;
     font-size: 18px;
-    margin-top: 60px;
+    margin-top: 3vh;
     margin-bottom: 25px;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-right: 8vw;
+    margin-left: 8vw;
 }
 
 .elem0ielts {
@@ -145,4 +145,18 @@
 
 .verticalLineieltsp {
     border-bottom: rgba(94, 85, 85, 0.822);
+}
+
+@media screen and (max-width: 768px) {
+    .btn-ielts {
+        margin-left: 0vw;
+    }
+
+    .btn-ielts-2 {
+        margin-left: -3vw;
+    }
+
+    .ielph3-btn {
+        margin-left: 33vw;
+    }
 }

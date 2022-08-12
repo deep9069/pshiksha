@@ -8,7 +8,7 @@ import { Link } from "react-router-dom";
 const Internship = () => {
 	return (
     <div className="internship">
-      <div id="comp-kpfaw7sg" class="_2Hij5" data-testid="richTextElement">
+      <div id="comp-kpfaw7sg" data-testid="richTextElement">
         <Container className="elem_0intern">
           <div data-testid="richTextElement">
             <div className="d-flex align-items-center flex-column">
@@ -22,7 +22,7 @@ const Internship = () => {
           </div>
         </Container>
       </div>
-      <div id="comp-kpflgr5m" class="para" data-testid="richTextElement">
+      <div id="comp-kpflgr5m" class="_2Hij5"  data-testid="richTextElement">
         <p class="font_2">
           We are offering Internships in different departments. This internship
           will help you to understand and enhance your skills while working with
@@ -161,13 +161,16 @@ const Internship = () => {
         >
           Start Today!
         </a>
-        <br/>
-        <br/>
-        <br/>
-        <br/>
-        Interested in <b>Internship without Interview</b>{" "}
-          checkout&nbsp;
-        <Link to="/intern_without_interview" target="_blank" className="link-here">
+        <br />
+        <br />
+        <br />
+        <br />
+        Interested in <b>Internship without Interview</b> checkout&nbsp;
+        <Link
+          to="/intern_without_interview"
+          target="_blank"
+          className="link-here"
+        >
           here
         </Link>
       </div>

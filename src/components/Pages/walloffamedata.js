@@ -206,7 +206,7 @@ export const testimonal = [
     name: "Pratyush",
     post: "Web Dev Intern",
     date: "June 2022 - July 2022",
-    college: "DTU",
+    college: "NSUT",
     pic: pratyush18,
     link: "https://www.linkedin.com/in",
     cert: "",

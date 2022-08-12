@@ -251,6 +251,21 @@
 }
 
 @media screen and (max-width: 768px) {
+    .btn-align-1 {
+        margin-left: 30vw;
+        margin-bottom: 2vh;
+    }
+
+    .btn-align-2 {
+        margin-left: 30vw;
+        margin-bottom: 2vh;
+    }
+
+    .btn-align-3 {
+        margin-left: 30vw;
+        margin-bottom: 2vh;
+    }
+
     .iit-3-btns {
         margin-left: 3vw;
         margin-right: 3vw;

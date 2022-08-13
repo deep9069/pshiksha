@@ -2,9 +2,9 @@ import suraj1 from "../assets/walloffame/suraj.png";
 import vedant2 from "../assets/walloffame/vedant.png";
 import salman3 from "../assets/walloffame/salman.png";
 import priyanka4 from "../assets/walloffame/priyanka.png";
-import roshan5 from "../assets/walloffame/roshan.png";
+import naveen5 from "../assets/walloffame/naveen.png";
 import arnav6 from "../assets/walloffame/arnav.png";
-import naveen7 from "../assets/walloffame/naveen.png";
+import roshan7 from "../assets/walloffame/roshan.png";
 import akshat8 from "../assets/walloffame/akshat.png";
 import chanpreet9 from "../assets/walloffame/chanpreet.png";
 import samvat10 from "../assets/walloffame/samvat.png";
@@ -18,6 +18,7 @@ import rishab_kumar17 from "../assets/walloffame/rishab_kumar.png";
 import pratyush18 from "../assets/walloffame/pratyush.png";
 import deepak19 from "../assets/walloffame/deepak.png";
 import jitesh20 from "../assets/walloffame/jitesh.png";
+import emmanuel21 from "../assets/walloffame/emmanuel.png";
 import you50 from "../assets/walloffame/you.png";
 
 export const testimonal = [
@@ -60,15 +61,18 @@ export const testimonal = [
     pic: priyanka4,
     link: "www.linkedin.com/in/priyanka-prabha-0b4093215",
   },
+
   {
     id: 5,
-    name: "Roshan Kumar Shah",
+    name: "Naveen Singh",
     post: "Data Analyst Intern",
     date: "June 2022 - July 2022",
-    college: "DTU",
-    pic: roshan5,
-    link: "www.linkedin.com/in/roshan-kumar-shah-838b63214",
+    college: "NSUT",
+    pic: naveen5,
+    link: "https://www.linkedin.com/in/naveen-singh-015592215/",
+    cert: "",
   },
+
   {
     id: 6,
     name: "Arnav Raj",
@@ -82,13 +86,12 @@ export const testimonal = [
 
   {
     id: 7,
-    name: "Naveen Singh",
+    name: "Roshan Kumar Shah",
     post: "Data Analyst Intern",
     date: "June 2022 - July 2022",
-    college: "NSUT",
-    pic: naveen7,
-    link: "https://www.linkedin.com/in/naveen-singh-015592215/",
-    cert: "",
+    college: "DTU",
+    pic: roshan7,
+    link: "www.linkedin.com/in/roshan-kumar-shah-838b63214",
   },
 
   {
@@ -231,6 +234,17 @@ export const testimonal = [
     college: "DTU",
     pic: jitesh20,
     link: "https://www.linkedin.com/in",
+    cert: "",
+  },
+
+  {
+    id: 21,
+    name: "Emmanuel Sherman",
+    post: "Android Dev Intern",
+    date: "June 2022 - July 2022",
+    college: "DTU",
+    pic: emmanuel21,
+    link: "https://www.linkedin.com/in/emmanuel-sherman-8b6986171/",
     cert: "",
   },
 

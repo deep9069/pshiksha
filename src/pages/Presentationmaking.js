@@ -19,7 +19,7 @@ const Presentationmaking = () => {
                     <h1 style={{ fontFamily: "Open Sans", fontSize: "40px" }}>Presentation Making</h1>
                     <hr/>
                     <br/>
-                    <p style={{ fontFamily: "Open Sans", fontSize: "17px", lineHeight: "35px" }}>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</p>
+                    <p style={{ fontFamily: "Open Sans", fontSize: "17px", lineHeight: "35px" }}>Get professional & affordable PowerPoint Presentation Services from P.Shiksha 4.0. You will get engaging & relevant PowerPoint Presentations that canbget you the top grades in your project. Impress your teacher, get excellent marks that can shine on your result as well as resume. Take this presention service now and get ready to excell in your academic career!</p>
                 </div>
                 <div class="svg-image">
                     <img src={Hero} alt="svg" />
@@ -36,17 +36,17 @@ const Presentationmaking = () => {
 
             <div class="course" style={{ marginBottom: "20px" }}>
                 <center><div class="cbox">
-                    <div class="det"><a href="subjects/jee.html"><img src={Book} />JEE Preparation</a></div>
-                    <div class="det"><a href="subjects/gate.html"><img src={D1} />GATE Preparation</a></div>
-                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} />Sample Papers</a></div>
-                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />Daily Quiz</a></div>
+                    <div class="det"><a href="subjects/jee.html"><img src={Book} />Minimal Design</a></div>
+                    <div class="det"><a href="subjects/gate.html"><img src={D1} />Appealing Layout</a></div>
+                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} />Researched Content</a></div>
+                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />Expert Guidance</a></div>
                 </div>
                 </center>
                 <div class="cbox">
-                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />Computer Courses</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />Data Structures</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />Algorithm</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Projects</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />High Grades</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />Tech Support</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />On-time Delivery</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Custom Add-ons</a></div>
                 </div>
             </div>
             <div class="diffSection" id="portfolio_section" style={{}}>

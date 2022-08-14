@@ -19,7 +19,7 @@ const Cvmaking = () => {
                     <h1 style={{ fontFamily: "Open Sans", fontSize: "40px" }}>CV Making</h1>
                     <hr/>
                     <br/>
-                    <p style={{ fontFamily: "Open Sans", fontSize: "17px", lineHeight: "35px" }}>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</p>
+                    <p style={{ fontFamily: "Open Sans", fontSize: "17px", lineHeight: "35px" }}>A resume/CV is a crucial document which can make you standout from the crowd without your physical presence. Curating an apt resume can make a difference in tour career. We offer professional CV/resume making by help of experienced professionals.</p>
                 </div>
                 <div class="svg-image">
                     <img src={Hero} alt="svg" />
@@ -36,17 +36,17 @@ const Cvmaking = () => {
 
             <div class="course" style={{ marginBottom: "20px" }}>
                 <center><div class="cbox">
-                    <div class="det"><a href="subjects/jee.html"><img src={Book} />JEE Preparation</a></div>
-                    <div class="det"><a href="subjects/gate.html"><img src={D1} />GATE Preparation</a></div>
-                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} />Sample Papers</a></div>
-                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />Daily Quiz</a></div>
+                <div class="det"><a href="subjects/jee.html"><img src={Book} />Best CV Practices</a></div>
+                    <div class="det"><a href="subjects/gate.html"><img src={D1} />Tech & Non-tech guides</a></div>
+                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} />Verified Content</a></div>
+                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />On-demand Revisions</a></div>
                 </div>
                 </center>
                 <div class="cbox">
-                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />Computer Courses</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />Data Structures</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />Algorithm</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Projects</a></div>
+                <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />Professional format</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />Organized Layout</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />On time delivery</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Custom Add-ons</a></div>
                 </div>
             </div>
             <div class="diffSection" id="portfolio_section" style={{}}>

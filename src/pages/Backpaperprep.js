@@ -20,7 +20,7 @@ const Backpaperprep = () => {
                     <h1 style={{ fontFamily: "Open Sans", fontSize: "40px" }}>Back Paper Preparation</h1>
                     <hr/>
                     <br/>
-                    <p style={{ fontFamily: "Open Sans", fontSize: "17px", lineHeight: "35px" }}>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</p>
+                    <p style={{ fontFamily: "Open Sans", fontSize: "17px", lineHeight: "35px" }}>Preparing for exams? Give yourself the best chance with these top ten study tips, and try not to let the stress get to you during this period of exam preparation.</p>
                 </div>
                 <div class="svg-image">
                     <img src={Hero} alt="svg" />

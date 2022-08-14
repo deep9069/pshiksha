@@ -280,4 +280,19 @@
         justify-content: center;
         margin-left: 38vw;
     }
+
+    .btn-align-1-pay {
+        margin-left: 6vw;
+    }
+
+    .btn-align-2-pay {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        margin-left: 6vw;
+    }
+
+    .btn-align-3-pay {
+        margin-left: 6vw;
+        margin-bottom: 2vh;
+    }
 }

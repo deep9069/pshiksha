@@ -19,6 +19,7 @@ import pratyush18 from "../assets/walloffame/pratyush.png";
 import deepak19 from "../assets/walloffame/deepak.png";
 import jitesh20 from "../assets/walloffame/jitesh.png";
 import emmanuel21 from "../assets/walloffame/emmanuel.png";
+import samir22 from "../assets/walloffame/samir.png";
 import you50 from "../assets/walloffame/you.png";
 
 export const testimonal = [
@@ -245,6 +246,17 @@ export const testimonal = [
     college: "DTU",
     pic: emmanuel21,
     link: "https://www.linkedin.com/in/emmanuel-sherman-8b6986171/",
+    cert: "",
+  },
+
+  {
+    id: 22,
+    name: "Samir Kalil Mohammed",
+    post: "Web Dev Intern",
+    date: "June 2022 - July 2022",
+    college: "DTU",
+    pic: samir22,
+    link: "https://www.linkedin.com/in",
     cert: "",
   },
 

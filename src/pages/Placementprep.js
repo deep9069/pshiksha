@@ -37,17 +37,17 @@ const Placementprep = () => {
 
             <div class="course" style={{ marginBottom: "20px" }}>
                 <center><div class="cbox">
-                    <div class="det"><a href="subjects/jee.html"><img src={Book} />JEE Preparation</a></div>
-                    <div class="det"><a href="subjects/gate.html"><img src={D1} />GATE Preparation</a></div>
-                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} />Sample Papers</a></div>
-                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />Daily Quiz</a></div>
+                    <div class="det"><a href="subjects/jee.html"><img src={Book} alt=""/>JEE Preparation</a></div>
+                    <div class="det"><a href="subjects/gate.html"><img src={D1} alt=""/>GATE Preparation</a></div>
+                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} alt=""/>Sample Papers</a></div>
+                    <div class="det"><a href="subjects/quiz.html"><img src={D1} alt=""/>Daily Quiz</a></div>
                 </div>
                 </center>
                 <div class="cbox">
-                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />Computer Courses</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />Data Structures</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />Algorithm</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Projects</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} alt=""/>Computer Courses</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} alt=""/>Data Structures</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} alt=""/>Algorithm</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>Projects</a></div>
                 </div>
             </div>
             <div class="diffSection" id="portfolio_section" style={{}}>

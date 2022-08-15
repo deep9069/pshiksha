@@ -47,7 +47,7 @@
   }
   .blogimg{
       position: relative ;
-      border: solid ;
+      /* border: solid ; */
       height: 30% ;
       width: 100% ;
       justify-content: center ;

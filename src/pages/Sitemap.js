@@ -37,90 +37,90 @@ const Hometuition = () => {
             <div class="course" style={{ marginBottom: "20px" }}>
                 <h3 style={{marginLeft:"6%",marginBottom:"2%"}}>Overseas Services</h3>
                 <center><div class="cbox">
-                    <div class="det"><a href="subjects/jee.html"><img src={Book} />IELTS</a></div>
-                    <div class="det"><a href="subjects/gate.html"><img src={D1} />TOEFL</a></div>
-                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} />GRE</a></div>
-                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />GMAT</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />CV making</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />SOP writing</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />Consultation</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Visa</a></div>
+                    <div class="det"><a href="subjects/jee.html"><img src={Book} alt=""/>IELTS</a></div>
+                    <div class="det"><a href="subjects/gate.html"><img src={D1} alt=""/>TOEFL</a></div>
+                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} alt=""/>GRE</a></div>
+                    <div class="det"><a href="subjects/quiz.html"><img src={D1} alt=""/>GMAT</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} alt=""/>CV making</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} alt=""/>SOP writing</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} alt=""/>Consultation</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>Visa</a></div>
                 </div>
                 </center>
             </div>
             <div class="course" style={{ marginBottom: "20px" }}>
                 <h3 style={{marginLeft:"6%",marginBottom:"2%"}}>Engineering Services</h3>
                 <center><div class="cbox">
-                    <div class="det"><a href="subjects/jee.html"><img src={Book} />CV making</a></div>
-                    <div class="det"><a href="subjects/gate.html"><img src={D1} />Placement Prep.</a></div>
-                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} />Aptitude Prep.</a></div>
-                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />Project support</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />Thesis guidance</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />Plag-free reports</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />Presentation making</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />file/reports making</a></div>
+                    <div class="det"><a href="subjects/jee.html"><img src={Book} alt=""/>CV making</a></div>
+                    <div class="det"><a href="subjects/gate.html"><img src={D1} alt=""/>Placement Prep.</a></div>
+                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} alt=""/>Aptitude Prep.</a></div>
+                    <div class="det"><a href="subjects/quiz.html"><img src={D1} alt=""/>Project support</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} alt=""/>Thesis guidance</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} alt=""/>Plag-free reports</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} alt=""/>Presentation making</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>file/reports making</a></div>
                 </div>
                 </center>
             </div>
             <div class="course" style={{ marginBottom: "20px" }}>
                 <h3 style={{marginLeft:"6%",marginBottom:"2%"}}>Job Exam Preparation</h3>
                 <center><div class="cbox">
-                    <div class="det"><a href="subjects/jee.html"><img src={Book} />UPSC Civil Services</a></div>
-                    <div class="det"><a href="subjects/gate.html"><img src={D1} />GATE/NET ECE</a></div>
-                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} />CAT/XAT</a></div>
-                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />SSC CGL/CHSL</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />SSC CPO/JE</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />Bank PO/Cleark</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />Railway</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />CTET</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />NAICL</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />NABARD</a></div>
+                    <div class="det"><a href="subjects/jee.html"><img src={Book} alt=""/>UPSC Civil Services</a></div>
+                    <div class="det"><a href="subjects/gate.html"><img src={D1} alt=""/>GATE/NET ECE</a></div>
+                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} alt=""/>CAT/XAT</a></div>
+                    <div class="det"><a href="subjects/quiz.html"><img src={D1} alt=""/>SSC CGL/CHSL</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} alt=""/>SSC CPO/JE</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} alt=""/>Bank PO/Cleark</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} alt=""/>Railway</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>CTET</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>NAICL</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>NABARD</a></div>
                 </div>
                 </center>
             </div>
             <div class="course" style={{ marginBottom: "20px" }}>
                 <h3 style={{marginLeft:"6%",marginBottom:"2%"}}>School Exam Preparation</h3>
                 <center><div class="cbox">
-                    <div class="det"><a href="subjects/jee.html"><img src={Book} />IIT JEE</a></div>
-                    <div class="det"><a href="subjects/gate.html"><img src={D1} />NEET (Medical)</a></div>
-                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} />CLAT (Law Entrance)</a></div>
-                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />NIFT</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />BBA Entrance</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />XI CBSE (PCMB)</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />XII CBSE (PCMB)</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />IX-X courses</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />NTSE Olympiad</a></div>
+                    <div class="det"><a href="subjects/jee.html"><img src={Book} alt=""/>IIT JEE</a></div>
+                    <div class="det"><a href="subjects/gate.html"><img src={D1} alt=""/>NEET (Medical)</a></div>
+                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} alt=""/>CLAT (Law Entrance)</a></div>
+                    <div class="det"><a href="subjects/quiz.html"><img src={D1} alt=""/>NIFT</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} alt=""/>BBA Entrance</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} alt=""/>XI CBSE (PCMB)</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} alt=""/>XII CBSE (PCMB)</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>IX-X courses</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>NTSE Olympiad</a></div>
                 </div>
                 </center>
             </div>
             <div class="course" style={{ marginBottom: "20px" }}>
                 <h3 style={{marginLeft:"6%",marginBottom:"2%"}}>Certified Courses</h3>
                 <center><div class="cbox">
-                    <div class="det"><a href="subjects/jee.html"><img src={Book} />IELTS Trainer</a></div>
-                    <div class="det"><a href="subjects/gate.html"><img src={D1} />English Speaking</a></div>
-                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />French</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />German</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />Spanish</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />Japanese</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Russian</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Mandarin</a></div>
+                    <div class="det"><a href="subjects/jee.html"><img src={Book} alt=""/>IELTS Trainer</a></div>
+                    <div class="det"><a href="subjects/gate.html"><img src={D1} alt=""/>English Speaking</a></div>
+                    <div class="det"><a href="subjects/quiz.html"><img src={D1} alt=""/>French</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} alt=""/>German</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} alt=""/>Spanish</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} alt=""/>Japanese</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>Russian</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>Mandarin</a></div>
                 </div>
                 </center>
             </div>
             <div class="course" style={{ marginBottom: "20px" }}>
                 <h3 style={{marginLeft:"6%",marginBottom:"2%"}}>Extra Curricular</h3>
                 <center><div class="cbox">
-                    <div class="det"><a href="subjects/jee.html"><img src={Book} />Phonics</a></div>
-                    <div class="det"><a href="subjects/gate.html"><img src={D1} />english courses</a></div>
-                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} />Rubix Cube</a></div>
-                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />Chess</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />Art & Drawing</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />Fitness Courses</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />Cooking & Cullinary</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Guitar playing</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Piano playing</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Classical dance</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Dance for kids</a></div>
+                    <div class="det"><a href="subjects/jee.html"><img src={Book} alt=""/>Phonics</a></div>
+                    <div class="det"><a href="subjects/gate.html"><img src={D1} alt=""/>english courses</a></div>
+                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} alt=""/>Rubix Cube</a></div>
+                    <div class="det"><a href="subjects/quiz.html"><img src={D1} alt=""/>Chess</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} alt=""/>Art & Drawing</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} alt=""/>Fitness Courses</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} alt=""/>Cooking & Cullinary</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>Guitar playing</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>Piano playing</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>Classical dance</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} alt=""/>Dance for kids</a></div>
                 </div>
                 </center>
             </div>

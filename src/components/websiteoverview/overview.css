@@ -29,8 +29,8 @@
 .img1{
   /* position: relative; */
   /* margin-left: -25px; */
-  margin: auto;
-  width: 50%;
+  /* margin: auto; */
+ margin-left: 10%;
   /* padding: 10px; */
 }
   .aboutHome #heading {

@@ -2,7 +2,6 @@ import React from 'react';
 import './aboutus.css';
 import { GrStatusGood } from "react-icons/gr";
 import { Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 const aboutus = () => {
   return (

@@ -1,7 +1,6 @@
 import React from 'react';
 import { testimonal } from "./walloffamedata.js";
 import './walloffame.css';
-import { Link } from "react-router-dom";
 import { FaLinkedinIn } from "react-icons/fa";
 import { GrCertificate } from "react-icons/gr";
 
@@ -43,10 +42,10 @@ const walloffame = () => {
                   {val.date}
                 </p>
                 <br />
-                <a href={val.link} target="_blank" className="test-link-1">
+                <a href={val.link} className="test-link-1">
                   <FaLinkedinIn />
                 </a>
-                <a href={val.cert} target="_blank" className="test-link-2">
+                <a href={val.cert} className="test-link-2">
                   <GrCertificate />
                 </a>
               </div>

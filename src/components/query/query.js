@@ -1,5 +1,6 @@
 import React from "react";
 import "./Query.css";
+import { RiSendPlane2Line } from "react-icons/ri";
 const query  = () => {
 
 
@@ -26,7 +27,16 @@ const query  = () => {
           
           </textarea>
   </div>
+ 
   </div>
+  <div className="btncntr" style={{ display: "flex" }}>
+          <a target="_blank" rel="noreferrer" className="btn-post" style={{marginLeft:"73.5%"}}>
+            <h4 style={{ display: "inline" }}>Post</h4>
+            &nbsp;
+            <RiSendPlane2Line />
+          </a>
+        </div>
+        
   </>
     )
 }

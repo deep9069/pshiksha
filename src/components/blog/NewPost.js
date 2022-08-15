@@ -1,7 +1,6 @@
 import React from 'react';
 import "./blog.css";
 import Ck from "./ck";
-import { Button, Container } from "react-bootstrap";
 import { RiSendPlane2Line } from "react-icons/ri";
 const Post  = () => {
 

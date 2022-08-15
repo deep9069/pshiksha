@@ -59,7 +59,7 @@ import WallOfFame from "./components/Pages/walloffame";
 import Programme from "./components/Pages/programme";
 import Dochat from "./pages/Dochat";
 import Gettutor from "./pages/Gettutor";
-
+import Servicedetail from "./components/Pages/programme";
 
 function App() {
   const [user,setLoginUser]= useState({})
@@ -74,6 +74,7 @@ function App() {
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Details />} />
           <Route exact path="/dochat" element={<Dochat />} />
+          <Route exact path="/prog" element={<Servicedetail />} />
           <Route
             exact
             path="/internship"

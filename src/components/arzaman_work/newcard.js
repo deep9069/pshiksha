@@ -14,7 +14,7 @@ const Newcard = (props) => {
           <div id="rating">
             <Rating />
           </div>
-          <img className='img'style={{height:"-webkit-fill-available",width:"40%"}} src="https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg" alt="cover" />
+          <img className='img2'style={{height:"-webkit-fill-available",width:"40%"}} src="https://images.pexels.com/photos/5905709/pexels-photo-5905709.jpeg" alt="cover" />
         </div>
       </div>
 

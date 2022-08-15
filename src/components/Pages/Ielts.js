@@ -1,7 +1,7 @@
 import React from "react";
 import pdf from "../assets/ielts-fee-structure.pdf";
 import {Link} from "react-router-dom";
-import { Button, Container } from "react-bootstrap";
+import {Container } from "react-bootstrap";
 import "./Ielts.css";
 import { FaHandPointRight } from "react-icons/fa";
 import Update from "../../pages/updateofdata";

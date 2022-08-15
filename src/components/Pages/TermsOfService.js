@@ -2,7 +2,6 @@ import React from 'react'
 import './TermsOfService.css'
 import { IoAlertCircleSharp } from "react-icons/io5";
 import { Container } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 const TermsOfService = () => {
   return (

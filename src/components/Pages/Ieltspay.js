@@ -1,6 +1,6 @@
 import "./Ielts.css";
 import React from "react";
-import Button from "react-bootstrap/Button";
+// import Button from "react-bootstrap/Button";
 import { FaBook } from "react-icons/fa";
 
 const Ieltspay = () => {

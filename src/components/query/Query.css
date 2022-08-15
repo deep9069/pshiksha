@@ -29,6 +29,11 @@
    max-width:63%;
 }
 
+.btncntr
+{
+    background-color: #aafff8;
+}
+
 @media screen and (max-width: 960px) {
     .query{
         display: block;

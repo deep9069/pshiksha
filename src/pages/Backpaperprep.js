@@ -11,7 +11,6 @@ const Backpaperprep = () => {
         <>
 <br/>
 <br/>
-<br/>
 
             <div style={{ display: "flex",justifyContent: "center", marginBottom: "30px", fontSize: "40px" }}>
                 <h4>Back Paper <span style={{ color: "#29E6A7" }}>Preparation</span></h4>

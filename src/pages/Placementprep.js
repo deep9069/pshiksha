@@ -18,18 +18,18 @@ const Placementprep = () => {
             <div class="head-container">
                 <div class="quote">
                     <h1 style={{ fontFamily: "Open Sans", fontSize: "40px" }}>Placement Preparation</h1>
-                    <hr/>
-                    <br/>
-                    <p style={{ fontFamily: "Open Sans", fontSize: "17px", lineHeight: "35px" }}>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</p>
+                    <hr />
+                    <br />
+                    <p style={{ fontFamily: "Open Sans", fontSize: "17px", lineHeight: "35px" }}>We offer the greatest resource with the best shortcuts to give your placement preparation an edge in getting placed quickly.</p>
                 </div>
                 <div class="svg-image">
                     <img src={Hero} alt="svg" />
                 </div>
 
             </div>
-            <br/>
-<br/>
-<br/>
+            <br />
+            <br />
+            <br />
 
             <div style={{ display: "flex", justifyContent: "center", marginBottom: "50px", fontSize: "40px" }}>
                 <h2>What You <span style={{ color: "#29E6A7" }}>Get?</span></h2>
@@ -52,11 +52,11 @@ const Placementprep = () => {
             </div>
             <div class="diffSection" id="portfolio_section" style={{}}>
                 <center><p style={{ fontSize: "50px", padding: "100px", paddingBottom: "40px" }}>Portfolio</p></center>
-                    <p className='content'>
-                        “Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”
-                    </p>
+                <p className='content'>
+                    “Education is the passport to the future, for tomorrow belongs to those who prepare for it today.” “Your attitude, not your aptitude, will determine your altitude.” “If you think education is expensive, try ignorance.” “The only person who is educated is the one who has learned how to learn …and change.”
+                </p>
             </div>
-            <Update/>
+            <Update />
         </>
     );
 };

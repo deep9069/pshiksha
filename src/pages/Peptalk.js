@@ -19,7 +19,7 @@ const Peptalk = () => {
                     <h1 style={{ fontFamily: "Open Sans", fontSize: "40px" }}>Pep Talk</h1>
                     <hr/>
                     <br/>
-                    <p style={{ fontFamily: "Open Sans", fontSize: "17px", lineHeight: "35px" }}>Education is the process of facilitating learning, or the acquisition of knowledge, skills, values, beliefs, and habits. Educational methods include teaching, training, storytelling, discussion and directed research!</p>
+                    <p style={{ fontFamily: "Open Sans", fontSize: "17px", lineHeight: "35px" }}>Get the advice from Industry leading, smartest experts. Supporting your personal, professional & cultural development. Increase chances of excelling in your academic career!</p>
                 </div>
                 <div class="svg-image">
                     <img src={Hero} alt="svg" />
@@ -36,17 +36,17 @@ const Peptalk = () => {
 
             <div class="course" style={{ marginBottom: "20px" }}>
                 <center><div class="cbox">
-                    <div class="det"><a href="subjects/jee.html"><img src={Book} />JEE Preparation</a></div>
-                    <div class="det"><a href="subjects/gate.html"><img src={D1} />GATE Preparation</a></div>
-                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} />Sample Papers</a></div>
-                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />Daily Quiz</a></div>
+                    <div class="det"><a href="subjects/jee.html"><img src={Book} />Bite-Sized</a></div>
+                    <div class="det"><a href="subjects/gate.html"><img src={D1} />Renowned Experts</a></div>
+                    <div class="det"><a href="subjects/jee.html#sample_papers"><img src={Paper} />Treending Topics</a></div>
+                    <div class="det"><a href="subjects/quiz.html"><img src={D1} />Skill Development</a></div>
                 </div>
                 </center>
                 <div class="cbox">
-                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />Computer Courses</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />Data Structures</a></div>
-                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />Algorithm</a></div>
-                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Projects</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html"><img src={Computer} />Excellent Culture</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#data"><img src={Data} />Mental Wellness</a></div>
+                    <div class="det"><a href="subjects/computer_courses.html#algo"><img src={Algo} />Diversity & Inclusion</a></div>
+                    <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Positive Transformation</a></div>
                 </div>
             </div>
             <div class="diffSection" id="portfolio_section" style={{}}>

@@ -6,7 +6,6 @@ import austria1 from "../assets/austria1.png";
 
 const Austria = () => {
   return (
-    <div className='austria'>
       <div className="overmain">
           <div className="overhead1">
             <h1 style={{ fontSize: "40px" }}>
@@ -383,7 +382,6 @@ const Austria = () => {
           <br />
           <br />
       </div>
-    </div>
   );
 }
 

@@ -1,7 +1,6 @@
 import React from "react";
 import {
 Box,
-Container,
 Row,
 Column,
 FooterLink,
@@ -20,19 +19,12 @@ import Chatbutton from "../../pages/Chatbutton";
 export const Footer = () => {
 return (
 	<Box>
-	<h4 style={{ marginRight:"6%", color: "white", textAlign: "center", marginTop: "-60px"}}>
+	<h1 style={{ marginRight:"6%", color: "black", textAlign: "center"}}>
 	Premi ji's Shiksha 4.0
-	</h4>
-	{/* <Container > */}
+	</h1>
 		<Row>
-		{/* <Column>
-			<Heading>About Us</Heading>
-			<FooterLink href="#">Aim</FooterLink>
-			<FooterLink href="#">Vision</FooterLink>
-			<FooterLink href="#">Testimonials</FooterLink>
-		</Column> */}
 		<Column>
-		<Heading>Services</Heading>
+		<Heading style={{color:"black"}}>Services</Heading>
 		{/* <NavLink exact to="./HomeTution" className="link" style={{textDecoration:"none",marginBottom:"10px"}}>
 			  <FooterLink ><p style={{fontSize:16}}>Tutions</p></FooterLink>
 			</NavLink> */}
@@ -51,7 +43,7 @@ return (
 			
 		</Column>
 		<Column>
-			<Heading>Social Media</Heading>
+			<Heading style={{color:"black"}}>Social Media</Heading>
 			<FooterLink href="https://www.facebook.com/shiksha4.0" style={{marginRight:"250px"}}>
 			<i className="fab fa-facebook-f">
 				<span style={{marginLeft:"10px"}}>
@@ -81,28 +73,30 @@ return (
 			</i>
 			</FooterLink>
 		</Column>
-		<Column>
+		<Column style={{marginRight:"50px"}}>
 		
-			<Heading>Contact Us</Heading>
-			<FooterLink href="mailto:pshiksha4.0@gmail.com" style={{marginRight:"100px"}}>
+			<Heading style={{color:"black"}}>Contact Us</Heading>
+			<FooterLink href="mailto:pshiksha4.0@gmail.com">
 			<i className="far fa-envelope-open">
 				<span style={{ marginLeft: "10px" }}>
 				pshiksha4.0@gmail.com
 				</span>
 			</i>
-			</FooterLink>
+			</FooterLink >
 			
-			<i className="fas fa-phone" style={{color:"white"}}>
-				<span style={{ marginLeft: "10px",color:"white"}}>
-				+91-9599139063 &nbsp;+91-9821693299
+			<i className="fas fa-phone" style={{color:"white"}}></i>
+				<span style={{ marginLeft: "10px",color:"white",wordWrap: "breakWord"}}>
+				+91-9599139063 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +91-9821693299
 				</span>
-			</i>
-			<FooterLink style={{marginRight:"70px",marginTop:"20px"}}>
-			<i className="fas fa-map-marker-alt">
-				<span style={{ marginLeft: "10px",fontSize:"1",fontFamily:"Helvetica",fontWeight:10 }}>
-				G-7/189, Above &nbsp;Gianis Ice cream, &nbsp;Sector-16, Rohini, new Delhi-110089
+			
+			<FooterLink href="https://www.google.com/maps/place/NEETJEE+Institute,+Sector+16,+Rohini,+New+Delhi/@28.7372845,77.1158424,210m/data=!3m2!1e3!4b1!4m5!3m4!1s0x390d015a1040eead:0xd027ccaaae5b6eb2!8m2!3d28.7372761!4d77.1164037" style={{marginTop:"20px",marginRight:"15px"}}>
+			
+				<span >
+					<div style={{ fontFamily:"san" }}>
+					<i className="fas fa-map-marker-alt"></i>&nbsp;
+				G-7/189, Above Gianis &nbsp;&nbsp;Ice cream, Sector-16,&nbsp;&nbsp; Rohini, new Delhi-110089</div>
 				</span>
-			</i>
+			
 			</FooterLink>
 			
 		</Column>
@@ -137,9 +131,8 @@ return (
 		</Column>
 		</Row>
 		<div className="copyright" style={{marginRight:"20px"}}>
-	<h6 style={{ color: "white",fontWeight:14 ,textAlign:"center",fontSize:18}}>Copyright ©2022 All rights reserved P.Shiksha 4.0</h6>
+	<h6 style={{ color: "black",fontWeight:14 ,textAlign:"center",fontSize:18}}>Copyright ©2022 All rights reserved P.Shiksha 4.0</h6>
 	</div>
-	{/* </Container> */}
 	</Box>
 );
 };

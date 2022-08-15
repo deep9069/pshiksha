@@ -26,8 +26,6 @@ const ImageSlider = ({images}) => {
                   <img
                     src={item.src}
                     style={{
-                      width: "75%",
-                      height: "50%",
                       verticalAlign: "center",
                     }}
                     alt={item.alt}

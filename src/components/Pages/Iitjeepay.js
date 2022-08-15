@@ -5,6 +5,7 @@ import { FaBook } from "react-icons/fa";
 const Iitjeepay = () => {
   return (
     <>
+     
       <div className="iitpwhole">
         <div className="iitp">
           <br />

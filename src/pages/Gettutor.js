@@ -1,5 +1,6 @@
 import './Servicespage.css'
 import React from 'react';
+import Update from "./updateofdata";
 import Hero from "../components/assets/courses/svg1.png"
 import Book from "../components/assets/courses/book.png"
 import D1 from "../components/assets/courses/d1.png"
@@ -8,12 +9,12 @@ import Computer from "../components/assets/courses/computer.png"
 import Data from "../components/assets/courses/data.png"
 import Algo from "../components/assets/courses/algo.png"
 import Projects from "../components/assets/courses/projects.png"
-import Update from "./updateofdata";
 
 
 const Gettutor = () => {
     return (
         <>
+
             <div class="head-container">
                 <div class="quote">
                     <h1 style={{ fontFamily: "Open Sans", fontSize: "40px" }}>Get Your Tutor Now!</h1>
@@ -47,6 +48,7 @@ const Gettutor = () => {
                     <div class="det det-last"><a href="subjects/computer_courses.html#projects"><img src={Projects} />Custom Add-ons</a></div>
                 </div>
             </div>
+<br/>
             <div class="diffSection" id="portfolio_section">
                 <center><p style={{ fontSize: "50px", padding: "100px", paddingBottom: "40px" }}>Terms & Conditions</p></center>
                     <p className='content'>

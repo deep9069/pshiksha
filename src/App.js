@@ -70,7 +70,7 @@ function App() {
         <NavBar />
         {/* <Sitemap/> */}
         <Routes>
-          <Route exact path="/" element={<Home1 />} />
+          <Route exact path="/" element={<Home1/>} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Details />} />
           <Route exact path="/dochat" element={<Dochat />} />
@@ -130,7 +130,6 @@ function App() {
           <Route exact path="/blogpost" element={<BlogPost />} />
           <Route exact path="/newpost" element={<NewPost />} />
           <Route exact path="/sitemap" element={<Sitemap />} />
-
           <Route exact path="/assignment" element={<Assignments />} />
           <Route exact path="/backpaper" element={<Backpaperprep />} />
           <Route exact path="/projects" element={<Btechprojects />} />
@@ -143,16 +142,13 @@ function App() {
           <Route element={PageNotFound} />
         </Routes>
         <Routes>
-          <Route
-            exact
-            path="/login"
-            element={<Login setLoginUser={setLoginUser} />}
-          />
+          <Route exact path="/login" element={<Login setLoginUser={setLoginUser} />}/>
           <Route path="/register" element={<Register />} />
           <Route exact path="/wallOfFame" element={<WallOfFame />} />
           <Route exact path="/programme" element={<Programme />} />
         </Routes>
       </Router>
+ 
     </>
   );
 }

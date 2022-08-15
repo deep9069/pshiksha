@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Box = styled.div`
-padding: 80px 60px;
+padding: 10px 90px;
 // background: black;
 background: linear-gradient(160deg,#00cdac    20%, #6dd5ed 100%);
 position: sticky;
@@ -9,30 +9,30 @@ overflow:none;
 width: auto;
 height:auto;
 margin-bottom:-100px;
-margin-right:-50px;
-border:solid;
+// margin-right:-50px;
+border:solid yellow;
 // background: red;
 
 @media (max-width: auto) {
-	padding: 70px 30px;
+	// padding: auto auto;
 }
 `
 
 // export const copyright=styled.div`
 // margin-bottom:-10px;
 // `
-export const Container = styled.div`
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	// max-width: 1000px;
-    margin-top:40px;
-	height:auto;
-	margin-left:3.5%;
-    margin-bottom:-80px;
-    padding:auto auto;
-    background: red;
-`
+// export const Container = styled.div`
+// 	display: flex;
+// 	flex-direction: column;
+// 	justify-content: center;
+// 	// max-width: 1000px;
+//     margin-top:40px;
+// 	height:auto;
+// 	margin-left:3.5%;
+//     margin-bottom:-80px;
+//     padding:auto auto;
+//     background: red;
+// `
 
 export const Column = styled.div`
 display: flex;

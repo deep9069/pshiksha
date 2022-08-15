@@ -5,25 +5,23 @@ const query  = () => {
 
     return(
   <>
-  <div className="query" style={{display:"flex",backgroundColor:"#aafff8"}}>
-  <div style={{marginLeft:"5%",width:420,marginTop:"11%"}}>
+  <div className="query">
+  <div className="text1">
   <h2>For all Enquiries, please fill the form</h2>
   </div>
-  <div style={{marginLeft:"25%",width:"100%",marginTop:"10px"}}>
-  <input className="post" type="text" name="name" placeholder="Name" style={{width:"80%",height:40,fontSize:15,backgroundColor:"#baede9"}}></input>
+  <div className="rest">
+  <div>
+  <input className="post" type="text" name="name" placeholder="Name" style={{width:"inherit",height:40,fontSize:15}}></input>
+  <input className="post1" type="text" name="email" placeholder="Email" style={{width:"auto",height:40,fontSize:15}}></input>
+  </div>
+  <input className="post" type="text" name="subject" placeholder="subject" style={{width:"auto",height:40,fontSize:15}}></input>
+  <input className="post1" type="text" name="phone" placeholder="Phone" style={{width:"auto",height:40,fontSize:15}}></input>
   <br/>
   <br/>
-  <input className="post" type="text" name="email" placeholder="Email" style={{width:"39%",height:40,fontSize:15,backgroundColor:"#baede9"}}></input>
-  <input className="post" type="text" name="phone" placeholder="Phone" style={{width:"39%",height:40,fontSize:15,marginLeft:"12px",backgroundColor:"#baede9"}}></input>
-  <br/>
-  <br/>
-  <input className="post" type="text" name="subject" placeholder="subject" style={{width:"80%",height:40,fontSize:15,backgroundColor:"#baede9"}}></input>
-  <br/>
-  <br/>
+
   <textarea class="textAreaMultiline" 
           placeholder="Please type your message here..."
-          rows="15" cols="70"
-          style={{backgroundColor:"#baede9"}}
+          rows="10" cols="55"
           >
           
           </textarea>

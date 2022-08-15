@@ -1,8 +1,11 @@
 import React from 'react'
 import './programme.css'
 import { TiTick } from "react-icons/ti";
-import { Button } from "react-bootstrap";
+import { AiFillPhone } from "react-icons/ai";
+import { MdEmail } from "react-icons/md";
 import pdf1 from "../assets/Shiksha_IIT-JEE.pdf";
+import Popup from "reactjs-popup";
+import "reactjs-popup/dist/index.css";
 
 const programme = () => {
   return (
@@ -41,9 +44,9 @@ const programme = () => {
           flying colors
         </p>
         <br />
-        <Button href={pdf1} className="progbtn1" target="_blank">
+        <a href={pdf1} className="progbtn1" target="_blank">
           Demo Notes
-        </Button>
+        </a>
         <br />
         <br />
         <br />
@@ -62,19 +65,32 @@ const programme = () => {
           exams with flying colors
         </p>
         <br />
-        <br/>
+        <br />
         <div class="progcont">
           <div class="seats">Seats Filled : 80%</div>
         </div>
-        <br/>
-        <Button href="" className="progbtn2" target="_blank">
+        <br />
+        <a href="" className="progbtn2" target="_blank">
           Book Now
-        </Button>
-        <Button href="" className="progbtn3" target="_blank">
-          Contact Us
-        </Button>
-        <br />
-        <br />
+        </a>
+        <Popup
+          trigger={
+            <a className="progbtn3">
+              Contact Us
+            </a>
+          }
+          position="bottom center"
+        >
+          <p>
+            <br/>
+            <AiFillPhone /> <br/>+(91)95991-39063, <br/>+(91)98216-93299
+            <br/>
+            <br/>
+            <MdEmail /> <br/>pshiksha4.0@gmail.com
+            <br/>
+            <br/>
+          </p>
+        </Popup>
         <br />
       </div>
     </>

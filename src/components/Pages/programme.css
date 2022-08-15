@@ -1,10 +1,10 @@
 .progmain {
     font-stretch: expanded;
     font-size: 18px;
-    margin-top: 55px;
+    margin-top: 3vh;
     margin-bottom: 0px;
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-right: 8vw;
+    margin-left: 8vw;
 }
 
 .proghead1 {
@@ -28,6 +28,19 @@
     margin-top: 10px;
     margin-bottom: 10px;
     margin-left: 30px;
+    font-size: 18px;
+    text-align: center;
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 2px solid #33ccff;
+    background: transparent;
+    color: #33ccff;
+    border-radius: 0.2rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    cursor: pointer;
 }
 
 .progbtn2 {
@@ -35,6 +48,19 @@
     margin-bottom: 10px;
     margin-left: 30vw;
     justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 2px solid #33ccff;
+    background: transparent;
+    color: #33ccff;
+    border-radius: 0.2rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    cursor: pointer;
 }
 
 .progbtn3 {
@@ -43,6 +69,36 @@
     margin-bottom: 10px;
     margin-left: 81px;
     justify-content: center;
+    font-size: 18px;
+    text-align: center;
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    border: 2px solid #33ccff;
+    background: transparent;
+    color: #33ccff;
+    border-radius: 0.2rem;
+    transition: background 200ms ease-in, color 200ms ease-in;
+    cursor: pointer;
+}
+
+:hover.progbtn1, :hover.progbtn2, :hover.progbtn3 {
+    background: #33ccff;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .progbtn2 {
+        margin-left: 24vw;
+        margin-bottom: 2vh;
+    }
+
+    .progbtn3 {
+        margin-left: 24vw;
+        margin-bottom: 2vh;
+    }
 }
 
 .progcont {

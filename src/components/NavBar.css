@@ -234,13 +234,17 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: auto;
     border-top: 1pxsolid #fff;
     position: absolute;
     top: 50px;
     left: -110%;
     opacity: 1;
     transition: all 0.5s ease;
+  }
+
+  .logotext{
+    font-size: 1.2rem;
   }
 
   .nav-menu.active {
@@ -250,6 +254,7 @@
     opacity: 0.9;
     transition: all 0.5s ease;
     z-index: -1;
+    width:100%;
   }
   /* .nav-item .active {
     color: rgb(133, 255, 135);
@@ -273,9 +278,9 @@
     color: #000e14ff;
   }
   
-  .comp-logo {
+  /* .comp-logo {
     
-  }
+  } */
 
   .navba a:hover, .dropdown1:hover .dropbtn1 {
     background-color: rgb(0, 0, 0);

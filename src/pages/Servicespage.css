@@ -29,7 +29,7 @@ nav {
 	top: 0;
 	position: fixed;
 	display: flex;
-	width: 100%;
+	width: auto;
 	z-index: 1000;
 	background: #fff;
 	justify-content: space-around;
@@ -1040,7 +1040,7 @@ ul:after { clear: both; }
 	}
 }
 
-@media screen and (max-width: 1000px) {	
+@media screen and (max-width: 960px) {	
 	.feedbox form input, .feedbox form .fname{
 		width: 100%;
 	}

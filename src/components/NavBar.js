@@ -145,8 +145,9 @@ function NavBar() {
           </li>
           <li>
             <div class="dropdown1">
-              <button class="dropbtn1">
+              
                 <NavLink
+                className="dropbtn1"
                   style={{ textDecoration: "none" }}
                   exact
                   to="/login"
@@ -154,7 +155,6 @@ function NavBar() {
                 >
                   <p style={{ color: "white" }}>Login</p>
                 </NavLink>
-              </button>
             </div>
           </li>
         </ul>

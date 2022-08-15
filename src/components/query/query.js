@@ -29,12 +29,16 @@ const query  = () => {
   </div>
  
   </div>
-  <div className="btncntr" style={{ display: "flex" }}>
-          <a target="_blank" rel="noreferrer" className="btn-post" style={{marginLeft:"73.5%"}}>
+  <div style={{backgroundColor:"#aafff8",marignTop:"1%"}}>
+  <div className="btncntr" style={{ display: "flex"}}>
+          <a target="_blank" rel="noreferrer" className="btn-post" style={{marginLeft:"73.5%",marginTop:"2%"}}>
             <h4 style={{ display: "inline" }}>Post</h4>
             &nbsp;
             <RiSendPlane2Line />
           </a>
+        </div>
+        <br/>
+        <br/>
         </div>
         
   </>

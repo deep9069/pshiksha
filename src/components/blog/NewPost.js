@@ -11,12 +11,13 @@ const Post  = () => {
         <div style={{ display: "flex" }}>
           <div style={{ marginLeft: "4%" }}>
             <h1>Creating New Post</h1>
-          </div>
-          <a target="_blank" rel="noreferrer" className="btn-post">
+            <a target="_blank" rel="noreferrer" className="btn-post">
             <h4 style={{ display: "inline" }}>Post</h4>
             &nbsp;
             <RiSendPlane2Line />
           </a>
+          </div>
+          
         </div>
         <div style={{ marginTop: "2%", marginLeft: "4%" }}>
           {/* <h3 style={{marginBottom:5,marginLeft:10}}>Heading</h3> */}

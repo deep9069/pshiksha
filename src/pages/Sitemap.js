@@ -31,7 +31,7 @@ const Hometuition = () => {
 <br/>
 
             <div style={{ display: "flex", justifyContent: "center", marginBottom: "50px", fontSize: "40px" }}>
-                <h2>Courses<span style={{ color: "#29E6A7" }}>&nbsp;Offered?</span></h2>
+                {/* <h2>Courses<span style={{ color: "#29E6A7" }}>&nbsp;Offered?</span></h2> */}
             </div>
 
             <div class="course" style={{ marginBottom: "20px" }}>

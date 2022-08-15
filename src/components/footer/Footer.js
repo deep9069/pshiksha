@@ -7,11 +7,9 @@ FooterLink,
 Heading,
 } from "./FooterStyles";
 import { NavLink } from "react-router-dom";
-import { Col } from "react-grid-system";
 import scam from "../assets/scammaster.webp";
 import idfc from "../assets/idfc.webp";
 import razorpay from "../assets/razorpay.webp";
-import university from "../assets/dtunsutiiit.png";
 import dtu from "../assets/dtu logo.jpg";
 import nsut from "../assets/nsut logo.png";
 import Chatbutton from "../../pages/Chatbutton";

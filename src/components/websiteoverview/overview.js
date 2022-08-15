@@ -26,7 +26,7 @@ const AboutCard = () => {
                     </div>
                       <h2 style={{display:"flex",flexDirection:"row", color: "black", marginLeft:"5px",marginTop:"10px"}}>{val.title}</h2>
                     </div>
-                      <p style={{ color: "black" ,textAlign:"left",fontSize:18,marginTop:17}}>{val.desc}</p>
+                      <p style={{ color: "black" ,textAlign:"left",fontSize:16,marginTop:17}}>{val.desc}</p>
                   </div>
                 )
               })}

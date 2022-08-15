@@ -14,6 +14,18 @@
   
 }
 
+  .ratingcard-area {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-gap: 5px;
+  }
+  .ratingcard-area > div {
+    /* font-size: 30px; */
+    padding: .5em;
+    color: #ffffff;
+    justify-content:  center;
+  }
+
 .head-container {
 	flex: 1;
   /* border: 1px solid black; */

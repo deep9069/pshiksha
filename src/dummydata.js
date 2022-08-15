@@ -4,19 +4,19 @@ export const homeAbout = [
     id: 1,
     cover: "https://img.icons8.com/dotty/80/000000/storytelling.png",
     title: "Online Crash Courses",
-    desc: "Far far away, behind the word mountains, fFar far away, behind the word mountains, fFar far away, behind the word mountains, fFar far away, behind the word mountains, fFar far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "In a hurry to complete the syllabus but having a time constraint? Don't worry, we offer Crash Courses for various examinations across major domains. Crash Course is one of the best ways to educate yourself and enables you to cover the main concepts of the entire syllabus quickly. It also helps you attempt the exam with more confidence.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/diploma.png",
     title: "Earn A Certificates",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "What makes a person standout from the crowd is a certification course. It backs the skill set of a particular person and will provide a boost in career. We provide certificates with all the courses offered.",
   },
   {
     id: 1,
     cover: "https://img.icons8.com/ios/80/000000/athlete.png",
     title: "Learn with Experts",
-    desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
+    desc: "Learn a particular skill from an expert who has experience in the field. A person from the industry having all the knowhow is the person to learn from.",
   },
 ]
 export const awrapper = [

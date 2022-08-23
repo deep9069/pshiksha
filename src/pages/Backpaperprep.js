@@ -291,6 +291,7 @@ const Backpaperprep = () => {
                       </ul></li>
                     <li><a>II</a>
                     <ul>
+                    Subjects
                     <NavLink exact to="/prog">
                         AP102-Physics 2
                         </NavLink>
@@ -349,7 +350,7 @@ const Backpaperprep = () => {
                     Semester
                     <li><a>I</a>
                     <ul>
-                    subjects
+                    Subjects
                         <NavLink exact to="/prog">
                         AP101-Physics 1
                         </NavLink>
@@ -371,6 +372,7 @@ const Backpaperprep = () => {
                       </ul></li>
                     <li><a>II</a>
                     <ul>
+                    Subjects
                     <NavLink exact to="/prog">
                         AP102-Physics 2
                         </NavLink>
@@ -392,14 +394,97 @@ const Backpaperprep = () => {
                       </ul>
                     </li>
                     <li><a>III</a>
-                      <ul>
-                        <li><a>OS</a></li>
-                        <li><a>DBMS</a></li>
+                    <ul>
+                    Subjects
+                    <NavLink exact to="/prog">
+                    CS251	DATA STRUCTURE
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MC201	DISCRETE MATHEMATICS 
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MC203	MATHEMATICS-III
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MC205	PROBABILITY & STATISTICS 
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        ENGINEERING ANALYSIS & DESIGN 
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        FEC - 1 Subject
+                        </NavLink>
                       </ul>
                     </li>
-                    <li><a>IV</a></li>
-                    <li><a>V</a></li>
-                    <li><a>VI</a></li>
+                    <li><a>IV</a>
+                    <ul>
+                    Subjects
+                    <NavLink exact to="/prog">
+                    CS262	ALGORITHM DESIGN & ANALYSIS 
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MC202	REAL ANALYSIS 
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MC204	SCIENTIFIC COMPUTING 
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MC206	COMPUTER ORGANIZATION AND ARCHITECTURE 
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MC208	LINEAR ALGEBRA  
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        FEC - 1 Subject
+                        </NavLink>
+                      </ul>
+                      </li>
+                    <li><a>V</a>
+                    <ul>
+                    Subjects
+                    <NavLink exact to="/prog">
+                    MC301	OPERATING SYSTEM 
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MC303	STOCHASTIC PROCESSES 
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MCxxx	DEPARTMENTAL ELECTIVE COURSE-1
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MCxxx-	DEPARTMENTAL ELECTIVE COURSE-2
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        UExxx	OPEN ELECTIVE COURSE 
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MG301	FUNDAMENTALS OF MANAGEMENT 
+                        </NavLink>
+                      </ul>
+                      </li>
+                    <li><a>VI</a>
+                    <ul>
+                    Subjects
+                    <NavLink exact to="/prog">
+                    MC302	DATABASE MANAGEMENT SYSTEM  
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MC304	THEORY OF COMPUTATION
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MC306	FINANCIAL ENGINEERING 
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MCxxx	DEPARTMENTAL ELECTIVE COURSE-3
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        MCxxx	DEPARTMENTAL ELECTIVE COURSE-4
+                        </NavLink>
+                        <NavLink exact to="/prog">
+                        HU302	ENGINEERING ECONOMICS
+                        </NavLink>
+                      </ul>
+                      </li>
                     <li><a>VII</a>
                     <ul>
                         Subjects

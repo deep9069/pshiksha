@@ -81,11 +81,10 @@ return (
 				</span>
 			</i>
 			</FooterLink >
-			
-			<i className="fas fa-phone" style={{color:"white"}}></i>
-				<span style={{ marginLeft: "10px",color:"white",wordWrap: "breakWord"}}>
-				+91-9599139063 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +91-9821693299
-				</span>
+			<div style={{display:"flex"}}>
+			<i className="fas fa-phone" style={{color:"white"}}><span style={{ marginLeft: "10px",color:"white",wordWrap: "breakWord"}}></span></i>
+			<div style={{marginLeft:"5px",color:"white"}}>+91-9599139063 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; +91-9821693299</div>
+			</div>
 			
 			<FooterLink href="https://www.google.com/maps/place/NEETJEE+Institute,+Sector+16,+Rohini,+New+Delhi/@28.7372845,77.1158424,210m/data=!3m2!1e3!4b1!4m5!3m4!1s0x390d015a1040eead:0xd027ccaaae5b6eb2!8m2!3d28.7372761!4d77.1164037" style={{marginTop:"20px",marginRight:"15px"}}>
 			

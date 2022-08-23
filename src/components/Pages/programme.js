@@ -79,17 +79,16 @@ const programme = () => {
               Contact Us
             </a>
           }
-          position="bottom center"
+          position="top center"
         >
-          <p>
-            <br/>
-            <AiFillPhone /> <br/>+(91)95991-39063, <br/>+(91)98216-93299
-            <br/>
-            <br/>
-            <MdEmail /> <br/>pshiksha4.0@gmail.com
-            <br/>
-            <br/>
-          </p>
+          
+           <div style={{display:"flex"}}>
+            <AiFillPhone /><div style={{marginLeft:"3px"}}>+(91)95991-39063, <br/>+(91)98216-93299</div>
+            </div>
+            <hr/>
+            <div style={{display:"flex"}}>
+            <MdEmail /> <div>pshiksha4.0@gmail.com</div>
+            </div>
         </Popup>
         <br />
       </div>

@@ -2,7 +2,8 @@ import React, {useState} from "react"
 import "./Register.css"
 import axios from "axios"
 import {useNavigate} from "react-router-dom"
-
+import NavBar from "../NavBar"
+var log_state=false;
 const Login =({setLoginUser})=>{
 
     const navigate = useNavigate();
@@ -29,6 +30,7 @@ const Login =({setLoginUser})=>{
             .then(res=>{
                 alert(res.data.message)
                 setLoginUser(res.data.user)
+                log_state =true
                 navigate("/")
             })
     }

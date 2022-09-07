@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "./NavBar.css";
-import logo from "./assets/logo.png"
-
+import logo from "./assets/logo.png";
+var state="Login";
+var link="/login";
 function NavBar() {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
@@ -149,10 +150,10 @@ function NavBar() {
                 <NavLink
                   style={{ textDecoration: "none" }}
                   exact
-                  to="/login"
+                  to={link}
                   onClick={handleClick}
                 >
-                  <p style={{ color: "white" }}>Login</p>
+                  <p style={{ color: "white" }}>{state}</p>
                 </NavLink>
               </button>
             </div>

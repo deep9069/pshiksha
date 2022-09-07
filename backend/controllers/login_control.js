@@ -1,17 +1,14 @@
 const User=require('../schemas/user');
 const passport=require("passport");
 const { STATES } = require('mongoose');
-
+const axios=require('axios');
 
 module.exports.signin = async function(req, res){
     console.log('****',req.isAuthenticated(),req.session.passport.user);
+    var signed=true;
+    axios.post("http://localhost:8000/stateapi",{state:true})
+    .catch(error=>{console.log(error);})
     return res.json(200, {
-        message: `Sign in successful! : ${req.session.passport.user}`,
-        STATE:req.isAuthenticated()
-
+        message: `${req.session.passport.user},You Have Successfully Signed In !`,
     });
-}
-module.exports.return = function(req, res){
-    console.log('in test',req.isAuthenticated(),req.user.email);
-    return res.json(200,{'auth': req.isAuthenticated()});
 }

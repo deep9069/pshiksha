@@ -9,9 +9,6 @@ router.post('/', passport.authenticate(
     'local',
     {failureRedirect: 'http://localhost:3000/login'},
 ), LController.signin);
-router.get('/test', passport.authenticate(
-    'local',
-    {failureRedirect: 'http://localhost:8000/'}),LController.return);
 
 
 //router.get('/sign-out', usersController.destroySession);

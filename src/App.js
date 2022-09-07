@@ -57,7 +57,7 @@ import Presentationmaking from "./pages/Presentationmaking";
 import Update from "./pages/updateofdata";
 import WallOfFame from "./components/Pages/walloffame";
 import Programme from "./components/Pages/programme";
-import Dochat from "./pages/Dochat";
+import {Chat} from "./chat/Chat";
 import Gettutor from "./pages/Gettutor";
 
 
@@ -73,7 +73,7 @@ function App() {
           <Route exact path="/" element={<Home1 />} />
           <Route exact path="/about" element={<About />} />
           <Route exact path="/contact" element={<Details />} />
-          <Route exact path="/dochat" element={<Dochat />} />
+          <Route exact path="/dochat" element={<Chat />} />
           <Route
             exact
             path="/internship"

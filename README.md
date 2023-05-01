@@ -1,15 +1,19 @@
-#Project Title
+# Project Title
+
 This is internship project work done in 2022 summer at p.shiksha 4.0. This project is based on the development of frontend of company's website.
 
-#Technologies Used
+# Technologies Used
+
 MERN Stack
 
-#Tools Used
+# Tools Used
+
 Vs Code
 Google Chrome
 Netlify
 
-#Prerequisites
+# Prerequisites
+
 Node.js installed
 MongoDB installed
 Installing
@@ -18,7 +22,8 @@ Install the dependencies using npm install
 Start the development server using npm start
 
 
-#Authors
+# Authors
+
 Deepak Kumar
 Jitesh Kumar
 Arzaman Hussain
